@@ -25,7 +25,7 @@
               "base": 10
             }
           ],
-          "DeathLootTable": "yggdrasil:alfheim_tree/mob/normal/bogged",
+          "DeathLootTable": "yggdrasil:generic/mob/normal/bogged",
           "id": "minecraft:bogged"
         }
       },

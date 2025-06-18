@@ -27,10 +27,12 @@ summon villager ~ ~ ~ {\
                         "minecraft:rarity":"epic",\
                         "minecraft:max_stack_size":1,\
                         "minecraft:enchantments":{\
-                            "levels":{\
-                                "yggdrasil:divine_key":1\
-                            },\
-                            "show_in_tooltip":false\
+                            "yggdrasil:divine_key":1\
+                        },\
+                        "minecraft:tooltip_display":{\
+                            "hidden_components":[\
+                                "minecraft:enchantments"\
+                            ]\
                         },\
                         "minecraft:lore":[\
                             "{\"color\":\"#a0a0a0\",\"fallback\":\"This key to the gods allows you to open\",\"translate\":\"item.yggdrasil.divine_key.lore.1\"}",\

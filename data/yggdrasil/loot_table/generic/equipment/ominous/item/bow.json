@@ -20,12 +20,8 @@
 							"levels": {
 								"min": 20,
 								"max": 45
-							}
-						},
-						{
-							"function": "minecraft:enchant_randomly",
-							"options": "#yggdrasil:equipment/item/bow",
-							"only_compatible": true
+							},
+							"options": "#yggdrasil:equipment/item/bow"
 						}
 					]
 				},

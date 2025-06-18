@@ -64,14 +64,14 @@
 							"show_particles": false
 						}
 					],
-					"HandItems": [
-						{},
-						{
-							"id": "minecraft:totem_of_undying",
-							"count": 1
+					"drop_chances": {
+						"offhand": 0.0
+					},
+					"equipment": {
+						"offhand": {
+							"id": "minecraft:totem_of_undying"
 						}
-					],
-					"HandDropChances": [0, 0],
+					},
 					"id": "minecraft:slime"
 				}
 			},

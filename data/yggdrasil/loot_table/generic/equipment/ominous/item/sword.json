@@ -17,15 +17,11 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
+							"options": "#yggdrasil:equipment/item/sword",
 							"levels": {
 								"min": 20,
 								"max": 45
 							}
-						},
-						{
-							"function": "minecraft:enchant_randomly",
-							"options": "#yggdrasil:equipment/item/sword",
-							"only_compatible": true
 						}
 					]
 				},

@@ -26,9 +26,6 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:unbreakable": {
-									"show_in_tooltip": true
-								},
 								"minecraft:custom_data": {
 									"yggdrasil": {
 										"id": "yggdrasil.runic_labyrinth.treasure.twilight_of_yggdrasil_bow"

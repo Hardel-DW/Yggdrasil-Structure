@@ -26,10 +26,12 @@
 								"minecraft:rarity": "epic",
 								"minecraft:max_stack_size": 1,
 								"minecraft:enchantments": {
-									"levels": {
-										"yggdrasil:divine_key": 1
-									},
-									"show_in_tooltip": false
+									"yggdrasil:divine_key": 1
+								},
+								"minecraft:tooltip_display": {
+									"hidden_components": [
+										"minecraft:enchantments"
+									]
 								},
 								"minecraft:custom_data": {
 									"yggdrasil": {
