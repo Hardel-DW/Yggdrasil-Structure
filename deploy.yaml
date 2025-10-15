@@ -1,0 +1,45 @@
+project:
+  version: 5.3.1
+  name: Yggdrasil
+  filename: Yggdrasil
+modrinth:
+  enabled: true
+  project_id: hwNDseBp
+  featured: false
+curseforge:
+  datapack:
+    enabled: false
+    project_id: null
+  mod:
+    enabled: true
+    project_id: 1135665
+    java_versions:
+      - Java 21
+    environments:
+      - server
+package_as_mod:
+  enabled: true
+  loaders:
+    - fabric
+    - forge
+    - neoforge
+    - quilt
+  id: mr_yggdrasil_structure
+  authors:
+    - Hardel
+    - Voxel Teams
+  filename: Yggdrasil
+  homepage: https://hardels-organization.gitbook.io/voxel
+  sources: https://github.com/Hardel-DW/Yggdrasil-Structure
+  issues: https://github.com/Hardel-DW/Yggdrasil-Structure/issues
+build:
+  exclude:
+    - .git
+    - .github
+    - .changeset
+    - .vscode
+    - .cursor
+    - node_modules
+    - README.md
+    - .gitignore
+    - deploy.yaml
