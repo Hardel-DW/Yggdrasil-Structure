@@ -333,25 +333,27 @@ jobs:
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
 
+          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
             --arg name "v${{ steps.version.outputs.version }} (Datapack)" \
             --arg ver "${{ steps.version.outputs.version }}" \
             --arg type "${{ steps.parse.outputs.version_type }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --argjson gv '${{ steps.game_versions.outputs.json }}' \
             --argjson loaders '["datapack"]' \
             --argjson featured ${{ steps.config.outputs.modrinth_featured || 'false' }} \
             '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:[], featured:$featured, file_parts:["file"], primary_file:"file"}'
           )
-          
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "data=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME};filename=${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
@@ -359,25 +361,28 @@ jobs:
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.modrinth_enabled == 'true' && steps.config.outputs.package_as_mod_enabled == 'true'
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
+
+          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
             --arg name "v${{ steps.version.outputs.version }} (Mod)" \
             --arg ver "${{ steps.version.outputs.version }}+mod" \
             --arg type "${{ steps.parse.outputs.version_type }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --argjson gv '${{ steps.game_versions.outputs.json }}' \
             --argjson loaders '${{ steps.config.outputs.package_as_mod_loaders }}' \
             --argjson featured ${{ steps.config.outputs.modrinth_featured || 'false' }} \
             '{name:$name, version_number:$ver, changelog:$log, game_versions:$gv, loaders:$loaders, project_id:$pid, version_type:$type, dependencies:[], featured:$featured, file_parts:["file"], primary_file:"file"}'
           )
-            
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://api.modrinth.com/v2/version" \
             -H "Authorization: ${{ secrets.MODRINTH_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "data=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME};filename=${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
@@ -385,21 +390,23 @@ jobs:
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_datapack_enabled == 'true'
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
-          
+
+          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --arg type "${{ steps.parse.outputs.version_type }}" \
             --argjson ids '${{ steps.cf_versions.outputs.game_ids }}' \
             '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids}')
-          
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${{ steps.config.outputs.curseforge_datapack_id }}/upload-file" \
             -H "X-Api-Token: ${{ secrets.CURSEFORGE_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "metadata=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
@@ -407,21 +414,23 @@ jobs:
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_mod_enabled == 'true'
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
-          
+
+          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
-            --arg log "${{ steps.parse.outputs.changelog }}" \
+            --rawfile log changelog.txt \
             --arg type "${{ steps.parse.outputs.version_type }}" \
             --argjson ids '${{ steps.cf_versions.outputs.ids }}' \
             '{displayName:$name, changelog:$log, changelogType:"markdown", releaseType:$type, gameVersions:$ids}')
-          
+
           curl -sS -o resp.json -w "%{http_code}" \
             -X POST "https://minecraft.curseforge.com/api/projects/${{ steps.config.outputs.curseforge_mod_id }}/upload-file" \
             -H "X-Api-Token: ${{ secrets.CURSEFORGE_TOKEN }}" \
             -H "User-Agent: ${{ github.repository }}" \
             -F "metadata=${DATA};type=application/json" \
             -F "file=@dist/${FILENAME}" | tee code.txt
-          
+
           cat resp.json | jq .
           [ $(cat code.txt) -ge 200 ] && [ $(cat code.txt) -lt 300 ] || exit 1
 
@@ -447,10 +456,9 @@ jobs:
       - name: Commit
         if: steps.changeset.outputs.found == 'true'
         run: |
-          rm ${{ steps.changeset.outputs.file }}
           rm -f .changeset/*.md
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add deploy.yaml .changeset
+          git add -A deploy.yaml .changeset
           git commit -m "chore: release v${{ steps.version.outputs.version }}"
           git push
