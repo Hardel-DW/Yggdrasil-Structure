@@ -3,12 +3,12 @@
 	"biomes": "#yggdrasil:has_structure/helheim",
 	"liquid_settings": "ignore_waterlogging",
 	"step": "underground_structures",
-	"terrain_adaptation": "encapsulate",
+	"terrain_adaptation": "bury",
 	"dimension_padding": 10,
 	"start_pool": "yggdrasil:helheim/cube",
 	"size": 20,
 	"start_height": {
-		"absolute": -65
+		"absolute": -50
 	},
 	"spawn_overrides": {},
 	"max_distance_from_center": 116,
