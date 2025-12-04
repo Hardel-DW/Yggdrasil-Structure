@@ -1,10 +1,10 @@
 {
 	"type": "minecraft:jigsaw",
-	"biomes": "#yggdrasil:has_structure/runic_alfheim_tree",
+	"biomes": "#yggdrasil:has_structure/nether_alfheim_tree",
 	"liquid_settings": "ignore_waterlogging",
 	"step": "surface_structures",
 	"spawn_overrides": {},
-	"start_pool": "yggdrasil:runic_alfheim_tree/tree/middle",
+	"start_pool": "yggdrasil:nether_alfheim_tree/tree/middle",
 	"size": 16,
 	"start_height": {
 		"absolute": 36

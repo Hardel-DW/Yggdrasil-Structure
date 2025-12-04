@@ -1,0 +1,28 @@
+{
+	"structures": [
+		{
+			"structure": "yggdrasil:cubeoid",
+			"weight": 2
+		},
+		{
+			"structure": "yggdrasil:dokkalfar_ruins",
+			"weight": 2
+		},
+		{
+			"structure": "yggdrasil:nether_alfheim_tree",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:runic_labyrinth",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 485184823,
+		"frequency": 0.75,
+		"spread_type": "linear",
+		"spacing": 30,
+		"separation": 25
+	}
+}
