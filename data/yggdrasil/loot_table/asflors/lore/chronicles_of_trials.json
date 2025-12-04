@@ -36,11 +36,11 @@
 								},
 								{
 									"translate": "item.yggdrasil.chronicles_of_trials.page2",
-									"fallback": "Take this key, a symbol of your achievement, and recover my treasure. You will find it in the village of Aslors, where you discovered the Sword of Rupture."
+									"fallback": "Return to the village of Asflors, where you discovered the Sword of Rupture. There you will find your reward."
 								},
 								{
 									"translate": "item.yggdrasil.chronicles_of_trials.page3",
-									"fallback": "In the Hall of the Sword of Asflors, you will find a pedestal at the back of the room. Find the real rune of rupture, and use it on this pedestal to reveal access to my treasure."
+									"fallback": "In the Hall of the Lectterns of Asflors, break the weeping wall to access my treasure."
 								},
 								{
 									"translate": "item.yggdrasil.chronicles_of_trials.page4",
