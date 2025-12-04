@@ -1,10 +1,6 @@
 {
 	"loot_tables_to_eject": [
 		{
-			"data": "yggdrasil:asgard/spawner/key",
-			"weight": 3
-		},
-		{
 			"data": "yggdrasil:asgard/spawner/ominous",
 			"weight": 7
 		}
