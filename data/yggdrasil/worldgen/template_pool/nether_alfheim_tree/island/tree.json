@@ -6,7 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/island/tree"
 			}
 		}

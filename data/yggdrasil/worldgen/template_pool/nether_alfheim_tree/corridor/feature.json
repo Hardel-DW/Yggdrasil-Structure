@@ -6,7 +6,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/crossroads"
 			}
 		},
@@ -15,7 +15,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/straight"
 			}
 		},
@@ -24,7 +24,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/rounded"
 			}
 		},
@@ -33,7 +33,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/double_up_bottom"
 			}
 		},
@@ -42,7 +42,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/lunar"
 			}
 		},
@@ -51,7 +51,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/endless"
 			}
 		},
@@ -60,7 +60,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/bridge/adapter"
 			}
 		},
@@ -69,7 +69,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"processors": "yggdrasil:nether_alfheim_tree/variant",
+				"processors": "minecraft:empty",
 				"location": "yggdrasil:nether_alfheim_tree/corridor/jump"
 			}
 		}

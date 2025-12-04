@@ -7,7 +7,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/terminator"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/terminator"
 			}
 		},
 		{
@@ -16,7 +16,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/terminator_reward"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/terminator_reward"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/island/small_alfheim"
+				"location": "yggdrasil:nether_alfheim_tree/island/small_alfheim"
 			}
 		},
 		{
@@ -34,7 +34,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/island/small_alfheim"
+				"location": "yggdrasil:nether_alfheim_tree/island/small_alfheim"
 			}
 		},
 		{
@@ -43,7 +43,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/island/flower_sphere"
+				"location": "yggdrasil:nether_alfheim_tree/island/flower_sphere"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/top"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/top"
 			}
 		},
 		{
@@ -61,7 +61,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/bottom"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/bottom"
 			}
 		},
 		{
@@ -70,7 +70,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/straight"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/straight"
 			}
 		},
 		{
@@ -79,7 +79,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/well"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/well"
 			}
 		},
 		{
@@ -88,7 +88,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/bridge/adapter"
+				"location": "yggdrasil:nether_alfheim_tree/bridge/adapter"
 			}
 		}
 	]
