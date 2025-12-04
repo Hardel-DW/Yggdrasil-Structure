@@ -6,33 +6,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asgard/key/normal",
-					"weight": 4,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.3
-						}
-					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asgard/key/ominous",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/lore/all_chapters"
 				}
 			]

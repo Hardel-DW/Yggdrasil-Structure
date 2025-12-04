@@ -5,22 +5,6 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asflors/key/normal",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,

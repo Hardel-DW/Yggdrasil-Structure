@@ -16,11 +16,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "yggdrasil:helheim/key/ominous",
-					"weight": 1
-				},
-				{
-					"type": "minecraft:loot_table",
 					"value": "yggdrasil:generic/reward/rare/ominous_potion",
 					"weight": 1
 				},

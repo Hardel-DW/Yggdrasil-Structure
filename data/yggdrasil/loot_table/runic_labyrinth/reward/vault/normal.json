@@ -11,10 +11,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"value": "yggdrasil:runic_labyrinth/key/ominous"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"value": "yggdrasil:generic/reward/normal/trial"
 				},
 				{

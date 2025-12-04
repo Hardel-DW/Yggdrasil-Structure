@@ -6,22 +6,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asgard/key/ominous",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						}
-					]
-				}
-			],
-			"rolls": 2.0
-		},
-		{
-			"bonus_rolls": 0.0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/reward/barrel",
 					"weight": 2
 				}

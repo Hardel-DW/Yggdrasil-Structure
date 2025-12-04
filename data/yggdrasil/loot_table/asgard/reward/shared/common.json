@@ -8,11 +8,6 @@
 			},
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asgard/key/normal",
-					"weight": 2
-				},
-				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,

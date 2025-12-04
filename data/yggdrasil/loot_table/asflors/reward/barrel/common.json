@@ -18,11 +18,6 @@
 					"value": "yggdrasil:generic/reward/random/arrow"
 				},
 				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asflors/key/normal",
-					"weight": 2
-				},
-				{
 					"weight": 3,
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:generic/reward/random/dye"

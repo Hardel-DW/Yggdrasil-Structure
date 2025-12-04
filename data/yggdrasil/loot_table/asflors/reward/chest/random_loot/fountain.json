@@ -3,17 +3,6 @@
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:asflors/key/normal",
-					"weight": 1
-				}
-			]
-		},
-		{
-			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
