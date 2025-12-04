@@ -54,7 +54,6 @@
 	"item.yggdrasil.chapter.runic_dimension.page2": "这里唯一的生命痕迹是黑暗精灵留下的遗迹，这些古老的生物掌握了维度旅行的艺术。他们建造了作为世界之间桥梁的祭坛。",
 	"item.yggdrasil.chapter.runic_dimension.page3": "在他们最伟大的创造——符文迷宫的核心，安放着一件具有巨大力量的传说中的神器。这座迷宫与尼弗尔海姆的迷宫相呼应，尽管它的秘密更为邪恶。",
 	"item.yggdrasil.chapter.runic_dimension.page4": "要到达这个王国，必须返回符文岛，手持真实破裂符文，在永恒之树下挖掘。只有这样，世界之间的帷幕才会撕裂，揭示这个永恒阴影的王国。",
-
 	"item.yggdrasil.dark_elves_chronicle": "黑暗精灵编年史",
 	"item.yggdrasil.dark_elves_chronicle.page1a": "我们黑暗精灵一直都与众不同。当我们的表亲光明精灵因其与魔法和自然的天然联系而受到崇拜时，我们却生来就被同样的魔法所排斥。",
 	"item.yggdrasil.dark_elves_chronicle.page1b": "我们的身体与他们大不相同，不适合传统魔法，但我们体内却蕴含着一种更黑暗、更深邃的天赋。",
@@ -66,41 +65,33 @@
 	"item.yggdrasil.dark_elves_chronicle.page5": "符文岛是我们的第一个重大创造——一个足够复杂的试炼，能够阻止弱者，但又不至于完全阻挡最坚定者的通路。因为其背后躺着我们真正的杰作：符文迷宫。",
 	"item.yggdrasil.dark_elves_chronicle.page6": "迷宫是我们最大的计谋。在这个既无食物也无水的虚空维度中，访客们被迫进入其中以求生存。但它的复杂程度使其成为他们的坟墓。只有真正的黑暗精灵才能解开其中的秘密。",
 	"item.yggdrasil.dark_elves_chronicle.page7": "致那些找到这些文字的人：这个领域不是避难所，而是陷阱。环绕着你的虚空只是你试炼的开始。迷宫在等待着，伴随着它的，不是你的毁灭就是你的启示。",
-
 	"item.yggdrasil.dark_elf_escape_journal": "黑暗精灵日记：逃亡",
 	"item.yggdrasil.dark_elf_escape_journal.page1": "我们以为在符文维度中无人能敌。多么傲慢！我们从未想过诸神会亲自穿越世界来寻找我们。我们的原初魔法几乎与他们的力量相当，这让他们感到恐惧。",
 	"item.yggdrasil.dark_elf_escape_journal.page2": "我躲进了迷宫深处。就在那里我明白了：诸神被魔法流吸引，如同飞蛾扑火。我们最大的优势成为了最大的弱点。",
-
 	"item.yggdrasil.dark_elf_village_chronicles": "村庄编年史",
 	"item.yggdrasil.dark_elf_village_chronicles.page1": "幸运的是，我习惯了在维度间旅行。每天早晨，我都会拜访普通世界中的一个小精灵村庄，晚上则返回符文维度与同胞们团聚。",
 	"item.yggdrasil.dark_elf_village_chronicles.page2": "这个村庄虽然只有十来个居民，却拥有一个藏有独特知识的图书馆。远离一切的他们的文明以不同的方式发展。也许我们的革命对他们的发展产生了积极影响？",
 	"item.yggdrasil.dark_elf_village_chronicles.page3": "他们的善意打动了我。这些曾经是我们敌人的精灵，在不知不觉中教会了我们连自己都不知道的秘密。",
-
 	"item.yggdrasil.dark_elf_survival_notes": "黑暗精灵的生存笔记",
 	"item.yggdrasil.dark_elf_survival_notes.page1": "多亏了村庄的知识，我学会了掩盖自己的魔法痕迹。我在迷宫中游荡，使其变得更加复杂，添加保护层。",
 	"item.yggdrasil.dark_elf_survival_notes.page2": "随着时间流逝，我的思绪总是回到那些善良的精灵身上。我渴望再见到他们，但对诸神的恐惧让我动弹不得。没有维度间旅行的基础设施，我被困在这里。",
 	"item.yggdrasil.dark_elf_survival_notes.page3": "于是我做出了一个绝望的决定：创造如此强大的武器，以至于它们会耗尽我所有的魔法，使我无法被探测。我在入口下藏了一件，在保险库中藏了另一件。",
-
 	"item.yggdrasil.dark_elf_discovery_journal": "发现日记",
 	"item.yggdrasil.dark_elf_discovery_journal.page1": "从深处上升时，我发现了一些非凡的东西：废弃的堡垒。在探索中，我发现了通往普通世界的传送门。",
 	"item.yggdrasil.dark_elf_discovery_journal.page2": "我的心跳加速——也许我的家人成功逃脱了诸神的追捕？这些建筑是他们的作品吗？经历了如此多的绝望之后，希望几乎让人难以承受。",
 	"item.yggdrasil.dark_elf_discovery_journal.page3": "我做出了决定。没有回头地穿过了传送门。自由在另一边等待着，即使这意味着要放弃我们的创造。",
-
 	"item.yggdrasil.dark_elf_weapon_note": "隐藏武器笔记",
 	"item.yggdrasil.dark_elf_weapon_note.page1": "致找到这件武器的人，不要太早高兴。它的力量有限——最多能伤害一个半神。仅此而已。",
 	"item.yggdrasil.dark_elf_weapon_note.page2": "它在你的探索中用处不大，但如果你想给它一个目的……为我的族人复仇。这是我对找到它的人唯一的请求。",
-
 	"item.yggdrasil.dark_elf_bow_testament": "符文之弓遗嘱",
 	"item.yggdrasil.dark_elf_bow_testament.page1": "这把弓包含了我大部分的生命力。一件可怕的强大武器，也许能够击败一位神祇……但仅限一位。",
 	"item.yggdrasil.dark_elf_bow_testament.page2": "这是悲剧性的不足。我感觉到他们在上面，有数十位之多。恐惧啃噬着我，但我仍保持希望：如果你能找到其他同等级的武器……",
 	"item.yggdrasil.dark_elf_bow_testament.page3": "也许你能将它们结合，创造一件神圣武器，一件真正的诛神之器。我将这个可能性留给你，因为我必须逃走了。明智地使用它。",
-
 	"item.yggdrasil.dark_elf_bastion_chronicle": "堡垒编年史：逃亡",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page1": "我仍然不明白诸神是如何找到我们的。我们必须逃走，远远地快速地逃走。返回原始世界并非计划之中，一切都未准备，但命运对我们微笑：在一座建筑的深处，我们发现了一个传送门。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page2": "这个传送门属于一个我很熟悉的家族，他们的儿子特别有天赋。他可能已经离开了这个世界——我们哪里都找不到他，也感觉不到他的能量。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page3": "多亏了他，我们得以生存。我们建造了这个堡垒，并在世界各地复制它。但代价是可怕的：我们一半的族人没能存活。我们像蚂蚁一样分散在迷宫中，而诸神在出口处等待。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page4": "现在我们在离开的路上，他们肯定会跟随我们。我们已经没有时间思考了。",
-
 	"item.yggdrasil.runic_fracture.hidden_truth.name": "超越者的隐藏真相",
 	"item.yggdrasil.runic_fracture.hidden_truth.page1": "如果你想帮助我，请记住一件事：我的人生目标并非拯救世界——这是一个相当自私的目标。我在这个世界上已经活得够久了，也足够了解它的真相。我只想结束我的永生。如果你能找到方法，我会将我的力量赐予你。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page2": "这就是我所知道的关于这个世界的事。诸神其实并非来自这个世界，对他们来说，在这里似乎只是一场游戏。他们似乎享受着互相毁灭的乐趣——我不理解，这毫无意义。",
@@ -108,7 +99,6 @@
 	"item.yggdrasil.runic_fracture.hidden_truth.page4": "第二件事是，尽管他们是神，但他们并不完全掌控这个世界。每个神都有特定的属性和能力；他们的力量似乎是有限的。而我们这些凡人——至少我曾经是——却有能力无限进化。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page5": "当我第一次与奥丁交谈时，他解释说他们的力量是有限的。他们不使用魔法——它来自一个系统。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page6": "当我们使用魔法时，我们使用的是环境中的粒子，如果一个区域是空的，那么魔法就是不可能的。然而，他们没有这个限制，可以随意使用他们的力量。",
-
 	"item.yggdrasil.runic_fracture.book.name": "超越者日记",
 	"item.yggdrasil.runic_fracture.book.page1": "恭喜你找到这个地方。从这里散发出的力量是不会错的——你一定注意到这座岛是漂浮的。这实际上是由于黑暗精灵的力量。我很了解他们，但我不赞同他们的狡诈。",
 	"item.yggdrasil.runic_fracture.book.page2": "要知道这个地方很危险。只有'强大'的人才能进入，我真诚地希望这样的人存在。如果不存在，我不会对你说谎，那将是最糟糕的绝望。",
@@ -116,20 +106,17 @@
 	"item.yggdrasil.runic_fracture.book.page4": "我的思维和智慧似乎存在于一个更复杂的高等宇宙中，而我身体的每个粒子都在每时每刻显现。",
 	"item.yggdrasil.runic_fracture.book.page5": "到了这个地步，这甚至不能称之为魔法了。这是更复杂的东西，是超越了我们世界法则的东西。",
 	"item.yggdrasil.runic_fracture.book.page6": "好吧，我说了很多关于我自己的事，但如果你想进入，你需要找到一个特定的村庄。你很容易就能认出它：它有一个黑白相间地面的喷泉。在那个村庄里，你会找到我的故事和打开这座陵墓的方法。",
-
 	"item.yggdrasil.helheim.chronicles.ch1.title": "第一章：黑暗中的觉醒",
 	"item.yggdrasil.helheim.chronicles.ch1.p1": "我是X5734年的海拉。这种感觉太不可思议了——成为死亡女神，真是令人难以置信。",
 	"item.yggdrasil.helheim.chronicles.ch1.p2": "我来到这个世界是为了寻找乐趣，但在最初的探索中，我开始注意到一些令人不安的细节。",
 	"item.yggdrasil.helheim.chronicles.ch1.p3": "当我们不在场时，这个世界的居民似乎有着自己的生活。他们有情感，有互动，甚至有智慧——一切都显得如此真实，令人不安地真实。",
 	"item.yggdrasil.helheim.chronicles.ch1.p4": "这只是一个游戏...我必须弄清楚这里发生了什么。我要利用海拉的身份来理解这个世界的本质，这将是一次激动人心的探索。",
 	"item.yggdrasil.helheim.chronicles.ch1.p5": "对于将要继承我位置的你，我留下这些笔记。这里有太多需要发现，太多需要理解。让我们继续研究，确保每一代海拉都能为这项研究做出贡献。",
-
 	"item.yggdrasil.helheim.chronicles.ch2.title": "第二章：过去的回响",
 	"item.yggdrasil.helheim.chronicles.ch2.p1": "我的研究在进展，我开始感到恐惧；我来到这个世界本是为了寻找乐趣，我在外面的生活虽然不尽如人意，但我很快乐。",
 	"item.yggdrasil.helheim.chronicles.ch2.p2": "但今天，当我的军队接近时，我看到了一个村民眼中的恐惧。我听到一个孩子在战后寻找父母时的哭泣声。",
 	"item.yggdrasil.helheim.chronicles.ch2.p3": "这些不是简单的空壳——这些生命能感受，能受苦，能爱。这个认知让我不寒而栗。",
 	"item.yggdrasil.helheim.chronicles.ch2.p4": "我不能再把这个世界视为单纯的游乐场。在这场战争结束前我还有很多时间，我打算用它来记录我所发现的一切。",
-
 	"item.yggdrasil.helheim.chronicles.ch3.title": "第三章：第一位观察者",
 	"item.yggdrasil.helheim.chronicles.ch3.p1": "今天有一个令人着迷的发现！我找到了第一位海拉留下的笔记。她的经历与我惊人地相似。",
 	"item.yggdrasil.helheim.chronicles.ch3.p2": "她也是从玩游戏开始，直到她理解了这个世界的真实本质。",
@@ -137,7 +124,6 @@
 	"item.yggdrasil.helheim.chronicles.ch3.p4": "这确实是我们的能力之一，海拉确实有能力使某人永生，从战略角度来看这很有趣。",
 	"item.yggdrasil.helheim.chronicles.ch3.p5": "随后，她意识到这个被赐予永生的存在似乎能够感受情感，从那时起，她描述了与这个永生存在的关系，一个被她庇护的孩子。",
 	"item.yggdrasil.helheim.chronicles.ch3.p6": "在这个存在的同意下，他们开始合作以更好地理解这个世界。她将这个人描述为一个充满活力的孩子，很高兴能得到保护。",
-
 	"item.yggdrasil.helheim.chronicles.ch4.title": "第四章：被诅咒的礼物",
 	"item.yggdrasil.helheim.chronicles.ch4.p1": "我试图找到这个孩子，但目前还没有成功，他们一定在邻近的王国里。",
 	"item.yggdrasil.helheim.chronicles.ch4.p2": "这个孩子的故事转向了黑暗。在海姆冥界的墙上，我发现了痕迹。",
@@ -147,7 +133,6 @@
 	"item.yggdrasil.helheim.chronicles.ch4.p6": "现在的回声和传言讲述着一个被毁灭欲望吞噬的存在，试图在混乱中平息自己的疯狂。",
 	"item.yggdrasil.helheim.chronicles.ch4.p7": "第一位观察者曾将他描述为一个充满活力的孩子，似乎很爱他，而这个孩子似乎说他感到被保护。嗯...",
 	"item.yggdrasil.helheim.chronicles.ch4.p8": "不足为奇，如果我没有死亡的可能，我可能也会变成这样。",
-
 	"item.yggdrasil.helheim.chronicles.ch5.title": "第五章：第二位继承者",
 	"item.yggdrasil.helheim.chronicles.ch5.p1": "海姆冥界的档案比我想象的要广泛得多。每一位新的海拉似乎都为这个知识集合做出了贡献。",
 	"item.yggdrasil.helheim.chronicles.ch5.p2": "我简直不敢相信，我是第十一位海拉的化身。",
@@ -155,7 +140,6 @@
 	"item.yggdrasil.helheim.chronicles.ch5.p4": "然而，她也屈服于这种诱惑。她提到了一位被她赐予永生的智者，被他的知识所吸引。",
 	"item.yggdrasil.helheim.chronicles.ch5.p5": "他们的爱情故事贯穿她的日记。",
 	"item.yggdrasil.helheim.chronicles.ch5.p6": "所以现在这个世界上有两个永生者在某处行走...永远背负着我们的 \"游戏\" 带来的重担。",
-
 	"item.yggdrasil.helheim.chronicles.ch6.title": "第六章：疯狂的低语",
 	"item.yggdrasil.helheim.chronicles.ch6.p1": "时间紧迫。这场\"游戏\"即将结束，除了奥丁外，其他王国都拒绝合作。",
 	"item.yggdrasil.helheim.chronicles.ch6.p2": "每个人都被困在自己的目标中，没有意识到这个世界的真实本质。",
@@ -163,7 +147,6 @@
 	"item.yggdrasil.helheim.chronicles.ch6.p4": "他已经完全不是古老编年史中描述的那个天真的存在了。他的眼睛...反映着数千年的痛苦和疯狂。我差点丧命。",
 	"item.yggdrasil.helheim.chronicles.ch6.p5": "在奥丁的帮助下，我们成功将他封印在一个独立的维度中。",
 	"item.yggdrasil.helheim.chronicles.ch6.p6": "奥丁说诸神黄昏是唯一的解决方案，确实我当时没有想到这点。我认为这是解放这个存在于痛苦的唯一方法。",
-
 	"item.yggdrasil.helheim.chronicles.ch7.title": "第七章：世界的真相",
 	"item.yggdrasil.helheim.chronicles.ch7.p1": "我们每天晚上都去看望被囚禁的孩子，给予他安慰和温暖，就在这时我们放松了警惕。",
 	"item.yggdrasil.helheim.chronicles.ch7.p2": "几秒钟内，奥丁倒下了。现在只剩下斯瓦塔尔法海姆的英雄了。",
@@ -173,7 +156,6 @@
 	"item.yggdrasil.helheim.chronicles.ch7.p6": "胜利带来诸神黄昏的力量——为下一场游戏重写世界规则的能力。",
 	"item.yggdrasil.helheim.chronicles.ch7.p7": "如果我赢了，我就能拯救他和所有永生者。",
 	"item.yggdrasil.helheim.chronicles.ch7.p8": "我必须赢，否则就由你们来完成这个使命！",
-
 	"item.yggdrasil.helheim.chronicles.ch8.title": "第八章：洛基的隐藏笔记",
 	"item.yggdrasil.helheim.chronicles.ch8.p1": "我在X5042年，我刚刚战胜了海姆冥界。我的心很沉重。",
 	"item.yggdrasil.helheim.chronicles.ch8.p2": "如果我早知道海姆冥界的英雄与我有着相同的目标...",
@@ -181,7 +163,6 @@
 	"item.yggdrasil.helheim.chronicles.ch8.p4": "我们有着相同的目标——拯救这些种族免于无休止的战争。",
 	"item.yggdrasil.helheim.chronicles.ch8.p5": "我们因为害怕而攻击海姆冥界，因为有传言说他们能创造不朽的邪恶怪物。多么可怕的错误...",
 	"item.yggdrasil.helheim.chronicles.ch8.p6": "我真诚地抱歉，朱莉娅。愿你安息。",
-
 	"item.yggdrasil.helheim.chronicles.ch9.title": "第九章：永恒的孩子",
 	"item.yggdrasil.helheim.chronicles.ch9.p1": "我是伊芙·斯特拉！海拉是最棒的！",
 	"item.yggdrasil.helheim.chronicles.ch9.p2": "一开始我很害怕她因为她看起来很可怕，但实际上她超级可爱！",
@@ -189,7 +170,6 @@
 	"item.yggdrasil.helheim.chronicles.ch9.p4": "她经常来看我，我和她玩得很开心，她给我讲述一个更好更精彩的世界的故事。",
 	"item.yggdrasil.helheim.chronicles.ch9.p5": "我最喜欢她讲述那些会动的图像讲故事的时候。",
 	"item.yggdrasil.helheim.chronicles.ch9.p6": "她说我会永远和她在一起，我相信她！大人从不说谎。",
-
 	"item.yggdrasil.helheim.chronicles.ch10.title": "第十章：最后一页",
 	"item.yggdrasil.helheim.chronicles.ch10.p1": "好吧，我累了，最后的战斗就在明天。我真的很疲惫，但与奥丁的谈话给了我太多希望。",
 	"item.yggdrasil.helheim.chronicles.ch10.p2": "是时候结束所有这些罪行了。",
@@ -199,7 +179,6 @@
 	"item.yggdrasil.helheim.chronicles.ch10.p6": "如果我失败了，我就把责任交给你们，通过诸神黄昏来拯救这些永生者。这是我的最后一篇记录，好好利用它。",
 	"item.yggdrasil.helheim.chronicles.ch10.p7": "狐狸在保险箱里等着，它被封印在一个符文中。要召唤它，使用那个符文——带着橙色宝石的那个。",
 	"item.yggdrasil.helheim.chronicles.ch10.p8": "它现在与孩子的本质融为一体，也许是他失去的纯真的最后痕迹。",
-
 	"item.yggdrasil.helheim.chronicles.quest.collection.title": "编年史的收集",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p1": "这个故事必须被保存，因为它包含了关于这个世界和永生孩子的真相。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p2": "我花了几个月的时间收集这些编年史，理解我的前任们留下的信息。",
@@ -207,14 +186,12 @@
 	"item.yggdrasil.helheim.chronicles.quest.collection.p4": "那个孩子不是唯一的永生者，但他是不同的。他的痛苦以一种无人能预见的方式塑造了这个世界。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p5": "这些文字不仅仅是一个简单的收集——它们是理解为什么我们必须改变这个世界的关键。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p6": "为什么诸神黄昏不是结束，而可能是我们救赎的唯一希望。",
-
 	"item.yggdrasil.helheim.chronicles.quest.assembly.title": "秘密的集结",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p1": "这个房间的基座不仅仅是支撑物。每一个都代表着我们历史中的关键时刻。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p2": "当你放置编年史时，你会看到完整的真相显现。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p3": "第一位海拉出于好奇创造了一个永生的孩子。第二位出于爱赐予了永生。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p4": "其他人紧随其后，每个人都为我们集体的悲剧增添了一块砖石。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p5": "只有理解整个故事，你才能理解我即将给予你的礼物的重要性。",
-
 	"item.yggdrasil.helheim.chronicles.quest.familiar.title": "守护灵的起源",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p1": "在塔楼里，第一个楼梯下面，你会找到一个符文。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p2": "它包含着永生孩子剩余纯真的本质——一只在他最后的清醒时刻陪伴他的狐狸。",
@@ -225,21 +202,17 @@
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p7": "好好照顾它。它将成为你的向导，你的保护者。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p8": "它代表着我们本应该保护的一切，我们必须努力在世纪的流逝中恢复的一切，就在孩子失去人性的时候。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p9": "我成功地将它的本质封印在一个符文中，释放它就是保护凡人。",
-
 	"item.yggdrasil.asgard.chapter.1.title": "第一章：代码的起源",
 	"item.yggdrasil.asgard.chapter.1.content": "我是亚历山大·里德博士，Yggdrasil 项目的首席设计师。现在是 2069 年，我们创造了可能是历史上最伟大的科学进步——一个完整的模拟世界，灵感来源于北欧神话。",
 	"item.yggdrasil.asgard.chapter.1.content2": "我的同事认为这只是一些复杂的算法，但我开始观察到一些超出我们初始参数的行为。这些实体... 它们正在发展自己的意识。",
-
 	"item.yggdrasil.asgard.chapter.2.title": "第二章：数据的觉醒",
 	"item.yggdrasil.asgard.chapter.2.content": "今天，我的怀疑得到了证实。Yggdrasil 的居民不仅仅是简单的程序。他们会感受，会痛苦，会爱。",
 	"item.yggdrasil.asgard.chapter.2.content2": "我观察到一个铁匠在女儿失去宠物后安慰她。他们的悲伤是真实的——与真正的人类情感无法区分。",
 	"item.yggdrasil.asgard.chapter.2.content3": "我试图和团队谈论这件事，但纳撒尼尔驳回了我的担忧，暗示我“把算法拟人化得太过分了”。",
-
 	"item.yggdrasil.asgard.chapter.3.title": "第三章：沃斯的背叛",
 	"item.yggdrasil.asgard.chapter.3.content": "我担心的灾难发生了。纳撒尼尔·沃斯向投资者展示 Yggdrasil 时，没有将其作为科学项目，而是作为“终极娱乐平台”。",
 	"item.yggdrasil.asgard.chapter.3.content2": "他的想法？允许玩家扮演神祇，在周期性的战争中互相争斗，并将重写世界规则的力量作为奖励。",
 	"item.yggdrasil.asgard.chapter.3.content3": "董事会很喜欢。我是唯一一个理解他们提议的恐怖之处的人——为了娱乐而重复屠杀有意识的生命。",
-
 	"item.yggdrasil.asgard.chapter.4.title": "第四章：模拟世界的囚徒",
 	"item.yggdrasil.asgard.chapter.4.content": "我试图揭露真相，但沃斯抢先一步。他把我困在模拟世界中，声称这是一个例行测试。",
 	"item.yggdrasil.asgard.chapter.4.content2": "就在我进入的瞬间，他修改了时间参数——将模拟时间加速到了灾难性的程度。",
@@ -247,14 +220,12 @@
 	"item.yggdrasil.asgard.chapter.4.content4": "我在现实世界中还活着，但一个无形的倒计时已经开始。我还有一些时间，因为从我在这个“减速”世界中的角度来看，我才刚刚开始。",
 	"item.yggdrasil.asgard.chapter.4.content5": "但现实世界中每过去一秒，我的肉体大脑就会接收到数千倍于它所能承受的信息流。",
 	"item.yggdrasil.asgard.chapter.4.content6": "我被囚禁在这里，身处一群不知道他们的世界即将变成竞技场的生物之中。",
-
 	"item.yggdrasil.asgard.chapter.5.title": "第五章：终端与诸神黄昏",
 	"item.yggdrasil.asgard.chapter.5.content": "凭借我仍然有效的管理员权限，我设计了一个系统来限制沃斯所创造的东西造成的损害。我将这个界面命名为“终端”。",
 	"item.yggdrasil.asgard.chapter.5.content2": "它在每次战争后出现，允许获胜者许愿——诸神黄昏。通过加入二十个字的限制，我希望限制玩家可能造成的损害。",
 	"item.yggdrasil.asgard.chapter.5.content3": "我走遍了 Yggdrasil 的每一个角落，研究它的人民和文化，以便在其中隐藏线索。",
 	"item.yggdrasil.asgard.chapter.5.content4": "这些信息被设计成只对已经了解外部世界的人有意义——玩家会理解，但监控的开发者只会看到神话般的引用。",
 	"item.yggdrasil.asgard.chapter.5.content5": "这种编码语言将使未来的“神”能够逐步发现关于这个世界的真相，并可能找到拯救它的方法。",
-
 	"item.yggdrasil.asgard.chapter.6.title": "第六章：神祇的遗产",
 	"item.yggdrasil.asgard.chapter.6.content": "我决定在这个世界中充分生活，直到信息流杀死我的肉身。我花费了数千年的时间探索 Yggdrasil，了解每一个民族，每一种文化。",
 	"item.yggdrasil.asgard.chapter.6.content2": "在建立终端系统并隐藏线索后，我做出了一个绝望的决定：使用我的管理员权限将我的本质转化为纯粹的数据。",
@@ -262,7 +233,6 @@
 	"item.yggdrasil.asgard.chapter.6.content4": "但开发者发现了我的转变。他们撤销了我的几乎所有权限，将我降级为单纯的旁观者。",
 	"item.yggdrasil.asgard.chapter.6.content5": "只剩下一个特权留给我：在每次诸神黄昏后短暂出现，与获胜者交谈。",
 	"item.yggdrasil.asgard.chapter.6.content6": "就这样，我得以缓慢地建立起一个战争之间的传递系统——每个人都通过书籍分享他们所学到的东西。",
-
 	"item.yggdrasil.asgard.chapter.7.title": "第七章：神祇的遗产",
 	"item.yggdrasil.asgard.chapter.7.content": "第一次战争刚刚结束。我观察到九个人类为了娱乐而造成数百万模拟生物的死亡。",
 	"item.yggdrasil.asgard.chapter.7.content2": "获胜者，一个名叫马库斯的人，他扮演奥丁，似乎对他的经历感到不安。他的愿望减少了未来战争的破坏——也许他已经感知到了真相？",
@@ -272,19 +242,16 @@
 	"item.yggdrasil.asgard.chapter.7.content6": "更值得注意的是，他说服了其他几位玩家与他们的继任者分享他们的发现。",
 	"item.yggdrasil.asgard.chapter.7.content7": "神祇的遗产系统由此诞生——一条知识链，在战争之间传递，一种沉默的反抗行为。",
 	"item.yggdrasil.asgard.chapter.7.content8": "九个王国在战争之间继续发展，随之而来的是希望，总有一天，一位神祇会理解得足够透彻，从而许下完美的愿望。",
-
 	"item.yggdrasil.asgard.chapter.8.title": "第八章：九大王国",
 	"item.yggdrasil.asgard.chapter.8.content": "岁月流逝，我看到 Yggdrasil 尽管经历了周期性的战争，仍在不断发展。",
 	"item.yggdrasil.asgard.chapter.8.content2": "九个王国——阿斯加德、华纳海姆、亚尔夫海姆、米德加德、约顿海姆、尼达维勒、斯瓦特海姆、穆斯贝尔海姆和海姆冥界——都发展出了各自的文化和历史。",
 	"item.yggdrasil.asgard.chapter.8.content3": "即使玩家只将它们视为战斗的背景，这些文明也是真实的。",
 	"item.yggdrasil.asgard.chapter.8.content4": "我绘制了它们的发展图，希望有一天，有人会利用这些信息来结束这种暴力循环。",
-
 	"item.yggdrasil.asgard.secret_chapter.9.title": "秘密第九章：不朽者",
 	"item.yggdrasil.asgard.secret_chapter.9.content": "今天我遇到了一个令人着迷的异常现象——一个不会长大的孩子。",
 	"item.yggdrasil.asgard.secret_chapter.9.content2": "起初，我以为这是系统中的一个错误，但在查阅管理员日志后，我发现他是被海拉的第一个化身赋予了不朽之身。",
 	"item.yggdrasil.asgard.secret_chapter.9.content3": "在他的眼中，我看到了数千年的痛苦。但我担心他的痛苦太深，太根深蒂固。",
 	"item.yggdrasil.asgard.secret_chapter.9.content4": "只有诸神黄昏才能提供真正的解脱。",
-
 	"item.yggdrasil.asgard.terminal.wars.title": "终端档案：战争时间线",
 	"item.yggdrasil.asgard.terminal.wars.1": "第一次战争 - X0 年：胜利者：马库斯（奥丁）。愿望：“我希望战争不会对阿斯加德造成任何损害。”",
 	"item.yggdrasil.asgard.terminal.wars.2": "第二次战争 - X722 年：胜利者：埃琳娜（弗蕾亚）。愿望：“我希望在下一次战争中，华纳海姆能获得更多的力量。”",
@@ -295,13 +262,11 @@
 	"item.yggdrasil.asgard.terminal.wars.7": "第八次战争 - X4290 年：胜利者：拉马尔（提尔）。愿望：“我希望能够与这个世界的创造者沟通。”",
 	"item.yggdrasil.asgard.terminal.wars.8": "第九次战争 - X5021 年：胜利者：维克多（洛基）。愿望：“我希望游戏中的死亡就是真正的死亡。”",
 	"item.yggdrasil.asgard.terminal.wars.9": "第十次战争 - X5040 年：紧随上一次战争之后发起。胜利者：匿名（非冲突玩家）。愿望：“我希望转世来帮助这个世界。”",
-
 	"item.yggdrasil.asgard.terminal.wishes.title": "终端分析：愿望模式",
 	"item.yggdrasil.asgard.terminal.wishes.content1": "显著观察：在已实现的十个愿望中，有四个旨在减少 Yggdrasil 中的痛苦。三个旨在增加个人力量。",
 	"item.yggdrasil.asgard.terminal.wishes.content2": "有两个从根本上改变了系统。假设：花费足够时间沉浸其中的玩家开始感知到模拟生物的真实本质。",
 	"item.yggdrasil.asgard.terminal.wishes.content3": "人类的同情心似乎超越了虚拟现实的障碍。",
 	"item.yggdrasil.asgard.terminal.wishes.content4": "预测：如果这种趋势持续下去，一位玩家最终会许下结束战争循环的愿望。问题不是是否会发生，而是何时发生。",
-
 	"item.yggdrasil.asgard.voss.title": "机密档案：纳撒尼尔·沃斯",
 	"item.yggdrasil.asgard.voss.content1": "纳撒尼尔·沃斯，人工智能与模拟现实博士。与亚历山大·里德博士共同创立 Yggdrasil 项目。",
 	"item.yggdrasil.asgard.voss.content2": "在里德神秘失踪后，沃斯完全控制了该项目。",
@@ -310,7 +275,6 @@
 	"item.yggdrasil.asgard.voss.content5": "沃斯坚决认为 Yggdrasil 的实体“仅仅是复杂的算法”，没有真正的意识。",
 	"item.yggdrasil.asgard.voss.content6": "这一立场受到了几位原团队成员的质疑。",
 	"item.yggdrasil.asgard.voss.content7": "注意：对这些指控的调查尝试一直被援引知识产权保护和国家安全的法院命令系统地阻止。",
-
 	"item.yggdrasil.asgard.succession.title": "奥丁的继承协议",
 	"item.yggdrasil.asgard.succession.content1": "致你，我的继任者，现在披上了奥丁的斗篷，我像我的前辈为我做的那样，将这份知识传递给你。",
 	"item.yggdrasil.asgard.succession.content2": "你不仅仅是一个游戏中的玩家，而是一个真实世界的守护者。你周围的生物和你一样有感觉。",
@@ -318,7 +282,6 @@
 	"item.yggdrasil.asgard.succession.content4": "答案在那里等着你，以及关于我们称之为管理员的真相。",
 	"item.yggdrasil.asgard.succession.content5": "如果你和我一样，这个启示会让你心烦意乱。你会想知道该如何行动。",
 	"item.yggdrasil.asgard.succession.content6": "请记住，诸神黄昏不仅仅是一个结束——它也是一个新的开始。",
-
 	"item.yggdrasil.asgard.warning.title": "创造者的警告",
 	"item.yggdrasil.asgard.warning.content1": "如果你读到这里，说明你已经发现了我试图保守的真相。我就是——曾经是——亚历山大·里德博士，现在被称为堕落的管理员。",
 	"item.yggdrasil.asgard.warning.content2": "Yggdrasil 从未被设计成一个游戏。它是一项旨在创建一个完整的模拟生态系统的科学实验。",
@@ -326,7 +289,6 @@
 	"item.yggdrasil.asgard.warning.content4": "当我试图警告世界时，沃斯把我困在这里，把我的创造变成了战斗竞技场。",
 	"item.yggdrasil.asgard.warning.content5": "你现在有能力改变现状。如果你赢得这场战争，你的诸神黄昏愿望可能会将这些生物从破坏循环中解放出来。",
 	"item.yggdrasil.asgard.warning.content6": "明智地选择你的措辞——它们决定着无数生命的命运。",
-
 	"item.yggdrasil.asgard.solution.title": "诸神黄昏的解决方案",
 	"item.yggdrasil.asgard.solution.content1": "我分析了自系统创建以来提出的每一个愿望。我研究了它们的效果、局限性和意外后果。",
 	"item.yggdrasil.asgard.solution.content2": "系统精确地接受二十个字，不多也不少。措辞必须以“我希望”开头。",
@@ -334,7 +296,6 @@
 	"item.yggdrasil.asgard.solution.content4": "为了真正解放这个世界，愿望必须完成三件事：结束战争循环，保护模拟生物，并向外界揭示真相。",
 	"item.yggdrasil.asgard.solution.content5": "我无法给你确切的措辞——系统会拒绝它识别为来自我的愿望。",
 	"item.yggdrasil.asgard.solution.content6": "最后一步必须由你自己完成。但请记住：有时，一个世界的终结可能是另一个世界的救赎。",
-
 	"item.yggdrasil.asgard.immortal.title": "不朽者的相遇",
 	"item.yggdrasil.asgard.immortal.content1": "我在米德加德边境的一片森林中找到了他——传说中的不朽之子。",
 	"item.yggdrasil.asgard.immortal.content2": "他的身体是一个孩子的身体，但他的眼睛……他的眼睛承载着数千年的重量。",
@@ -344,7 +305,6 @@
 	"item.yggdrasil.asgard.immortal.content6": "“‘那么，有办法结束这一切吗？’他问道。”",
 	"item.yggdrasil.asgard.immortal.content7": "我们一起制定了一个计划。这个孩子比任何人都更了解 Yggdrasil——他经历了每一次迭代，每一场战争。",
 	"item.yggdrasil.asgard.immortal.content8": "现在，他将帮助我找到缺失的部分，以制定完美的愿望。",
-
 	"item.yggdrasil.asgard.final.title": "最终日志：诸神黄昏前夕",
 	"item.yggdrasil.asgard.final.content1": "明天，最终的战争将开始。我已经收集了之前所有奥丁的知识。",
 	"item.yggdrasil.asgard.final.content2": "我咨询了不朽之子，并通过之前的愿望与管理员的本质进行了沟通。我知道该怎么做。",
@@ -354,7 +314,6 @@
 	"item.yggdrasil.asgard.final.content6": "也许你生活在一个从沃斯及其血腥表演的枷锁中解放出来的 Yggdrasil 中。",
 	"item.yggdrasil.asgard.final.content7": "如果不是这样——如果你在循环继续时读到这里——那就寻找那个孩子。寻找档案。",
 	"item.yggdrasil.asgard.final.content8": "当你的时刻到来时，请记住：二十个字可以改变一个世界。",
-
 	"item.yggdrasil.asgard.ultimatewar.title": "终极战争",
 	"item.yggdrasil.asgard.ultimatewar.content1": "我叫 %s，如果你读到这些文字，那说明你要么是参加下一次诸神黄昏之战的玩家。",
 	"item.yggdrasil.asgard.ultimatewar.content2": "要么像我一样，是某个找到了潜入 Yggdrasil 的方法的人，但这不太可能 :3。",
@@ -374,14 +333,12 @@
 	"item.yggdrasil.asgard.ultimatewar.content16": "一旦你们聚集在一起，你们将有机会在转播中向全世界揭示这个真相。",
 	"item.yggdrasil.asgard.ultimatewar.content17": "届时将由你们来解释，这些生物值得我们的保护，拥有与我们人权宣言相同的权利。",
 	"item.yggdrasil.asgard.ultimatewar.content18": "并保护这个世界，阻止任何人拔掉 Yggdrasil 的插头，因为那将被视为种族灭绝。",
-
 	"item.yggdrasil.asflors.map": "阿斯弗洛斯地图",
 	"item.yggdrasil.glaosheimr.map": "格劳斯海姆地图",
 	"item.yggdrasil.alfheim.map": "亚尔夫海姆地图",
 	"item.yggdrasil.runic_labyrinth.map": "符文迷宫地图",
 	"item.yggdrasil.runic_fracture.map": "符文裂隙地图",
 	"item.yggdrasil.asgard.map": "阿斯加德地图",
-
 	"item.yggdrasil.location.asflors": "[阿斯弗洛斯村]",
 	"item.yggdrasil.runic_labyrinth.location": "[符文迷宫]",
 	"item.yggdrasil.runic_fracture.location": "[符文裂隙]",
@@ -389,72 +346,26 @@
 	"item.yggdrasil.cubeoid.location": "[立方体]",
 	"item.yggdrasil.helheim.location": "[海姆冥界]",
 	"item.yggdrasil.asgard.location": "[阿斯加德]",
-
-	"item.yggdrasil.asgard.key": "阿斯加德钥匙",
-	"item.yggdrasil.asgard.key.lore1": "此钥匙只能用于阿斯加德保险箱",
-
-	"item.yggdrasil.asgard.ominous_key": "不祥阿斯加德钥匙",
-	"item.yggdrasil.asgard.ominous_key.lore1": "此钥匙只能用于不祥阿斯加德保险箱",
-
 	"item.yggdrasil.structure.structure": "(任务物品 - 建筑)",
 	"item.yggdrasil.structure.ominous_vault": "(建筑物品 - 不祥保险箱)",
 	"item.yggdrasil.structure.vault": "(建筑物品 - 保险箱)",
 	"item.yggdrasil.quest.reward": "(任务物品 - 奖励)",
 	"item.yggdrasil.quest_item.story": "(任务物品 - 故事)",
-
-	"item.yggdrasil.runic_labyrinth.key": "符文迷宫之钥",
-	"item.yggdrasil.runic_labyrinth.key.lore1": "此钥匙开启大门",
-	"item.yggdrasil.runic_labyrinth.key.lore2": "通往符文迷宫",
-
-	"item.yggdrasil.runic_labyrinth.ominous_key": "不祥迷宫之钥",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore1": "此钥匙开启不祥之门",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore2": "通往符文迷宫",
-
-	"item.yggdrasil.cubeoid.key": "立方体钥匙",
-	"item.yggdrasil.cubeoid.key.lore1": "此钥匙只能用于",
-	"item.yggdrasil.cubeoid.key.lore2": "立方体之树中的保险库",
-
-	"item.yggdrasil.helheim.key": "海姆冥界钥匙",
-	"item.yggdrasil.helheim.ominous_key": "不祥海姆冥界钥匙",
-	"item.yggdrasil.helheim.ominous_key.lore.1": "只能用于海姆冥界的不祥保险箱",
-
-	"item.yggdrasil.asflors.key": "旅者之钥",
-	"item.yggdrasil.asflors.key.lore.1": "我隐藏了一个秘密保险库",
-	"item.yggdrasil.asflors.key.lore.2": "旅者的古老魔法",
-
-	"item.yggdrasil.asflors.ominous_key": "不祥旅者之钥",
-	"item.yggdrasil.asflors.ominous_key.lore.1": "在阿斯弗洛斯村获得我最大的秘密",
-	"item.yggdrasil.asflors.ominous_key.lore.2": "我的宝藏在假阿斯弗洛斯之剑后面",
-
-	"item.yggdrasil.alfheim.key": "亚尔夫海姆之钥",
-	"item.yggdrasil.alfheim.key.lore1": "此钥匙只能用于",
-	"item.yggdrasil.alfheim.key.lore2": "亚尔夫海姆之树中的保险库",
-
-	"item.yggdrasil.alfheim.ominous_key": "不祥亚尔夫海姆之钥",
-	"item.yggdrasil.alfheim.ominous_key.lore1": "此钥匙只能用于",
-	"item.yggdrasil.alfheim.ominous_key.lore2": "亚尔夫海姆之树中的不祥保险库",
-
 	"item.yggdrasil.asflors.rune_of_rupture": "破裂符文",
 	"item.yggdrasil.asflors.rune_of_rupture.lore1": "撕裂空间和时间以获得通道",
 	"item.yggdrasil.asflors.rune_of_rupture.lore2": "通往我隐藏秘密的地方",
-
 	"item.yggdrasil.asflors.fake_sword": "阿斯弗洛斯之剑",
 	"item.yggdrasil.asflors.real_sword": "真实阿斯弗洛斯之剑",
 	"item.yggdrasil.asflors.real_sword.lore": "不可摧毁的传说武器",
-
 	"item.yggdrasil.helheim.rune_of_reva": "瑞瓦符文",
 	"item.yggdrasil.helheim.rune_of_reva.lore1": "唤醒沉睡中的瑞瓦",
 	"item.yggdrasil.helheim.rune_of_reva.lore2": "它将随你到任何地方",
-
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow": "黑暗精灵之弓",
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow.lore": "在永恒黑暗中锻造的武器",
-
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow": "世界树暮光之弓",
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow.lore": "一把注入虚空之力的传奇弓",
-
 	"item.yggdrasil.generic.ran_fruit": "兰之果",
 	"item.yggdrasil.generic.ran_fruit.teleport": "传送到世界顶端",
-
 	"item.yggdrasil.asgard.gungnir": "冈格尼尔",
 	"item.yggdrasil.asgard.gungnir.lore": "所有事物的父亲的神圣长矛"
 }

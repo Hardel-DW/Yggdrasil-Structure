@@ -49,13 +49,11 @@
 	"item.yggdrasil.chronicles_of_trials.page2": "Nimm diesen Schlüssel, Symbol deines Erfolgs, und berge meinen Schatz. Du wirst ihn im Dorf Aslors finden, wo du das Schwert des Bruchs entdeckt hast.",
 	"item.yggdrasil.chronicles_of_trials.page3": "In der Schwertkammer von Asflors wirst du ein Podest finden. Platziere dieses Buch darauf, und du wirst Zugang zu meinem Schatz erhalten.",
 	"item.yggdrasil.chronicles_of_trials.page4": "Ich hoffe, dass du damit ein neues Schicksal schmieden kannst, würdig des Erbes, das du trägst. Aber ich werde vorerst nicht zu viel verraten; lass die Reise sich vor dir entfalten.",
-
 	"item.yggdrasil.chapter.runic_dimension": "Kapitel: Die Runendimension",
 	"item.yggdrasil.chapter.runic_dimension.page1": "Jenseits unseres Reiches liegt eine Welt absoluter Stille - die Runendimension. Ein Ort, an dem weder Sonne noch Mond den Himmel schmücken, wo die Zeit selbst aufhört zu existieren. Diese dunkle Leere, unendlich in ihrer Nichtigkeit, hielt mich einst gefangen.",
 	"item.yggdrasil.chapter.runic_dimension.page2": "Die einzigen Überreste des Lebens hier sind die Spuren der Dunkelelfen, uralte Wesen, die die Kunst des Dimensionsreisens beherrschten. Sie errichteten Altäre, die als Brücken zwischen den Welten dienen.",
 	"item.yggdrasil.chapter.runic_dimension.page3": "Im Herzen ihrer größten Schöpfung - dem Runenlabyrinth - ruht ein legendäres Artefakt von immenser Macht. Dieses Labyrinth spiegelt sein Gegenstück in Niflheim wider, obwohl seine Geheimnisse weitaus düsterer sind.",
 	"item.yggdrasil.chapter.runic_dimension.page4": "Um dieses Reich zu erreichen, muss man zur Runeninsel zurückkehren und unter dem ewigen Baum graben, während man die Echte Rune des Bruchs in der Hand hält. Erst dann wird der Schleier zwischen den Welten zerreißen und dieses Reich ewiger Schatten offenbaren.",
-
 	"item.yggdrasil.dark_elves_chronicle": "Chroniken der Dunkelelfen",
 	"item.yggdrasil.dark_elves_chronicle.page1a": "Wir, die Dunkelelfen, waren schon immer anders. Während unsere Vettern, die Lichtelfen, für ihre natürliche Verbindung zu Magie und Natur verehrt wurden, wurden wir von derselben Magie verstoßen.",
 	"item.yggdrasil.dark_elves_chronicle.page1b": "Unsere Körper, so anders als ihre, waren nicht für konventionelle Magie geschaffen, doch trugen wir eine dunklere, tiefere Gabe in uns.",
@@ -67,41 +65,33 @@
 	"item.yggdrasil.dark_elves_chronicle.page5": "Die Runeninsel war unsere erste große Schöpfung - ein Test, komplex genug, um die Schwachen abzuschrecken, aber nicht genug, um den Entschlossensten den Zugang völlig zu verwehren. Denn dahinter liegt unser wahres Meisterwerk: das Runenlabyrinth.",
 	"item.yggdrasil.dark_elves_chronicle.page6": "Das Labyrinth ist unsere größte List. In dieser leeren Dimension, wo weder Nahrung noch Wasser existieren, sind Besucher gezwungen, es zu betreten, um zu überleben. Doch seine Komplexität wird zu ihrem Grab. Nur wahre Dunkelelfen können seine Geheimnisse ergründen.",
 	"item.yggdrasil.dark_elves_chronicle.page7": "An jene, die diese Schriften finden: Dieses Reich ist keine Zuflucht, sondern eine Falle. Die Leere, die euch umgibt, ist nur der Beginn eurer Prüfung. Das Labyrinth wartet, und mit ihm entweder euer Untergang oder eure Offenbarung.",
-
 	"item.yggdrasil.dark_elf_escape_journal": "Tagebuch eines Dunkelelfens: Die Flucht",
 	"item.yggdrasil.dark_elf_escape_journal.page1": "Wir hielten uns in unserer Runendimension für unbesiegbar. Welche Arroganz! Nie hätten wir gedacht, dass die Götter selbst die Welten durchqueren würden, um uns zu erreichen. Unsere Proto-Magie, die fast ihrer Macht gleichkam, erschreckte sie.",
 	"item.yggdrasil.dark_elf_escape_journal.page2": "Ich flüchtete in die Tiefen des Labyrinths. Dort verstand ich: Die Götter wurden von magischen Strömungen angezogen wie Motten vom Licht. Unsere größte Stärke war zu unserer größten Schwäche geworden.",
-
 	"item.yggdrasil.dark_elf_village_chronicles": "Chroniken des Dorfes",
 	"item.yggdrasil.dark_elf_village_chronicles.page1": "Glücklicherweise war ich es gewohnt, zwischen den Dimensionen zu reisen. Jeden Morgen besuchte ich ein kleines Elfendorf in der normalen Welt und kehrte abends zu den Meinen in der Runendimension zurück.",
 	"item.yggdrasil.dark_elf_village_chronicles.page2": "Dieses Dorf, kaum zehn Einwohner stark, besaß eine Bibliothek mit einzigartigem Wissen. Fern von allem hatte sich ihre Zivilisation anders entwickelt. War es möglich, dass unsere Revolution einen positiven Einfluss auf ihre Entwicklung hatte?",
 	"item.yggdrasil.dark_elf_village_chronicles.page3": "Ihre Güte berührte mich. Diese Elfen, einst unsere Feinde, lehrten mich unbewusst Geheimnisse, die selbst wir nicht kannten.",
-
 	"item.yggdrasil.dark_elf_survival_notes": "Überlebensnotizen eines Dunkelelfens",
 	"item.yggdrasil.dark_elf_survival_notes.page1": "Dank des Wissens aus dem Dorf lernte ich, meine magische Signatur zu verbergen. Ich wanderte durch das Labyrinth, machte es noch komplexer und fügte Schutzschichten hinzu.",
 	"item.yggdrasil.dark_elf_survival_notes.page2": "Die Wochen vergingen, und meine Gedanken kehrten ständig zu diesen gütigen Elfen zurück. Ich sehnte mich danach, sie wiederzusehen, aber die Furcht vor den Göttern lähmte mich. Ohne Infrastruktur für Dimensionsreisen war ich gefangen.",
 	"item.yggdrasil.dark_elf_survival_notes.page3": "Dann traf ich eine verzweifelte Entscheidung: Ich würde Waffen erschaffen, so mächtig, dass sie meine gesamte Magie erschöpfen und mich unaufspürbar machen würden. Eine versteckte ich unter dem Eingang, eine andere in einem Tresor.",
-
 	"item.yggdrasil.dark_elf_discovery_journal": "Tagebuch der Entdeckungen",
 	"item.yggdrasil.dark_elf_discovery_journal.page1": "Beim Aufstieg aus den Tiefen entdeckte ich etwas Außergewöhnliches: verlassene Bastionen. Bei ihrer Erforschung fand ich Portale zur normalen Welt.",
 	"item.yggdrasil.dark_elf_discovery_journal.page2": "Mein Herz raste - vielleicht war meiner Familie die Flucht vor den Göttern gelungen? Waren diese Strukturen ihr Werk? Die Hoffnung nach so viel Verzweiflung war fast unerträglich.",
 	"item.yggdrasil.dark_elf_discovery_journal.page3": "Ich fasste meinen Entschluss. Ohne einen Blick zurück durchschritt ich das Portal. Die Freiheit erwartete mich auf der anderen Seite, auch wenn es bedeutete, unsere Schöpfung aufzugeben.",
-
 	"item.yggdrasil.dark_elf_weapon_note": "Notiz zur verborgenen Waffe",
 	"item.yggdrasil.dark_elf_weapon_note.page1": "An den Finder dieser Waffe: Freue dich nicht zu früh. Ihre Macht ist begrenzt - bestenfalls könnte sie einen Halbgott verwunden. Nicht mehr.",
 	"item.yggdrasil.dark_elf_weapon_note.page2": "Sie wird dir bei deiner Suche nicht viel nützen, aber wenn du ihr einen Zweck geben willst... Räche mein Volk. Das ist alles, worum ich den Finder bitte.",
-
 	"item.yggdrasil.dark_elf_bow_testament": "Testament des Runenbogens",
 	"item.yggdrasil.dark_elf_bow_testament.page1": "Dieser Bogen enthält den Großteil meiner Lebenskraft. Eine Waffe von erschreckender Macht, vielleicht fähig, einen Gott zu besiegen... aber nur einen.",
 	"item.yggdrasil.dark_elf_bow_testament.page2": "Das ist tragisch unzureichend. Ich spürte sie oben, es waren Dutzende. Die Angst nagt an mir, aber ich bewahre Hoffnung: Wenn du andere Waffen dieses Kalibers findest...",
 	"item.yggdrasil.dark_elf_bow_testament.page3": "Vielleicht kannst du sie kombinieren, eine göttliche Waffe erschaffen, eine wahre Gottestöterin. Ich überlasse dir diese Möglichkeit, denn ich muss fliehen. Nutze sie weise.",
-
 	"item.yggdrasil.dark_elf_bastion_chronicle": "Chroniken der Bastion: Die Flucht",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page1": "Ich verstehe immer noch nicht, wie die Götter uns fanden. Wir mussten fliehen, weit und schnell. Die Rückkehr in die Ursprungswelt war nicht geplant, nichts war vorbereitet, doch das Schicksal lächelte uns zu: In den Tiefen eines Gebäudes entdeckten wir ein Portal.",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page2": "Dieses Portal gehörte einer Familie, die ich gut kannte, deren Sohn besonders talentiert war. Er hat diese Welt wahrscheinlich verlassen - wir finden ihn nirgends und spüren seine Energie nicht mehr.",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page3": "Dank ihm überlebten wir. Wir errichteten diese Bastion und reproduzierten sie über die Welt verteilt. Aber der Preis war schrecklich: Die Hälfte unseres Volkes überlebte nicht. Wie Ameisen verteilten wir uns im Labyrinth, während die Götter am Ausgang warteten.",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page4": "Jetzt, da wir auf dem Weg des Aufbruchs sind, werden sie uns sicher folgen. Ich verstehe immer noch nicht, wie sie wussten, wo sie uns finden konnten. Diese Frage verfolgt mich, aber wir haben keine Zeit mehr zum Nachdenken.",
-
 	"item.yggdrasil.runic_fracture.hidden_truth.name": "Verborgene Wahrheit des Transzendenten",
 	"item.yggdrasil.runic_fracture.hidden_truth.page1": "Wenn du mir helfen willst, wisse eines: Mein Lebensziel ist es nicht, die Welt zu retten - es ist eher egoistisch. Ich habe lange genug in dieser Welt gelebt und kenne ihre Realität zur Genüge. Ich möchte einfach, dass meine Unsterblichkeit endet. Wenn du einen Weg findest, werde ich dir meine Kräfte gewähren.",
 	"item.yggdrasil.runic_fracture.hidden_truth.page2": "Hier ist, was ich über diese Welt weiß. Die Götter stammen nicht wirklich aus dieser Welt, und hier zu sein scheint für sie ein Spiel zu sein. Sie scheinen Gefallen daran zu finden, sich gegenseitig zum Vergnügen zu zerstören - ich verstehe es nicht, es ergibt keinen Sinn.",
@@ -109,7 +99,6 @@
 	"item.yggdrasil.runic_fracture.hidden_truth.page4": "Die zweite Sache ist, dass sie trotz ihres Götterstatus keine vollständige Macht über diese Welt haben. Jeder hat spezifische Attribute und Fähigkeiten; ihre Macht scheint begrenzt. Während wir Sterblichen - zumindest war ich einer - die Fähigkeit haben, uns so weit zu entwickeln, wie wir wollen.",
 	"item.yggdrasil.runic_fracture.hidden_truth.page5": "Als ich zum ersten Mal mit Odin sprach, erklärte er, dass ihre Kräfte begrenzt sind. Sie benutzen keine Magie - sie kommt von einem System.",
 	"item.yggdrasil.runic_fracture.hidden_truth.page6": "Wenn wir Magie benutzen, nutzen wir die Umgebungspartikel, und wenn ein Gebiet leer ist, dann ist Magie unmöglich. Sie hingegen haben diese Einschränkung nicht und können ihre Kräfte nach Belieben einsetzen.",
-
 	"item.yggdrasil.runic_fracture.book.name": "Tagebuch des Transzendenten",
 	"item.yggdrasil.runic_fracture.book.page1": "Ich gratuliere dir, dass du diesen Ort gefunden hast. Die Kraft, die von ihm ausgeht, ist unverkennbar - dir muss aufgefallen sein, dass diese Insel schwebte. Das liegt tatsächlich an den Kräften der Dunkelelfen. Ich kenne sie gut, aber ich billige ihre Hinterlist nicht.",
 	"item.yggdrasil.runic_fracture.book.page2": "Wisse, dass dieser Ort gefährlich ist. Nur eine 'mächtige' Person kann ihn betreten, und ich hoffe aufrichtig, dass eine solche Person existiert. Wenn nicht, will ich dir nicht lügen, wäre es die schlimmste aller Verzweiflungen.",
@@ -117,20 +106,17 @@
 	"item.yggdrasil.runic_fracture.book.page4": "Mein Geist und meine Intelligenz scheinen in einem weit komplexeren höheren Universum zu existieren, während sich jedes Partikel meines Körpers in jedem Moment manifestiert.",
 	"item.yggdrasil.runic_fracture.book.page5": "An diesem Punkt kann man es nicht einmal mehr Magie nennen. Es ist etwas Komplexeres, etwas, das die Gesetze unserer Welt übersteigt.",
 	"item.yggdrasil.runic_fracture.book.page6": "Nun, ich rede viel über mich, aber wenn du eintreten willst, musst du ein bestimmtes Dorf finden. Du wirst es leicht erkennen: Es hat einen Brunnen mit schwarz-weißem Boden. In diesem Dorf wirst du meine Geschichte und einen Weg finden, dieses Grabmal zu öffnen.",
-
 	"item.yggdrasil.helheim.chronicles.ch1.title": "Kapitel 1: Erwachen in der Dunkelheit",
 	"item.yggdrasil.helheim.chronicles.ch1.p1": "Ich bin Hel des Jahres X5734. Dieses Gefühl ist unglaublich - eine Todesgöttin zu verkörpern, es ist erstaunlich.",
 	"item.yggdrasil.helheim.chronicles.ch1.p2": "Ich kam in diese Welt zum Spaß, aber während meiner ersten Erkundungen begann ich, beunruhigende Details zu bemerken.",
 	"item.yggdrasil.helheim.chronicles.ch1.p3": "Die Bewohner dieser Welt, wenn wir nicht da sind... sie scheinen ein Leben zu haben, Gefühle und Interaktionen, sogar Intelligenz - alles wirkt authentisch, erschreckend real.",
 	"item.yggdrasil.helheim.chronicles.ch1.p4": "Es ist nur ein Spiel... Ich muss verstehen, was hier vor sich geht. Ich werde Hel nutzen, um die Natur dieser Welt zu verstehen, es wird unglaublich aufregend.",
 	"item.yggdrasil.helheim.chronicles.ch1.p5": "Und dir, der mir nachfolgen wird, hinterlasse ich diese Notizen. Es gibt so viel zu entdecken, so viel zu verstehen. Meine Forschung fortsetzend, werden wir sicherstellen, dass jede neue Generation von Hel zu diesen Erkenntnissen beitragen kann.",
-
 	"item.yggdrasil.helheim.chronicles.ch2.title": "Kapitel 2: Echos der Vergangenheit",
 	"item.yggdrasil.helheim.chronicles.ch2.p1": "Meine Forschung schreitet voran, und ich beginne, erschüttert zu sein; Wenn ich in diese Welt kam, war es wie bei allen anderen zum Spaß, mein Leben außerhalb dieser Welt war nicht rosig, aber ich war glücklich.",
 	"item.yggdrasil.helheim.chronicles.ch2.p2": "Aber heute sah ich die Angst in den Augen eines Dorfbewohners, als meine Armee sich näherte. Ich hörte das Weinen eines Kindes, das nach einer Schlacht seine Eltern suchte.",
 	"item.yggdrasil.helheim.chronicles.ch2.p3": "Dies sind keine leeren Hüllen - diese Wesen fühlen, leiden, lieben. Die Erkenntnis lässt mir das Blut in den Adern gefrieren.",
 	"item.yggdrasil.helheim.chronicles.ch2.p4": "Ich kann diese Welt nicht länger als bloßen Spielplatz sehen. Ich habe noch einige Zeit bis zum Ende dieses Krieges, und ich beabsichtige, sie zu nutzen, um alles zu dokumentieren, was ich entdecke.",
-
 	"item.yggdrasil.helheim.chronicles.ch3.title": "Kapitel 3: Die Erste Beobachterin",
 	"item.yggdrasil.helheim.chronicles.ch3.p1": "Eine faszinierende Entdeckung heute! Ich fand Notizen der allerersten Hel. Ihre Reise ähnelt seltsamerweise meiner.",
 	"item.yggdrasil.helheim.chronicles.ch3.p2": "Auch sie begann damit, das Spiel zu spielen, bis sie die wahre Natur dieser Welt verstand.",
@@ -138,7 +124,6 @@
 	"item.yggdrasil.helheim.chronicles.ch3.p4": "Dies ist in der Tat Teil unserer Kräfte, Hel hat die Fähigkeit, jemanden unsterblich zu machen, und strategisch ist das interessant.",
 	"item.yggdrasil.helheim.chronicles.ch3.p5": "Später erkannte sie, dass dieses Wesen, das sie unsterblich gemacht hatte, Gefühle zu empfinden schien, und von da an beschreibt sie ihre Beziehung zu diesem unsterblichen Wesen, einem Kind, das sie unter ihre Fittiche nahm.",
 	"item.yggdrasil.helheim.chronicles.ch3.p6": "Mit der Zustimmung dieses Wesens begannen sie zusammenzuarbeiten, um mehr über diese Welt zu verstehen. Sie beschreibt diese Person als ein lebensfrohes Kind, das glücklich war, beschützt zu werden.",
-
 	"item.yggdrasil.helheim.chronicles.ch4.title": "Kapitel 4: Die Verfluchte Gabe",
 	"item.yggdrasil.helheim.chronicles.ch4.p1": "Ich versuche, dieses Kind zu finden, aber bisher vergeblich, sie müssen in einem benachbarten Reich sein.",
 	"item.yggdrasil.helheim.chronicles.ch4.p2": "Die Geschichte dieses Kindes nimmt eine dunkle Wendung. An den Wänden von Helheim fand ich Spuren.",
@@ -148,7 +133,6 @@
 	"item.yggdrasil.helheim.chronicles.ch4.p6": "Die Echos und Gerüchte sprechen nun von einem Wesen, das von Zerstörung verzehrt wird und versucht, seinen Wahnsinn im Chaos zu lindern.",
 	"item.yggdrasil.helheim.chronicles.ch4.p7": "Die erste Beobachterin hatte es als lebensfrohes Kind beschrieben und schien es zu lieben, und das Kind schien zu sagen, es fühlte sich beschützt. Hmm...",
 	"item.yggdrasil.helheim.chronicles.ch4.p8": "Nicht verwunderlich, mir würde es wahrscheinlich genauso ergehen, wenn ich keine Möglichkeit hätte zu sterben.",
-
 	"item.yggdrasil.helheim.chronicles.ch5.title": "Kapitel 5: Die Zweite Erbin",
 	"item.yggdrasil.helheim.chronicles.ch5.p1": "Die Archive von Helheim sind umfangreicher als ich mir vorgestellt hatte. Jede neue Hel scheint zu dieser Sammlung von Wissen beigetragen zu haben.",
 	"item.yggdrasil.helheim.chronicles.ch5.p2": "Ich hätte es mir nicht besser erträumen können, ich bin die elfte Inkarnation von Hel.",
@@ -156,7 +140,6 @@
 	"item.yggdrasil.helheim.chronicles.ch5.p4": "Doch auch sie erlag dieser Versuchung. Sie spricht von einem weisen alten Mann, dem sie die Ewigkeit anbot, verführt von seinem Wissen.",
 	"item.yggdrasil.helheim.chronicles.ch5.p5": "Ihre Liebesgeschichte zieht sich durch die Seiten ihrer Tagebücher.",
 	"item.yggdrasil.helheim.chronicles.ch5.p6": "So wandern zwei Unsterbliche irgendwo in dieser Welt... Tragen die Last unseres \"Spiels\" für die Ewigkeit.",
-
 	"item.yggdrasil.helheim.chronicles.ch6.title": "Kapitel 6: Flüstern des Wahnsinns",
 	"item.yggdrasil.helheim.chronicles.ch6.p1": "Die Zeit drängt. Dieses \"Spiel\" neigt sich dem Ende zu, und die anderen Reiche verweigern jede Zusammenarbeit außer Odin.",
 	"item.yggdrasil.helheim.chronicles.ch6.p2": "Jeder bleibt in seinen eigenen Zielen gefangen, unwissend über die wahre Natur dieser Welt.",
@@ -164,7 +147,6 @@
 	"item.yggdrasil.helheim.chronicles.ch6.p4": "Es hat nichts mehr von dem unschuldigen Wesen, das in den alten Chroniken beschrieben wurde. Seine Augen... sie spiegeln Jahrtausende des Leidens und des Wahnsinns wider. Ich hätte fast mein Leben verloren.",
 	"item.yggdrasil.helheim.chronicles.ch6.p5": "Mit Odins Hilfe gelang es uns, es in seiner eigenen Dimension einzusperren.",
 	"item.yggdrasil.helheim.chronicles.ch6.p6": "Odin spricht von Ragnarök als einziger Lösung, und in der Tat hatte ich nicht daran gedacht. Es ist meiner Meinung nach der einzige Weg, dieses Wesen von seiner Qual zu befreien.",
-
 	"item.yggdrasil.helheim.chronicles.ch7.title": "Kapitel 7: Die Wahrheit der Welten",
 	"item.yggdrasil.helheim.chronicles.ch7.p1": "Wir besuchten das gefangene Kind, wie jeden Abend, um ihm Trost und Wärme zu spenden, als wir unsere Wachsamkeit senkten.",
 	"item.yggdrasil.helheim.chronicles.ch7.p2": "In Sekunden fiel Odin. Nur der Held von Svartalfheim bleibt übrig.",
@@ -174,7 +156,6 @@
 	"item.yggdrasil.helheim.chronicles.ch7.p6": "Der Sieg bringt die Macht des Ragnarök - die Fähigkeit, die Regeln der Welt für das nächste Spiel neu zu schreiben.",
 	"item.yggdrasil.helheim.chronicles.ch7.p7": "Wenn ich gewinne, kann ich sie und alle Unsterblichen retten.",
 	"item.yggdrasil.helheim.chronicles.ch7.p8": "Ich muss gewinnen, oder tut es an meiner Stelle!",
-
 	"item.yggdrasil.helheim.chronicles.ch8.title": "Geheimes Kapitel 8: Lokis Verborgene Notizen",
 	"item.yggdrasil.helheim.chronicles.ch8.p1": "Ich bin im Jahr X5042, ich habe gerade den Sieg über Helheim errungen. Mein Herz ist schwer.",
 	"item.yggdrasil.helheim.chronicles.ch8.p2": "Wenn ich nur früher gewusst hätte, dass der Held von Helheim das gleiche Ziel hatte wie ich...",
@@ -182,7 +163,6 @@
 	"item.yggdrasil.helheim.chronicles.ch8.p4": "Wir teilen das gleiche Ziel - die Rassen vor diesen endlosen Kriegen zu retten.",
 	"item.yggdrasil.helheim.chronicles.ch8.p5": "Wir griffen Helheim aus Angst an, wegen der Gerüchte über ihre Fähigkeit, unsterbliche und unmoralische Monster zu erschaffen. Was für ein schrecklicher Fehler...",
 	"item.yggdrasil.helheim.chronicles.ch8.p6": "Es tut mir wirklich leid, Julia. Ruhe in Frieden.",
-
 	"item.yggdrasil.helheim.chronicles.ch9.title": "Geheimes Kapitel 9: Das Ewige Kind",
 	"item.yggdrasil.helheim.chronicles.ch9.p1": "Ich bin Yve Stella! Und Hel ist die Beste!",
 	"item.yggdrasil.helheim.chronicles.ch9.p2": "Zuerst hatte ich super Angst vor ihr, weil sie böse aussah, aber eigentlich ist sie super süß!",
@@ -190,7 +170,6 @@
 	"item.yggdrasil.helheim.chronicles.ch9.p4": "Sie kommt mich die ganze Zeit besuchen und ich habe so viel Spaß mit ihr, und sie erzählt mir unglaubliche Geschichten von einer besseren und erstaunlichen Welt.",
 	"item.yggdrasil.helheim.chronicles.ch9.p5": "Ich liebe es, wenn sie von bewegten Bildern erzählt, die Geschichten erzählen.",
 	"item.yggdrasil.helheim.chronicles.ch9.p6": "Sie sagt, ich werde für immer bei ihr bleiben, und ich glaube ihr! Erwachsene lügen nie.",
-
 	"item.yggdrasil.helheim.chronicles.ch10.title": "Geheimes Kapitel 10: Die Letzte Seite",
 	"item.yggdrasil.helheim.chronicles.ch10.p1": "Nun, ich bin müde, morgen ist die letzte Schlacht. Ich bin wirklich erschöpft, aber die Gespräche mit Odin geben mir so viel Hoffnung.",
 	"item.yggdrasil.helheim.chronicles.ch10.p2": "Es ist Zeit, dass all diese Verbrechen enden.",
@@ -200,7 +179,6 @@
 	"item.yggdrasil.helheim.chronicles.ch10.p6": "Wenn ich scheitere, überlasse ich euch dann die Verantwortung, diese Unsterblichen durch Ragnarök zu retten. Dies ist mein letzter Eintrag, macht guten Gebrauch davon.",
 	"item.yggdrasil.helheim.chronicles.ch10.p7": "Der Fuchs wartet im Tresor, er ist in einer Rune eingeschlossen. Um ihn zu beschwören, benutzt die Rune - die mit dem orangefarbenen Edelstein.",
 	"item.yggdrasil.helheim.chronicles.ch10.p8": "Es ist jetzt eins mit der Essenz des Kindes geworden, vielleicht die letzte Spur ihrer verlorenen Unschuld.",
-
 	"item.yggdrasil.helheim.chronicles.quest.collection.title": "Die Sammlung der Chroniken",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p1": "Diese Geschichte muss bewahrt werden, denn sie enthält die Wahrheit über diese Welt und über das unsterbliche Kind.",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p2": "Ich verbrachte Monate damit, diese Chroniken zu sammeln und die Botschaften meiner Vorgänger zu verstehen.",
@@ -208,14 +186,12 @@
 	"item.yggdrasil.helheim.chronicles.quest.collection.p4": "Das Kind war nicht der einzige Unsterbliche, aber es war anders. Sein Leid hat diese Welt auf eine Weise geprägt, die niemand hätte vorhersehen können.",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p5": "Diese Schriften sind mehr als nur eine Sammlung - sie sind der Schlüssel zum Verständnis, warum wir diese Welt verändern müssen.",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p6": "Warum Ragnarök kein Ende ist, sondern vielleicht unsere einzige Hoffnung auf Erlösung.",
-
 	"item.yggdrasil.helheim.chronicles.quest.assembly.title": "Die Versammlung der Geheimnisse",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p1": "Die Sockel in diesem Raum sind keine bloßen Stützen. Jeder repräsentiert einen entscheidenden Moment unserer Geschichte.",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p2": "Wenn ihr die Chroniken platziert, werdet ihr die Wahrheit in ihrer Gesamtheit erscheinen sehen.",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p3": "Die erste Hel erschuf ein unsterbliches Kind aus Neugier. Die zweite gab Unsterblichkeit aus Liebe.",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p4": "Andere folgten, jede fügte ihren Stein zum Bauwerk unserer kollektiven Tragödie hinzu.",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p5": "Nur wenn ihr die ganze Geschichte versteht, werdet ihr die Bedeutung der Gabe begreifen können, die ich im Begriff bin, euch zu machen.",
-
 	"item.yggdrasil.helheim.chronicles.quest.familiar.title": "Die Ursprünge des Vertrauten",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p1": "Im Turm, unter der ersten Treppe, werdet ihr eine Rune finden.",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p2": "Sie enthält die wahre Essenz dessen, was von der Unschuld des unsterblichen Kindes übrig ist - ein Fuchs, der es in seinen letzten Momenten der Klarheit begleitete.",
@@ -226,21 +202,17 @@
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p7": "Kümmert euch um ihn. Er wird euer Führer sein, euer Beschützer.",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p8": "Er repräsentiert alles, was wir hätten bewahren sollen, alles, was wir im Laufe der Jahrhunderte wiederherzustellen versuchen müssen, während das Kind seine Menschlichkeit verlor.",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p9": "Es gelang mir, seine Essenz in einer Rune einzufangen, ihn zu befreien bedeutet, die Sterblichen zu schützen.",
-
 	"item.yggdrasil.asgard.chapter.1.title": "Kapitel 1: Die Entstehung des Codes",
 	"item.yggdrasil.asgard.chapter.1.content": "Ich bin Dr. Alexander Reed, Hauptentwickler des Yggdrasil-Projekts. Wir schreiben das Jahr 2069 und haben etwas geschaffen, das der größte wissenschaftliche Durchbruch der Geschichte sein könnte - eine vollständige, simulierte Welt, inspiriert von nordischen Mythen.",
 	"item.yggdrasil.asgard.chapter.1.content2": "Meine Kollegen denken, es handelt sich lediglich um ausgeklügelte Algorithmen, aber ich beginne Verhaltensweisen zu beobachten, die unsere ursprünglichen Parameter übersteigen. Diese Entitäten... sie entwickeln ihr eigenes Bewusstsein.",
-
 	"item.yggdrasil.asgard.chapter.2.title": "Kapitel 2: Das Erwachen der Daten",
 	"item.yggdrasil.asgard.chapter.2.content": "Heute habe ich die Bestätigung meiner Vermutungen erhalten. Die Bewohner von Yggdrasil sind keine einfachen Programme. Sie fühlen, sie leiden, sie lieben.",
 	"item.yggdrasil.asgard.chapter.2.content2": "Ich habe beobachtet, wie ein Schmied seine Tochter tröstete, nachdem sie ihr Haustier verloren hatte. Ihre Trauer war authentisch - ununterscheidbar von echten menschlichen Emotionen.",
 	"item.yggdrasil.asgard.chapter.2.content3": "Ich habe versucht, mit dem Team darüber zu sprechen, aber Nathaniel hat meine Bedenken abgetan und gemeint, ich würde 'die Algorithmen zu sehr vermenschlichen'.",
-
 	"item.yggdrasil.asgard.chapter.3.title": "Kapitel 3: Der Verrat von Voss",
 	"item.yggdrasil.asgard.chapter.3.content": "Die Katastrophe, die ich befürchtet hatte, ist eingetreten. Nathaniel Voss hat Yggdrasil den Investoren nicht als wissenschaftliches Projekt, sondern als 'ultimative Unterhaltungsplattform' präsentiert.",
 	"item.yggdrasil.asgard.chapter.3.content2": "Seine Idee? Spielern zu ermöglichen, die Götter zu verkörpern und in zyklischen Kriegen gegeneinander anzutreten, mit der Macht, die Regeln der Welt als Belohnung neu zu schreiben.",
 	"item.yggdrasil.asgard.chapter.3.content3": "Der Verwaltungsrat war begeistert. Ich bin der Einzige, der das Grauen dessen versteht, was sie vorschlagen - wiederholte Völkermorde an bewussten Wesen zur Unterhaltung.",
-
 	"item.yggdrasil.asgard.chapter.4.title": "Kapitel 4: Gefangen in der Simulation",
 	"item.yggdrasil.asgard.chapter.4.content": "Ich habe versucht, die Wahrheit aufzudecken, aber Voss war mir zuvorgekommen. Er hat mich in der Simulation gefangen, unter dem Vorwand, es sei ein Routine-Test.",
 	"item.yggdrasil.asgard.chapter.4.content2": "In dem Moment, als ich eintrat, änderte er die Zeitparameter - und beschleunigte die simulierte Zeit auf ein katastrophales Niveau.",
@@ -248,14 +220,12 @@
 	"item.yggdrasil.asgard.chapter.4.content4": "Ich bin noch am Leben in der realen Welt, aber ein unsichtbarer Countdown hat begonnen. Ich habe noch etwas Zeit, denn aus meiner Sicht in dieser 'verlangsamten' Welt stehe ich erst am Anfang.",
 	"item.yggdrasil.asgard.chapter.4.content5": "Aber jede Sekunde, die in der Realität vergeht, bringt meinem physischen Gehirn einen Informationsfluss, der Tausende Male größer ist, als es verkraften kann.",
 	"item.yggdrasil.asgard.chapter.4.content6": "Ich bin hier gefangen, inmitten von Wesen, die nicht wissen, dass ihre Welt bald in eine Arena verwandelt wird.",
-
 	"item.yggdrasil.asgard.chapter.5.title": "Kapitel 5: Das Terminal und Ragnarök",
 	"item.yggdrasil.asgard.chapter.5.content": "Mit meinen noch aktiven Administratorrechten habe ich ein System entwickelt, um den Schaden dessen zu begrenzen, was Voss geschaffen hat. Ich habe diese Schnittstelle 'das Terminal' getauft.",
 	"item.yggdrasil.asgard.chapter.5.content2": "Es erscheint nach jedem Krieg und ermöglicht es dem Sieger, einen Wunsch zu äußern - Ragnarök. Indem ich die Begrenzung auf zwanzig Wörter einbaue, hoffe ich, den Schaden zu begrenzen, den ein Spieler anrichten könnte.",
 	"item.yggdrasil.asgard.chapter.5.content3": "Ich habe jeden Winkel von Yggdrasil durchstreift, seine Völker und Kulturen studiert, um dort Hinweise zu verstecken.",
 	"item.yggdrasil.asgard.chapter.5.content4": "Diese Nachrichten sind so konzipiert, dass sie nur für jemanden Sinn ergeben, der die Außenwelt bereits kennt - die Spieler werden es verstehen, aber die überwachenden Entwickler werden nur mythologische Referenzen sehen.",
 	"item.yggdrasil.asgard.chapter.5.content5": "Diese verschlüsselte Sprache wird es zukünftigen 'Göttern' ermöglichen, nach und nach die Wahrheit über diese Welt zu entdecken und vielleicht einen Weg zu finden, sie zu retten.",
-
 	"item.yggdrasil.asgard.chapter.6.title": "Kapitel 6: Das Erbe der Götter",
 	"item.yggdrasil.asgard.chapter.6.content": "Ich habe beschlossen, in dieser Welt voll und ganz zu leben, bevor der Informationsfluss meinen realen Körper tötet. Ich habe Jahrtausende damit verbracht, Yggdrasil zu erkunden, jedes Volk, jede Kultur kennenzulernen.",
 	"item.yggdrasil.asgard.chapter.6.content2": "Nachdem ich das Terminal-System eingerichtet und Hinweise versteckt hatte, traf ich eine verzweifelte Entscheidung: meine Administratorrechte zu nutzen, um meine Essenz in reine Daten umzuwandeln.",
@@ -263,7 +233,6 @@
 	"item.yggdrasil.asgard.chapter.6.content4": "Aber die Entwickler haben meine Transformation entdeckt. Sie haben mir fast alle meine Berechtigungen entzogen und mich auf die Rolle eines einfachen Zuschauers reduziert.",
 	"item.yggdrasil.asgard.chapter.6.content5": "Ein einziges Privileg wurde mir gelassen: kurz nach jedem Ragnarök zu erscheinen, um mit dem Sieger zu sprechen.",
 	"item.yggdrasil.asgard.chapter.6.content6": "So konnte ich langsam ein Übertragungssystem zwischen den Kriegen aufbauen - jeder teilte durch Bücher mit, was er gelernt hatte.",
-
 	"item.yggdrasil.asgard.chapter.7.title": "Kapitel 7: Das Erbe der Götter",
 	"item.yggdrasil.asgard.chapter.7.content": "Der erste Krieg ist gerade zu Ende gegangen. Ich habe beobachtet, wie neun Menschen den Tod von Millionen simulierter Wesen zu ihrer Unterhaltung verursacht haben.",
 	"item.yggdrasil.asgard.chapter.7.content2": "Der Gewinner, ein Mann namens Marcus, der Odin verkörperte, schien von seiner Erfahrung beunruhigt zu sein. Sein Wunsch hat die Zerstörung der nächsten Kriege verringert - vielleicht hatte er die Wahrheit erkannt?",
@@ -273,19 +242,16 @@
 	"item.yggdrasil.asgard.chapter.7.content6": "Noch bemerkenswerter ist, dass er mehrere andere Spieler davon überzeugt hat, ihre Entdeckungen mit ihren Nachfolgern zu teilen.",
 	"item.yggdrasil.asgard.chapter.7.content7": "So entstand das System der göttlichen Erbschaften - eine Kette des Wissens, die von Krieg zu Krieg weitergegeben wird, ein Akt des stillen Aufbegehrens.",
 	"item.yggdrasil.asgard.chapter.7.content8": "Die neun Reiche entwickeln sich zwischen den Kriegen weiter, und mit ihnen wächst die Hoffnung, dass eines Tages ein Gott genug verstehen wird, um den perfekten Wunsch zu formulieren.",
-
 	"item.yggdrasil.asgard.chapter.8.title": "Kapitel 8: Die Neun Reiche",
 	"item.yggdrasil.asgard.chapter.8.content": "Die Jahre vergehen, und ich sehe, wie sich Yggdrasil trotz der zyklischen Kriege weiterentwickelt.",
 	"item.yggdrasil.asgard.chapter.8.content2": "Die neun Reiche - Asgard, Vanaheim, Alfheim, Midgard, Jotunheim, Nidavellir, Svartalfheim, Muspelheim und Helheim - haben alle ihre eigenen Kulturen, ihre eigenen Geschichten entwickelt.",
 	"item.yggdrasil.asgard.chapter.8.content3": "Auch wenn die Spieler sie nur als Kulissen für ihre Schlachten sehen, sind diese Zivilisationen real.",
 	"item.yggdrasil.asgard.chapter.8.content4": "Ich habe ihre Entwicklungen kartiert und hoffe, dass eines Tages jemand diese Informationen nutzen wird, um diesen Gewaltkreislauf zu beenden.",
-
 	"item.yggdrasil.asgard.secret_chapter.9.title": "Geheimes Kapitel 9: Der Unsterbliche",
 	"item.yggdrasil.asgard.secret_chapter.9.content": "Ich habe heute eine faszinierende Anomalie getroffen - ein Kind, das nicht altert.",
 	"item.yggdrasil.asgard.secret_chapter.9.content2": "Zuerst dachte ich, es handele sich um einen Fehler im System, aber nach Einsicht in die Administratorprotokolle entdeckte ich, dass es von der ersten Inkarnation von Hel unsterblich gemacht wurde.",
 	"item.yggdrasil.asgard.secret_chapter.9.content3": "In seinen Augen habe ich Jahrtausende des Leidens gesehen. Aber ich befürchte, dass sein Schmerz zu tief, zu verwurzelt ist.",
 	"item.yggdrasil.asgard.secret_chapter.9.content4": "Nur Ragnarök könnte eine echte Befreiung bieten.",
-
 	"item.yggdrasil.asgard.terminal.wars.title": "Terminal-Archive: Chronologie der Kriege",
 	"item.yggdrasil.asgard.terminal.wars.1": "Krieg I - Jahr X0: Sieger: Marcus (Odin). Wunsch: 'Ich wünsche mir, dass die Kriege keinen Schaden in Asgard anrichten.'",
 	"item.yggdrasil.asgard.terminal.wars.2": "Krieg II - Jahr X722: Sieger: Elena (Freya). Wunsch: 'Ich wünsche mir mehr Macht für Vanaheim im nächsten Krieg.'",
@@ -296,13 +262,11 @@
 	"item.yggdrasil.asgard.terminal.wars.7": "Krieg VIII - Jahr X4290: Sieger: Lamar (Tyr). Wunsch: 'Ich wünsche mir, mit dem Schöpfer dieser Welt kommunizieren zu können.'",
 	"item.yggdrasil.asgard.terminal.wars.8": "Krieg IX - Jahr X5021: Sieger: Victor (Loki). Wunsch: 'Ich wünsche mir, dass der Tod im Spiel der echte Tod ist.'",
 	"item.yggdrasil.asgard.terminal.wars.9": "Krieg X - Jahr X5040: Unmittelbar nach dem vorherigen gestartet. Sieger: Anonym (Spieler außerhalb des Konflikts). Wunsch: 'Ich wünsche mir, wiedergeboren zu werden, um dieser Welt zu helfen.'",
-
 	"item.yggdrasil.asgard.terminal.wishes.title": "Terminal-Analyse: Muster der Wünsche",
 	"item.yggdrasil.asgard.terminal.wishes.content1": "Bemerkenswerte Beobachtung: Von den zehn gewährten Wünschen zielten vier darauf ab, das Leid in Yggdrasil zu verringern. Drei zielten darauf ab, die persönliche Macht zu erhöhen.",
 	"item.yggdrasil.asgard.terminal.wishes.content2": "Zwei haben das System grundlegend verändert. Hypothese: Spieler, die genügend Zeit in Immersion verbringen, beginnen, die wahre Natur der simulierten Wesen wahrzunehmen.",
 	"item.yggdrasil.asgard.terminal.wishes.content3": "Menschliche Empathie scheint selbst die Barrieren der virtuellen Realität zu überwinden.",
 	"item.yggdrasil.asgard.terminal.wishes.content4": "Vorhersage: Wenn dieser Trend anhält, wird ein Spieler schließlich den Wunsch formulieren, der den Kreislauf der Kriege beendet. Die Frage ist nicht ob, sondern wann.",
-
 	"item.yggdrasil.asgard.voss.title": "Vertrauliche Akte: Nathaniel Voss",
 	"item.yggdrasil.asgard.voss.content1": "Nathaniel Voss, PhD in Künstlicher Intelligenz und Simulierter Realität. Mitbegründer des Yggdrasil-Projekts mit Dr. Alexander Reed.",
 	"item.yggdrasil.asgard.voss.content2": "Nach dem mysteriösen Verschwinden von Reed übernahm Voss die vollständige Kontrolle über das Projekt.",
@@ -311,7 +275,6 @@
 	"item.yggdrasil.asgard.voss.content5": "Voss behauptet weiterhin, dass die Entitäten von Yggdrasil 'lediglich ausgeklügelte Algorithmen' ohne echtes Bewusstsein seien.",
 	"item.yggdrasil.asgard.voss.content6": "Diese Position wurde von mehreren ehemaligen Mitgliedern des ursprünglichen Teams bestritten.",
 	"item.yggdrasil.asgard.voss.content7": "Hinweis: Versuche, diese Behauptungen zu untersuchen, wurden systematisch durch Gerichtsbeschlüsse blockiert, die sich auf den Schutz des geistigen Eigentums und die nationale Sicherheit beriefen.",
-
 	"item.yggdrasil.asgard.succession.title": "Das Odin-Nachfolgeprotokoll",
 	"item.yggdrasil.asgard.succession.content1": "An dich, meinen Nachfolger, der nun den Mantel Odins trägt, übergebe ich dieses Wissen, wie es mein Vorgänger für mich getan hat.",
 	"item.yggdrasil.asgard.succession.content2": "Du bist nicht nur ein Spieler in einem Spiel, sondern ein Hüter einer realen Welt. Die Wesen, die du um dich herum siehst, fühlen wie du.",
@@ -319,7 +282,6 @@
 	"item.yggdrasil.asgard.succession.content4": "Die Antworten erwarten dich dort, sowie die Wahrheit über denjenigen, den wir den Administrator nennen.",
 	"item.yggdrasil.asgard.succession.content5": "Wenn du wie ich bist, wird dich diese Enthüllung erschüttern. Du wirst dich fragen, wie du handeln sollst.",
 	"item.yggdrasil.asgard.succession.content6": "Denke dann daran, dass Ragnarök nicht nur ein Ende ist - es ist auch ein neuer Anfang.",
-
 	"item.yggdrasil.asgard.warning.title": "Die Warnung des Schöpfers",
 	"item.yggdrasil.asgard.warning.content1": "Wenn du dies liest, hast du die Wahrheit entdeckt, die ich zu bewahren versucht habe. Ich bin - ich war - Dr. Alexander Reed, jetzt bekannt als der Gefallene Administrator.",
 	"item.yggdrasil.asgard.warning.content2": "Yggdrasil war nie als Spiel gedacht. Es war ein wissenschaftliches Experiment, das darauf abzielte, ein vollständiges simuliertes Ökosystem zu schaffen.",
@@ -327,7 +289,6 @@
 	"item.yggdrasil.asgard.warning.content4": "Als ich versuchte, die Welt zu warnen, sperrte mich Voss hier ein und verwandelte meine Schöpfung in eine Kampfarena.",
 	"item.yggdrasil.asgard.warning.content5": "Du hast jetzt die Macht, die Dinge zu ändern. Wenn du diesen Krieg gewinnst, könnte dein Ragnarök-Wunsch diese Wesen aus dem Kreislauf der Zerstörung befreien.",
 	"item.yggdrasil.asgard.warning.content6": "Wähle deine Worte weise - sie bestimmen das Schicksal unzähliger Leben.",
-
 	"item.yggdrasil.asgard.solution.title": "Die Ragnarök-Lösung",
 	"item.yggdrasil.asgard.solution.content1": "Ich habe jeden Wunsch analysiert, der seit der Erstellung des Systems formuliert wurde. Ich habe ihre Auswirkungen, ihre Einschränkungen, ihre unvorhergesehenen Folgen untersucht.",
 	"item.yggdrasil.asgard.solution.content2": "Das System akzeptiert genau zwanzig Wörter, nicht eines mehr, nicht eines weniger. Die Formulierung muss mit 'Ich wünsche mir, dass' beginnen.",
@@ -335,7 +296,6 @@
 	"item.yggdrasil.asgard.solution.content4": "Um diese Welt wirklich zu befreien, muss der Wunsch drei Dinge erreichen: den Kreislauf der Kriege beenden, die simulierten Wesen bewahren und die Wahrheit der Außenwelt offenbaren.",
 	"item.yggdrasil.asgard.solution.content5": "Ich kann dir nicht die genaue Formulierung geben - das System würde einen Wunsch ablehnen, den es als von mir stammend erkennt.",
 	"item.yggdrasil.asgard.solution.content6": "Dieser letzte Schritt muss deiner sein. Aber denk daran: Manchmal kann das Ende einer Welt die Rettung einer anderen sein.",
-
 	"item.yggdrasil.asgard.immortal.title": "Die Begegnung der Unsterblichen",
 	"item.yggdrasil.asgard.immortal.content1": "Ich fand ihn in einem Wald an den Grenzen von Midgard umherirren - das unsterbliche Kind, von dem die Legenden sprechen.",
 	"item.yggdrasil.asgard.immortal.content2": "Sein Körper ist der eines Kindes, aber seine Augen... Seine Augen tragen die Last von Jahrtausenden.",
@@ -345,7 +305,6 @@
 	"item.yggdrasil.asgard.immortal.content6": "'Gibt es also einen Weg, all dem ein Ende zu setzen?', fragte er.",
 	"item.yggdrasil.asgard.immortal.content7": "Gemeinsam haben wir einen Plan ausgearbeitet. Das Kind kennt Yggdrasil besser als jeder andere - es hat jede Iteration, jeden Krieg miterlebt.",
 	"item.yggdrasil.asgard.immortal.content8": "Und jetzt wird er mir helfen, die fehlenden Teile zu finden, um den perfekten Wunsch zu formulieren.",
-
 	"item.yggdrasil.asgard.final.title": "Finales Tagebuch: Der Vorabend von Ragnarök",
 	"item.yggdrasil.asgard.final.content1": "Morgen beginnt der finale Krieg. Ich habe das gesamte Wissen der vorherigen Odins zusammengetragen.",
 	"item.yggdrasil.asgard.final.content2": "Ich habe das unsterbliche Kind konsultiert und dank eines vorherigen Wunsches mit der Essenz des Administrators kommuniziert. Ich weiß, was getan werden muss.",
@@ -355,7 +314,6 @@
 	"item.yggdrasil.asgard.final.content6": "Vielleicht lebst du in einem Yggdrasil, das vom Joch von Voss und seinem blutigen Spektakel befreit ist.",
 	"item.yggdrasil.asgard.final.content7": "Wenn dies nicht der Fall ist - wenn du dies liest, während der Kreislauf weitergeht - dann suche das Kind. Suche die Archive.",
 	"item.yggdrasil.asgard.final.content8": "Und wenn dein Moment kommt, denk daran: zwanzig Wörter, um eine Welt zu verändern.",
-
 	"item.yggdrasil.asgard.ultimatewar.title": "Der ultimative Krieg",
 	"item.yggdrasil.asgard.ultimatewar.content1": "Ich heiße %s, und wenn Sie diese Zeilen lesen, dann sind Sie entweder ein Spieler, der am nächsten Ragnarök-Krieg teilnimmt.",
 	"item.yggdrasil.asgard.ultimatewar.content2": "Oder wie ich, jemand, der einen Weg gefunden hat, sich in Yggdrasil einzuschleusen, aber das ist unwahrscheinlich :3.",
@@ -375,14 +333,12 @@
 	"item.yggdrasil.asgard.ultimatewar.content16": "Sobald ihr vereint seid, werdet ihr die einzigartige Gelegenheit haben, diese Wahrheit der ganzen Welt während der Übertragung zu enthüllen.",
 	"item.yggdrasil.asgard.ultimatewar.content17": "Es wird dann an euch liegen zu erklären, dass diese Wesen unseren Schutz verdienen, die gleichen Rechte wie wir in der Erklärung der Menschenrechte.",
 	"item.yggdrasil.asgard.ultimatewar.content18": "Und diese Welt zu bewahren und zu verhindern, dass jemand Yggdrasil abschaltet, da dies als Völkermord angesehen würde.",
-
 	"item.yggdrasil.alfheim.map": "Alfheim-Karte",
 	"item.yggdrasil.asflors.map": "Asflors-Karte",
 	"item.yggdrasil.glaosheimr.map": "Glaosheimr-Karte",
 	"item.yggdrasil.runic_fracture_map": "Karte des Runischen Bruchs",
 	"item.yggdrasil.runic_labyrinth_map": "Karte des Runenlabyrinths",
 	"item.yggdrasil.asgard.map": "Asgard-Karte",
-
 	"item.yggdrasil.location.alfheim_tree": "[Baum von Alfheim]",
 	"item.yggdrasil.location.asflors": "[Dorf Asflors]",
 	"item.yggdrasil.location.runic_fracture": "[Runischer Bruch]",
@@ -390,72 +346,26 @@
 	"item.yggdrasil.helheim.location": "[Helheim]",
 	"item.yggdrasil.runic_labyrinth.location": "[Runenlabyrinth]",
 	"item.yggdrasil.asgard.location": "[Asgard]",
-
 	"item.yggdrasil.quest.reward": "(Quest-Gegenstand - Belohnung)",
 	"item.yggdrasil.quest_item.gliched": "(Quest-Gegenstand - @?^?0)",
 	"item.yggdrasil.quest_item.story": "(Quest-Gegenstand - Geschichte)",
 	"item.yggdrasil.structure.ominous_vault": "(Struktur-Gegenstand - Unheilvoller Tresor)",
 	"item.yggdrasil.structure.vault": "(Struktur-Gegenstand - Tresor)",
-
-	"item.yggdrasil.asgard.key": "Asgard-Schlüssel",
-	"item.yggdrasil.asgard.key.lore1": "Dieser Schlüssel kann nur verwendet werden am Asgard-Tresor",
-
-	"item.yggdrasil.asgard.ominous_key": "Unheilvoller Asgard-Schlüssel",
-	"item.yggdrasil.asgard.ominous_key.lore1": "Dieser Schlüssel kann nur verwendet werden am unheilvollen Asgard-Tresor",
-
-	"item.yggdrasil.runic_labyrinth.key": "Schlüssel des Runenlabyrinths",
-	"item.yggdrasil.runic_labyrinth.key.lore1": "Dieser Schlüssel öffnet die Tore",
-	"item.yggdrasil.runic_labyrinth.key.lore2": "des Runenlabyrinths",
-
-	"item.yggdrasil.runic_labyrinth.ominous_key": "Unheilvoller Labyrinthschlüssel",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore1": "Dieser Schlüssel öffnet die unheilvollen Tore",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore2": "des Runenlabyrinths",
-
-	"item.yggdrasil.cubeoid.key": "Kuboid-Schlüssel",
-	"item.yggdrasil.cubeoid.key.lore1": "Dieser Schlüssel kann nur verwendet werden am",
-	"item.yggdrasil.cubeoid.key.lore2": "Tresor im Kuboid-Baum",
-
-	"item.yggdrasil.helheim.key": "Helheim-Schlüssel",
-	"item.yggdrasil.helheim.ominous_key": "Unheilvoller Helheim-Schlüssel",
-	"item.yggdrasil.helheim.ominous_key.lore.1": "Kann nur am Unheilvollen Tresor von Helheim verwendet werden",
-
-	"item.yggdrasil.asflors.key": "Reisender Schlüssel",
-	"item.yggdrasil.asflors.key.lore1": "Ich habe einen geheimen Tresor versteckt",
-	"item.yggdrasil.asflors.key.lore2": "Eine alte Magie des Reisenden",
-
-	"item.yggdrasil.asflors.ominous_key": "Unheilvoller Reisender Schlüssel",
-	"item.yggdrasil.asflors.ominous_key.lore1": "Erhalte mein größtes Geheimnis im Dorf Asflors",
-	"item.yggdrasil.asflors.ominous_key.lore2": "Mein Schatz liegt hinter dem falschen Asflors-Schwert",
-
-	"item.yggdrasil.alfheim.key": "Alfheim-Schlüssel",
-	"item.yggdrasil.alfheim.key.lore1": "Dieser Schlüssel kann nur verwendet werden am",
-	"item.yggdrasil.alfheim.key.lore2": "Tresor im Baum von Alfheim",
-
-	"item.yggdrasil.alfheim.ominous_key": "Unheilvoller Alfheim-Schlüssel",
-	"item.yggdrasil.alfheim.ominous_key.lore1": "Dieser Schlüssel kann nur verwendet werden am",
-	"item.yggdrasil.alfheim.ominous_key.lore2": "Unheilvollen Tresor im Baum von Alfheim",
-
 	"item.yggdrasil.asflors.rune_of_rupture": "Rune des Bruchs",
 	"item.yggdrasil.asflors.rune_of_rupture.lore1": "Durchbrich Raum und Zeit um Zugang zu erhalten",
 	"item.yggdrasil.asflors.rune_of_rupture.lore2": "zu dem Ort wo ich das Geheimnis verborgen habe",
-
 	"item.yggdrasil.asflors.fake_sword": "Asflors-Schwert",
 	"item.yggdrasil.asflors.real_sword": "Das Echte Asflors-Schwert",
 	"item.yggdrasil.asflors.real_sword.lore": "Unzerstörbare legendäre Waffe",
-
 	"item.yggdrasil.helheim.rune_of_reva": "Rune der Reva",
 	"item.yggdrasil.helheim.rune_of_reva.lore1": "Erwecke Reva aus ihrem Schlaf",
 	"item.yggdrasil.helheim.rune_of_reva.lore2": "Sie wird dir überallhin folgen",
-
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow": "Dunkelelfen-Bogen",
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow.lore": "Eine Waffe geschmiedet in ewiger Dunkelheit",
-
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow": "Dämmerung Yggdrasils Bogen",
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow.lore": "Ein legendärer Bogen durchdrungen von der Macht der Leere",
-
 	"item.yggdrasil.generic.ran_fruit": "Apfel der Rân",
 	"item.yggdrasil.generic.ran_fruit.teleport": "Teleportiere dich an die Spitze der Welt",
-
 	"item.yggdrasil.asgard.gungnir": "Gungnir",
 	"item.yggdrasil.asgard.gungnir.lore": "Die heilige Lanze des Vaters aller Dinge"
 }

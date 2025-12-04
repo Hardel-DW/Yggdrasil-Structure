@@ -6,16 +6,6 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"value": "yggdrasil:alfheim_tree/spawner/key"
-				}
-			],
-			"rolls": 1.0
-		},
-		{
-			"bonus_rolls": 0.0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
 					"value": "yggdrasil:alfheim_tree/enchanted_book/random_loot",
 					"weight": 2,
 					"conditions": [

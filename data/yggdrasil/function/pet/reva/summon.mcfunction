@@ -1,1 +1,0 @@
-summon fox ~ ~ ~ {equipment: {mainhand: {id: "minecraft:apple", count: 1}}, Tags:["yggdrasil.reva_pet"], NoAI:true, CustomName:"\"Reva's Pet\"", Invulnerable:true, NoGravity:true, Silent:true, PersistenceRequired:true, attributes:[{id:"minecraft:scale", base: 0.35}]}

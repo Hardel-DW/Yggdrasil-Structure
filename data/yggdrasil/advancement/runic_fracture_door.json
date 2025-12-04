@@ -26,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "yggdrasil:runic_fracture/open"
+		"function": "yggdrasil:runic_fracture_door"
 	}
 }

@@ -15,8 +15,12 @@
 			}
 		}
 	},
-	"requirements": [["requirement"]],
+	"requirements": [
+		[
+			"requirement"
+		]
+	],
 	"rewards": {
-		"function": "yggdrasil:generic/ran_fruit"
+		"function": "yggdrasil:ran_fruit"
 	}
 }

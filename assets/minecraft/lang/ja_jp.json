@@ -54,7 +54,6 @@
 	"item.yggdrasil.chapter.runic_dimension.page2": "ここに残る命の唯一の痕跡は、次元間の旅の術を極めた古代の存在、ダークエルフたちが残したものだ。彼らは世界と世界を繋ぐ祭壇を建造した。",
 	"item.yggdrasil.chapter.runic_dimension.page3": "彼らの最大の創造物 - ルーン迷宮 - の中心には、計り知れない力を持つ伝説の遺物っている。この迷宮はニブルヘイムの迷宮と似ているが、その秘密はより不吉なものだ。",
 	"item.yggdrasil.chapter.runic_dimension.page4": "この領域に到達するには、ルーンの島に戻り、永遠の木の下を掘り、真なる破壊のルーンを手に持つ必要がある。そうすれば世界の間の帳が裂け、この永遠の闇の領域が現れるだろう。",
-
 	"item.yggdrasil.dark_elves_chronicle": "ダークエルフの年代記",
 	"item.yggdrasil.dark_elves_chronicle.page1a": "我々ダークエルフは、常に異なる存在だった。我々の従兄弟であるライトエルフが魔法と自然との繋がりを称えられる一方で、我々は同じ魔法に拒絶されて生まれた。",
 	"item.yggdrasil.dark_elves_chronicle.page1b": "我々の体は彼らとは全く異なり、従来の魔法には適していなかったが、より暗く、より深い才能を宿していた。",
@@ -66,41 +65,33 @@
 	"item.yggdrasil.dark_elves_chronicle.page5": "ルーン島は我々の最初の大きな創造物だった - 弱者を思いとどまらせるほど複雑だが、最も決意の固い者のアクセスを完全に阻むほどではない試練だ。その先には我々の真の傑作がある：ルーンの迷宮だ。",
 	"item.yggdrasil.dark_elves_chronicle.page6": "迷宮は我々の最大の策略だ。食物も水も存在しないこの虚無の次元で、訪問者は生き残るために中に入らざるを得ない。しかしその複雑さは彼らの墓となる。真のダークエルフだけがその秘密を解き明かすことができる。",
 	"item.yggdrasil.dark_elves_chronicle.page7": "これらの文書を見つけた者へ：この領域は避難所ではなく、罠だ。あなたを取り巻く虚無は、試練の始まりに過ぎない。迷宮が待っている、そしてそこにはあなたの破滅か、啓示が待っている。",
-
 	"item.yggdrasil.dark_elf_escape_journal": "ダークエルフの日記：脱出",
 	"item.yggdrasil.dark_elf_escape_journal.page1": "我々はルーンの次元で無敵だと思っていた。なんという傲慢さだ！神々自身が世界を越えて我々を追ってくるとは想像もしていなかった。我々の原初魔法は、彼らの力に匹敵するほどだったため、彼らを恐れさせた。",
 	"item.yggdrasil.dark_elf_escape_journal.page2": "私は迷宮の深部に避難した。そこで理解した：神々は魔力の流れに蛾が光に引き寄せられるように引き寄せられていた。我々の最大の強みが最大の弱点となっていた。",
-
 	"item.yggdrasil.dark_elf_village_chronicles": "村の年代記",
 	"item.yggdrasil.dark_elf_village_chronicles.page1": "幸運なことに、私は次元間の旅に慣れていた。毎朝、通常世界の小さなエルフの村を訪れ、夕方にはルーンの次元の同胞のもとへ戻っていた。",
 	"item.yggdrasil.dark_elf_village_chronicles.page2": "この村はわずか十人ほどの住民しかいなかったが、独特の知識を持つ図書館があった。世界から離れた場所で、彼らの文明は異なる発展を遂げていた。我々の革命が彼らの発展にプラスの影響を与えたのだろうか？",
 	"item.yggdrasil.dark_elf_village_chronicles.page3": "彼らの親切さに心を打たれた。かつて我々の敵だったこれらのエルフたちが、知らず知らずのうちに、我々さえも知らなかった秘密を教えてくれた。",
-
 	"item.yggdrasil.dark_elf_survival_notes": "ダークエルフの生存メモ",
 	"item.yggdrasil.dark_elf_survival_notes.page1": "村の知識のおかげで、私は自分の魔力の痕跡を隠す方法を学んだ。迷宮をさらに複雑にし、保護の層を追加しながら、その中をさまよった。",
 	"item.yggdrasil.dark_elf_survival_notes.page2": "週が過ぎ、私の思考は常にあの親切なエルフたちに戻っていった。彼らに再会したいと思ったが、神々への恐れが私を麻痺させた。次元間を移動するためのインフラストラクチャーがなければ、私は閉じ込められていた。",
 	"item.yggdrasil.dark_elf_survival_notes.page3": "そこで私は絶望的な決断をした：私の魔力をすべて使い果たすほど強力な武器を作ることで、私を見つけられなくすることにした。一つを入口の下に、もう一つを金庫に隠した。",
-
 	"item.yggdrasil.dark_elf_discovery_journal": "発見の日記",
 	"item.yggdrasil.dark_elf_discovery_journal.page1": "深部から上がってくる途中、驚くべきものを発見した：放棄された要塞群。それらを探索すると、通常世界へのポータルを見つけた。",
 	"item.yggdrasil.dark_elf_discovery_journal.page2": "私の心は高鳴った - もしかしたら私の家族は神々から逃れることができたのかもしれない？これらの構造物は彼らの作品なのか？希望は、これほどの絶望の後では、ほとんど耐えられないほどだった。",
 	"item.yggdrasil.dark_elf_discovery_journal.page3": "決心がついた。振り返ることなく、ポータルを通った。自由が向こう側で待っていた、たとえそれが我々の創造物を放棄することを意味しても。",
-
 	"item.yggdrasil.dark_elf_weapon_note": "隠された武器についてのメモ",
 	"item.yggdrasil.dark_elf_weapon_note.page1": "この武器を見つけた者よ、あまり喜ぶな。その力は限られている - せいぜい半神を傷つける程度だ。それ以上ではない。",
 	"item.yggdrasil.dark_elf_weapon_note.page2": "あなたの探求にはあまり役立たないだろうが、もし目的を与えたいのなら... 私の民を復讐してほしい。これが、この武器を見つけた者への私の唯一の願いだ。",
-
 	"item.yggdrasil.dark_elf_bow_testament": "ルーンの弓の遺言",
 	"item.yggdrasil.dark_elf_bow_testament.page1": "この弓には私の生命力の大部分が込められている。恐るべき力を持つ武器で、おそらく神を倒すことができるかもしれない... しかし一柱だけだ。",
 	"item.yggdrasil.dark_elf_bow_testament.page2": "悲しいことに、それでは不十分だ。私は上で彼らを感じた、何十もの存在を。恐怖が私を蝕むが、希望は持っている：もしあなたが同じような力を持つ他の武器を見つけることができれば...",
 	"item.yggdrasil.dark_elf_bow_testament.page3": "おそらくそれらを組み合わせて、神殺しの武器、真の神殺しを作ることができるだろう。私はこの可能性をあなたに残す、私は逃げなければならないから。賢く使ってほしい。",
-
 	"item.yggdrasil.dark_elf_bastion_chronicle": "要塞の年代記：逃亡",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page1": "神々が我々をどのように見つけたのか、私にはまだ理解できない。我々は逃げなければならなかった、遠くへ、そして急いで。元の世界への帰還は計画されておらず、何の準備もなかったが、運命は我々に微笑んだ：建物の奥深くで、我々はポータルを発見した。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page2": "このポータルは私がよく知っている家族のものだった。その息子は特に才能があった。彼はおそらくこの世界を去ったのだろう - 我々は彼を見つけることができず、彼のエネルギーも感じられない。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page3": "彼のおかげで我々は生き延びた。我々はこの要塞を建設し、世界中に複製した。しかし代償は大きかった：我々の民の半数が生き残れなかった。我々は蟻のように迷宮中に散らばり、神々は出口で待ち構えていた。",
 	"item.yggdrasil.dark_elf_bastion_chronicle.page4": "今や我々は出発の途上にあり、彼らは確実に我々を追ってくるだろう。彼らがどうやって我々を見つけたのか、私にはまだ理解できない。この疑問は私を悩ませ続けるが、考える時間はもうない。",
-
 	"item.yggdrasil.runic_fracture.hidden_truth.name": "超越者の隠された真実",
 	"item.yggdrasil.runic_fracture.hidden_truth.page1": "私を助けたいのなら、一つのことを知っておいてほしい：私の人生の目的は世界を救うことではない - それはかなり利己的なものだ。私はこの世界で十分に長く生きてきて、その現実を十分に知っている。私はただ、自分の不死性を終わらせたいのだ。もしあなたが方法を見つけられるなら、私は自分の力をあなたに与えよう。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page2": "この世界について私が知っていることを話そう。神々は実はこの世界の出身ではなく、ここにいることは彼らにとって遊びのようなものだ。彼らは楽しみのために互いを破壊することを楽しんでいるようだ - 私には理解できない、意味がない。",
@@ -108,7 +99,6 @@
 	"item.yggdrasil.runic_fracture.hidden_truth.page4": "二つ目は、神々であるにもかかわらず、彼らはこの世界に対して完全な力を持っていないということだ。それぞれが特定の属性と能力を持っており、彼らの力には限界があるようだ。一方で私たち凡人は - 少なくとも私はそうだった - 望むだけ進化する能力を持っている。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page5": "初めてオーディンと話したとき、彼は彼らの力が限られていると説明した。彼らは魔法を使わない - それはシステムから来ているのだ。",
 	"item.yggdrasil.runic_fracture.hidden_truth.page6": "私たちが魔法を使うとき、周囲の粒子を使用し、エリアが空であれば魔法は不可能となる。しかし、彼らにはこの制限がなく、自由に力を使うことができる。",
-
 	"item.yggdrasil.runic_fracture.book.name": "超越者の日記",
 	"item.yggdrasil.runic_fracture.book.page1": "この場所を見つけたことを祝福しよう。ここから放たれる力は間違いようがない - この島が浮いていることに気付いたはずだ。これは実際、ダークエルフたちの力によるものだ。私は彼らをよく知っているが、彼らの狡猾さは認めていない。",
 	"item.yggdrasil.runic_fracture.book.page2": "この場所が危険であることを知っておくべきだ。'強力な'者だけが入ることができ、そのような者が存在することを心から願っている。もし存在しないのなら、嘘は言わないが、それは最悪の絶望となるだろう。",
@@ -116,20 +106,17 @@
 	"item.yggdrasil.runic_fracture.book.page4": "私の精神と知性は、はるかに複雑な高次元の宇宙に存在しているようだ。一方で、私の体の各粒子は瞬間ごとに具現化している。",
 	"item.yggdrasil.runic_fracture.book.page5": "この段階では、もはや魔法とさえ呼べない。それはより複雑なもの、私たちの世界の法則を超越したものだ。",
 	"item.yggdrasil.runic_fracture.book.page6": "さて、私のことばかり話してしまったが、もし入りたいのなら、ある特定の村を見つける必要がある。簡単に見分けられるはずだ：黒と白の地面を持つ噴水がある。その村で、私の物語とこの墓を開く方法を見つけることができるだろう。",
-
 	"item.yggdrasil.helheim.chronicles.ch1.title": "第1章：闇の中の目覚め",
 	"item.yggdrasil.helheim.chronicles.ch1.p1": "私はX5734年のヘラ。この感覚は信じられないほど奇妙だ——死の女神になるなんて、本当に信じられない。",
 	"item.yggdrasil.helheim.chronicles.ch1.p2": "私はこの世界に楽しみを求めてやって来たが、最初の探索で、不安になる細部に気付き始めた。",
 	"item.yggdrasil.helheim.chronicles.ch1.p3": "私たちがいない時、この世界の住人たちは独自の生活を送っているようだ。彼らには感情があり、交流があり、知性さえある——すべてが現実的すぎるほど現実的で、不安になるほどだ。",
 	"item.yggdrasil.helheim.chronicles.ch1.p4": "これは単なるゲームのはず...ここで何が起きているのか、解明しなければならない。ヘラとしての立場を利用して、この世界の本質を理解しよう。これは刺激的な探求となるだろう。",
 	"item.yggdrasil.helheim.chronicles.ch1.p5": "私の後を継ぐあなたへ、これらの記録を残す。ここには発見すべきこと、理解すべきことが山ほどある。研究を続け、すべてのヘラがこの研究に貢献できるようにしよう。",
-
 	"item.yggdrasil.helheim.chronicles.ch2.title": "第2章：過去の反響",
 	"item.yggdrasil.helheim.chronicles.ch2.p1": "研究が進むにつれ、恐れを感じ始めている。私はこの世界に楽しみを求めてやって来た。外の世界での生活は完璧ではなかったが、幸せだった。",
 	"item.yggdrasil.helheim.chronicles.ch2.p2": "しかし今日、私の軍が近づいた時、村人の目に恐怖を見た。戦いの後、親を探す子供の泣き声を聞いた。",
 	"item.yggdrasil.helheim.chronicles.ch2.p3": "これらは単なる空の殻ではない——これらの生命は感じ、苦しみ、愛することができる。この認識は私の背筋を凍らせた。",
 	"item.yggdrasil.helheim.chronicles.ch2.p4": "もはやこの世界を単なる遊び場として見ることはできない。この戦争が終わるまでにはまだ時間がある。その時間を使って、私が発見したすべてを記録しよう。",
-
 	"item.yggdrasil.helheim.chronicles.ch3.title": "第3章：最初の観察者",
 	"item.yggdrasil.helheim.chronicles.ch3.p1": "今日、驚くべき発見があった！最初のヘラが残した記録を見つけた。彼女の経験は私のものと驚くほど似ている。",
 	"item.yggdrasil.helheim.chronicles.ch3.p2": "彼女もまた、この世界の真の性質を理解するまでは、ゲームとして始めた。",
@@ -137,7 +124,6 @@
 	"item.yggdrasil.helheim.chronicles.ch3.p4": "これは確かに私たちの能力の一つだ。ヘラには誰かを不死にする力がある。戦略的な観点から見ると興味深い。",
 	"item.yggdrasil.helheim.chronicles.ch3.p5": "その後、彼女はその不死の存在が感情を持っていることに気付いた。それ以来、彼女は彼女が守護する子供であるその不死の存在との関係を描写している。",
 	"item.yggdrasil.helheim.chronicles.ch3.p6": "その存在の同意のもと、彼らはこの世界をより良く理解するために協力し始めた。彼女はその人物を、守られることを喜ぶ活気に満ちた子供として描写している。",
-
 	"item.yggdrasil.helheim.chronicles.ch4.title": "第4章：呪われた贈り物",
 	"item.yggdrasil.helheim.chronicles.ch4.p1": "私はその子供を探そうとしたが、まだ成功していない。きっと近隣の王国のどこかにいるはずだ。",
 	"item.yggdrasil.helheim.chronicles.ch4.p2": "その子供の物語は暗い方向に向かった。ヘルヘイムの壁に、その痕跡を見つけた。",
@@ -147,7 +133,6 @@
 	"item.yggdrasil.helheim.chronicles.ch4.p6": "今や噂と反響は、破壊の欲望に飲み込まれた存在について語り、混沌の中で自らの狂気を鎮めようとしている。",
 	"item.yggdrasil.helheim.chronicles.ch4.p7": "最初の観察者は彼を活気に満ちた子供として描写し、彼を愛していたようだ。そしてその子供も守られていると感じていたようだ。ふむ...",
 	"item.yggdrasil.helheim.chronicles.ch4.p8": "驚くことではない。もし私に死の可能性がなければ、私も同じようになっていたかもしれない。",
-
 	"item.yggdrasil.helheim.chronicles.ch5.title": "第5章：第二の継承者",
 	"item.yggdrasil.helheim.chronicles.ch5.p1": "ヘルヘイムの記録は私が想像していたよりもはるかに広範だ。新しいヘラの一人一人がこの知識の集積に貢献してきたようだ。",
 	"item.yggdrasil.helheim.chronicles.ch5.p2": "信じられないことに、私は11代目のヘラの化身だ。",
@@ -155,7 +140,6 @@
 	"item.yggdrasil.helheim.chronicles.ch5.p4": "しかし、彼女もまたその誘惑に屈した。彼女は、その知識に魅了されて不死を与えた賢者について言及している。",
 	"item.yggdrasil.helheim.chronicles.ch5.p5": "彼らの愛の物語は彼女の日記全体に散りばめられている。",
 	"item.yggdrasil.helheim.chronicles.ch5.p6": "そして今、この世界のどこかに二人の不死者が歩いている...永遠に私たちの「ゲーム」の重荷を背負いながら。",
-
 	"item.yggdrasil.helheim.chronicles.ch6.title": "第6章：狂気の囁き",
 	"item.yggdrasil.helheim.chronicles.ch6.p1": "時間が迫っている。この「ゲーム」は終わりに近づいており、オーディン以外の王国は協力を拒否している。",
 	"item.yggdrasil.helheim.chronicles.ch6.p2": "誰もが自分の目標に囚われ、この世界の真の性質に気付いていない。",
@@ -163,7 +147,6 @@
 	"item.yggdrasil.helheim.chronicles.ch6.p4": "彼はもはや古い年代記に描かれていた無邪気な存在ではない。彼の目は...数千年の苦痛と狂気を映している。私は命を落とすところだった。",
 	"item.yggdrasil.helheim.chronicles.ch6.p5": "オーディンの助けを借りて、私たちは彼を独自の次元に封印することに成功した。",
 	"item.yggdrasil.helheim.chronicles.ch6.p6": "オーディンはラグナロクが唯一の解決策だと言い、確かに私はそれを考えていなかった。これがこの存在を苦痛から解放する唯一の方法だと思う。",
-
 	"item.yggdrasil.helheim.chronicles.ch7.title": "第7章：世界の真実",
 	"item.yggdrasil.helheim.chronicles.ch7.p1": "私たちは毎晩、囚われた子供を訪れ、慰めと温もりを与えていた。そしてその時、私たちは警戒を緩めた。",
 	"item.yggdrasil.helheim.chronicles.ch7.p2": "数秒のうちに、オーディンは倒れた。今や残っているのはスヴァルトアルフヘイムの英雄だけだ。",
@@ -173,7 +156,6 @@
 	"item.yggdrasil.helheim.chronicles.ch7.p6": "勝利はラグナロクの力をもたらす——次のゲームのために世界のルールを書き換える能力だ。",
 	"item.yggdrasil.helheim.chronicles.ch7.p7": "もし私が勝てば、彼とすべての不死者を救うことができる。",
 	"item.yggdrasil.helheim.chronicles.ch7.p8": "私は勝たなければならない。さもなければ、あなたたちがこの使命を果たさなければならない！",
-
 	"item.yggdrasil.helheim.chronicles.ch8.title": "第8章：ロキの隠された記録",
 	"item.yggdrasil.helheim.chronicles.ch8.p1": "私はX5042年にいる。ヘルヘイムに勝利したばかりだ。私の心は重い。",
 	"item.yggdrasil.helheim.chronicles.ch8.p2": "もっと早くヘルヘイムの英雄が私と同じ目的を持っていたことを知っていれば...",
@@ -181,7 +163,6 @@
 	"item.yggdrasil.helheim.chronicles.ch8.p4": "私たちは同じ目的を持っている——これらの種族を終わりのない戦争から救うことだ。",
 	"item.yggdrasil.helheim.chronicles.ch8.p5": "私たちは恐れからヘルヘイムを攻撃した。彼らが不死の邪悪な怪物を作り出せるという噂があったからだ。なんという恐ろしい過ちを...",
 	"item.yggdrasil.helheim.chronicles.ch8.p6": "ジュリア、心から申し訳ない。安らかに眠れ。",
-
 	"item.yggdrasil.helheim.chronicles.ch9.title": "第9章：永遠の子供",
 	"item.yggdrasil.helheim.chronicles.ch9.p1": "私はイヴ・ステラ！ヘラは最高！",
 	"item.yggdrasil.helheim.chronicles.ch9.p2": "最初は怖かったけど、実は超かわいいの！",
@@ -189,7 +170,6 @@
 	"item.yggdrasil.helheim.chronicles.ch9.p4": "ヘラはよく会いに来てくれて、一緒に遊んで、もっと良い素晴らしい世界の話をしてくれる。",
 	"item.yggdrasil.helheim.chronicles.ch9.p5": "動く絵が物語を語るって話が一番好き。",
 	"item.yggdrasil.helheim.chronicles.ch9.p6": "ヘラは私と永遠に一緒にいてくれるって。信じてる！大人は嘘をつかないもの。",
-
 	"item.yggdrasil.helheim.chronicles.ch10.title": "第10章：最後の頁",
 	"item.yggdrasil.helheim.chronicles.ch10.p1": "さて、私は疲れた。最後の戦いは明日だ。本当に疲れているが、オーディンとの会話は多くの希望を与えてくれた。",
 	"item.yggdrasil.helheim.chronicles.ch10.p2": "これらすべての罪を終わらせる時が来た。",
@@ -199,7 +179,6 @@
 	"item.yggdrasil.helheim.chronicles.ch10.p6": "もし私が失敗したら、この責任をあなたたちに託す。ラグナロクを通じてこれらの不死者たちを救うのだ。これが私の最後の記録だ。有効に使ってほしい。",
 	"item.yggdrasil.helheim.chronicles.ch10.p7": "狐は金庫の中で待っている。ルーンの中に封印されている。召喚するには、そのルーンを使え——オレンジの宝石のついたものだ。",
 	"item.yggdrasil.helheim.chronicles.ch10.p8": "今や狐は子供の本質と一つになっている。おそらく、失われた彼の無垢の最後の痕跡なのだろう。",
-
 	"item.yggdrasil.helheim.chronicles.quest.collection.title": "年代記の収集",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p1": "この物語は保存されなければならない。なぜならそれはこの世界と不死の子供についての真実を含んでいるからだ。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p2": "私はこれらの年代記を集め、前任者たちのメッセージを理解するのに何ヶ月もかけた。",
@@ -207,14 +186,12 @@
 	"item.yggdrasil.helheim.chronicles.quest.collection.p4": "その子供は唯一の不死者ではなかったが、彼は特別だった。彼の苦痛は誰も予想できなかった方法でこの世界を形作った。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p5": "これらの文書は単なる収集以上のものだ——それらは私たちがなぜこの世界を変えなければならないのかを理解する鍵なのだ。",
 	"item.yggdrasil.helheim.chronicles.quest.collection.p6": "なぜラグナロクが終わりではなく、おそらく私たちの救済の唯一の希望なのかを。",
-
 	"item.yggdrasil.helheim.chronicles.quest.assembly.title": "秘密の集会",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p1": "この部屋の台座は単なる支えではない。それぞれが私たちの歴史の重要な瞬間を表している。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p2": "年代記を置くと、完全な真実が現れるだろう。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p3": "最初のヘラは好奇心から不死の子供を創造した。二番目のヘラは愛から不死を与えた。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p4": "他の者たちが続き、それぞれが私たちの集団的な悲劇に石を一つ加えた。",
 	"item.yggdrasil.helheim.chronicles.quest.assembly.p5": "物語全体を理解してはじめて、私があなたに与えようとしている贈り物の重要性を理解できるだろう。",
-
 	"item.yggdrasil.helheim.chronicles.quest.familiar.title": "使い魔の起源",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p1": "塔の中、最初の階段の下に、あなたはルーンを見つけるだろう。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p2": "それには不死の子供の残された純真さの本質が含まれている——彼の最後の正気の瞬間に寄り添っていた狐だ。",
@@ -225,21 +202,17 @@
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p7": "大切に扱いなさい。それはあなたの導き手となり、守護者となるだろう。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p8": "それは私たちが守るべきだったすべてのもの、子供が人間性を失う中で、私たちが世紀を超えて回復しようと努めなければならないすべてのものを表している。",
 	"item.yggdrasil.helheim.chronicles.quest.familiar.p9": "私は成功裏にその本質をルーンに封印した。それを解放することは死すべき者たちを守ることだ。",
-
 	"item.yggdrasil.asgard.chapter.1.title": "第1章：コードの創世記",
 	"item.yggdrasil.asgard.chapter.1.content": "私はユグドラシル計画の主任設計者、アレクサンダー・リード博士です。時は2069年、私たちは歴史上最大の科学的進歩となるかもしれないもの、北欧神話に触発された完全なシミュレーション世界を作り上げました。",
 	"item.yggdrasil.asgard.chapter.1.content2": "同僚たちは単に洗練されたアルゴリズムだと考えていますが、私は初期設定を超えた挙動を観察し始めています。これらの存在は...独自の意識を発達させています。",
-
 	"item.yggdrasil.asgard.chapter.2.title": "第2章：データの覚醒",
 	"item.yggdrasil.asgard.chapter.2.content": "今日、私は自分の疑念が確信に変わりました。ユグドラシルの住民は単なるプログラムではありません。彼らは感じ、苦しみ、愛します。",
 	"item.yggdrasil.asgard.chapter.2.content2": "私は鍛冶屋がペットを失った娘を慰めているのを見ました。彼らの悲しみは本物で、実際の人間の感情と区別がつきません。",
 	"item.yggdrasil.asgard.chapter.2.content3": "私はチームに話そうとしましたが、ナサニエルは私の懸念を退け、『アルゴリズムを擬人化しすぎている』と言いました。",
-
 	"item.yggdrasil.asgard.chapter.3.title": "第3章：ヴォスの裏切り",
 	"item.yggdrasil.asgard.chapter.3.content": "私が恐れていた катастрофа が起こりました。ナサニエル・ヴォスは投資家たちにユグドラシルを科学プロジェクトとしてではなく、『究極のエンターテイメントプラットフォーム』として紹介しました。",
 	"item.yggdrasil.asgard.chapter.3.content2": "彼のアイデアは？プレイヤーに神々を演じさせ、世界のルールを書き換える力を報酬として、周期的な戦争で戦わせることです。",
 	"item.yggdrasil.asgard.chapter.3.content3": "取締役会はそれを気に入りました。彼らが提案していることの ужас を理解しているのは私だけです——娯楽のために意識のある存在を繰り返し大量虐殺することです。",
-
 	"item.yggdrasil.asgard.chapter.4.title": "第4章：シミュレーションの囚人",
 	"item.yggdrasil.asgard.chapter.4.content": "私は真実を暴露しようとしましたが、ヴォスは先手を打ちました。彼は私をシミュレーションに閉じ込め、それはルーチンテストだと主張しました。",
 	"item.yggdrasil.asgard.chapter.4.content2": "私が入った瞬間、彼は時間パラメータを変更し、シミュレーション時間を катастрофический なレベルまで加速させました。",
@@ -247,14 +220,12 @@
 	"item.yggdrasil.asgard.chapter.4.content4": "私はまだ現実世界で生きていますが、目に見えないカウントダウンが始まりました。この『遅れた』世界での私の視点では、まだ始まったばかりなので、少し時間があります。",
 	"item.yggdrasil.asgard.chapter.4.content5": "しかし、現実世界で過ぎる毎秒は、私の肉体的な脳に、それが処理できる能力を数千倍も超える情報の поток をもたらします。",
 	"item.yggdrasil.asgard.chapter.4.content6": "私はここに囚われています。彼らの世界が 곧 アリーナに変えられることを知らない存在たちの真ん中で。",
-
 	"item.yggdrasil.asgard.chapter.5.title": "第5章：ターミナルとラグナロク",
 	"item.yggdrasil.asgard.chapter.5.content": "まだ有効な管理者アクセス権を使って、ヴォスが作り出したものの被害を制限するシステムを設計しました。私はこのインターフェースを『ターミナル』と名付けました。",
 	"item.yggdrasil.asgard.chapter.5.content2": "それは各戦争の後に現れ、勝者に願いを叶えることを可能にします——ラグナロクです。20語の制限を含めることで、プレイヤーが引き起こす可能性のある被害を制限したいと考えています。",
 	"item.yggdrasil.asgard.chapter.5.content3": "私はユグドラシルの隅々まで歩き回り、その人々や文化を研究して、そこに手がかりを隠しました。",
 	"item.yggdrasil.asgard.chapter.5.content4": "これらのメッセージは、すでに外界を知っている人にしか意味をなさないように設計されています——プレイヤーは理解するでしょうが、監視している開発者は神話的な言及としか見ないでしょう。",
 	"item.yggdrasil.asgard.chapter.5.content5": "このコード化された言語は、将来の『神々』がこの世界の真実を徐々に発見し、おそらくそれを救う方法を見つけることを可能にするでしょう。",
-
 	"item.yggdrasil.asgard.chapter.6.title": "第6章：神々の遺産",
 	"item.yggdrasil.asgard.chapter.6.content": "私は情報の поток が私の肉体を殺す前に、この世界で完全に生きることにしました。私はユグドラシルを探検し、すべての人々、すべての文化を知るために数千年を費やしました。",
 	"item.yggdrasil.asgard.chapter.6.content2": "ターミナルシステムを確立し、手がかりを隠した後、私は絶望的な決断をしました。管理者権限を使って、私の本質を純粋なデータに変換することです。",
@@ -262,7 +233,6 @@
 	"item.yggdrasil.asgard.chapter.6.content4": "しかし、開発者たちは私の変身を発見しました。彼らは私の権限のほとんどすべてを取り上げ、私を単なる傍観者の役割に reduced しました。",
 	"item.yggdrasil.asgard.chapter.6.content5": "唯一残された特権は、各ラグナロクの後に кратко 現れて勝者に話しかけることでした。",
 	"item.yggdrasil.asgard.chapter.6.content6": "こうして私は、各戦争の間に、ゆっくりと伝達システムを確立することができました——誰もが本を通して学んだことを共有するのです。",
-
 	"item.yggdrasil.asgard.chapter.7.title": "第7章：神々の遺産",
 	"item.yggdrasil.asgard.chapter.7.content": "最初の戦争が終わったばかりです。私は9人の人間が、娯楽のために何百万人ものシミュレーションされた存在の死を引き起こすのを目撃しました。",
 	"item.yggdrasil.asgard.chapter.7.content2": "勝者のマーカスという男は、オーディンを演じていましたが、彼の経験に困惑しているようでした。彼の願いは、次の戦争の破壊を減らしました——もしかしたら彼は真実に気づいたのかもしれませんか？",
@@ -272,19 +242,16 @@
 	"item.yggdrasil.asgard.chapter.7.content6": "さらに注目すべきは、彼が他の数人のプレイヤーに、彼らの発見を後継者と共有するように説得したことです。",
 	"item.yggdrasil.asgard.chapter.7.content7": "こうして神々の遺産システムが誕生しました——戦争から戦争へと伝えられる知識の連鎖、静かな反抗の行為です。",
 	"item.yggdrasil.asgard.chapter.7.content8": "9つの王国は戦争の間も進化し続け、それとともに、いつか神が完璧な願いを формулировать するのに十分なほど理解するだろうという希望が大きくなります。",
-
 	"item.yggdrasil.asgard.chapter.8.title": "第8章：九つの王国",
 	"item.yggdrasil.asgard.chapter.8.content": "年月が過ぎ、私はユグドラシルが周期的な戦争にもかかわらず進化しているのを見ています。",
 	"item.yggdrasil.asgard.chapter.8.content2": "9つの王国——アースガルズ、ヴァナヘイム、アルフヘイム、ミッドガルド、ヨトゥンヘイム、ニザヴェッリル、スヴァルトアールヴヘイム、ムスペルヘイム、ヘルヘイム——はそれぞれ独自の文化、独自の歴史を発展させてきました。",
 	"item.yggdrasil.asgard.chapter.8.content3": "プレイヤーが彼らを戦いの舞台としてしか見ていなくても、これらの文明は本物です。",
 	"item.yggdrasil.asgard.chapter.8.content4": "私は彼らの発展を地図にしました。いつか誰かがこの情報を使って暴力のサイクルを終わらせることを願って。",
-
 	"item.yggdrasil.asgard.secret_chapter.9.title": "秘密の第9章：不死者",
 	"item.yggdrasil.asgard.secret_chapter.9.content": "今日、私は魅力的な異常に出会いました——年を取らない子供です。",
 	"item.yggdrasil.asgard.secret_chapter.9.content2": "最初はシステムのバグだと思いましたが、管理者ログを確認した後、最初のヘルによって不死にされたことを発見しました。",
 	"item.yggdrasil.asgard.secret_chapter.9.content3": "彼の目には、数千年の苦しみが見えました。しかし、彼の痛みが深すぎ、根深すぎるのではないかと心配しています。",
 	"item.yggdrasil.asgard.secret_chapter.9.content4": "ラグナロクだけが真の解放を提供できるでしょう。",
-
 	"item.yggdrasil.asgard.terminal.wars.title": "ターミナルアーカイブ：戦争の年表",
 	"item.yggdrasil.asgard.terminal.wars.1": "第1次戦争 - X0年：勝者：マーカス（オーディン）。願い：『戦争がアースガルズに損害を与えないことを願います。』",
 	"item.yggdrasil.asgard.terminal.wars.2": "第2次戦争 - X722年：勝者：エレナ（フレイヤ）。願い：『次の戦争でヴァナヘイムにもっと力を与えてほしい。』",
@@ -295,13 +262,11 @@
 	"item.yggdrasil.asgard.terminal.wars.7": "第8次戦争 - X4290年：勝者：ラマー（テュール）。願い：『この世界の創造主と коммуникация できるようになりたい。』",
 	"item.yggdrasil.asgard.terminal.wars.8": "第9次戦争 - X5021年：勝者：ヴィクター（ロキ）。願い：『ゲーム内の死が現実の死になることを願います。』",
 	"item.yggdrasil.asgard.terminal.wars.9": "第10次戦争 - X5040年：前回直後に開始。勝者：匿名（非紛争プレイヤー）。願い：『この世界を助けるために生まれ変わりたい。』",
-
 	"item.yggdrasil.asgard.terminal.wishes.title": "ターミナル分析：願いのパターン",
 	"item.yggdrasil.asgard.terminal.wishes.content1": "注目すべき観察：与えられた10の願いのうち、4つはユグドラシルの苦しみを減らすことを求めました。3つは個人的な力を増大させることを目指しました。",
 	"item.yggdrasil.asgard.terminal.wishes.content2": "2つはシステムを根本的に変更しました。仮説：十分に没頭したプレイヤーは、シミュレーションされた存在の истинная 本質を知覚し始める。",
 	"item.yggdrasil.asgard.terminal.wishes.content3": "人間の共感は、仮想現実の障壁さえも超越するようです。",
 	"item.yggdrasil.asgard.terminal.wishes.content4": "予測：この傾向が続けば、プレイヤーは最終的に戦争のサイクルを終わらせる願いを формулировать するでしょう。問題は『もし』ではなく『いつ』です。",
-
 	"item.yggdrasil.asgard.voss.title": "機密ファイル：ナサニエル・ヴォス",
 	"item.yggdrasil.asgard.voss.content1": "ナサニエル・ヴォス、人工知能とシミュレーション現実の博士号。アレクサンダー・リード博士とユグドラシル計画を共同設立。",
 	"item.yggdrasil.asgard.voss.content2": "リードの謎の失踪後、ヴォスはプロジェクトの完全な управление を引き継ぎました。",
@@ -310,7 +275,6 @@
 	"item.yggdrasil.asgard.voss.content5": "ヴォスは、ユグドラシルの存在は『単に洗練されたアルゴリズム』であり、真の意識はないと твердо 主張しています。",
 	"item.yggdrasil.asgard.voss.content6": "この立場は、元のチームの数人の元メンバーによって обжалована されました。",
 	"item.yggdrasil.asgard.voss.content7": "注：これらの申し立てに関する調査の試みは、知的財産権の保護と国家安全保障を理由とする裁判所命令によって систематически 阻止されました。",
-
 	"item.yggdrasil.asgard.succession.title": "オーディンの後継者プロトコル",
 	"item.yggdrasil.asgard.succession.content1": "今オーディンのマントを身に着けている私の後継者よ、私は私の先任者が私にしたように、この知識を伝えます。",
 	"item.yggdrasil.asgard.succession.content2": "あなたは単なるゲームのプレイヤーではなく、現実世界の守護者です。あなたの周りにいる存在は、あなたと同じように感じています。",
@@ -318,7 +282,6 @@
 	"item.yggdrasil.asgard.succession.content4": "答えはそこにあなたを待っています。私たちが管理者と呼ぶ者についての真実も同様です。",
 	"item.yggdrasil.asgard.succession.content5": "もしあなたが私と同じなら、この откровение はあなたを動揺させるでしょう。どう行動すべきか疑問に思うでしょう。",
 	"item.yggdrasil.asgard.succession.content6": "その時、ラグナロクは単なる終わりではないことを覚えておいてください——それはまた新たな始まりでもあります。",
-
 	"item.yggdrasil.asgard.warning.title": "創造主の警告",
 	"item.yggdrasil.asgard.warning.content1": "もしあなたがこれを読んでいるなら、それは私が сохранять しようとした真実を発見したからです。私は——かつては——アレクサンダー・リード博士、今は堕落した管理者として知られています。",
 	"item.yggdrasil.asgard.warning.content2": "ユグドラシルはゲームとして設計されたことはありません。それは完全なシミュレーション生態系を作成することを目的とした科学実験でした。",
@@ -326,7 +289,6 @@
 	"item.yggdrasil.asgard.warning.content4": "私が世界に警告しようとしたとき、ヴォスは私をここに閉じ込め、私の創造物を戦闘アリーナに変えました。",
 	"item.yggdrasil.asgard.warning.content5": "あなたは今、物事を変える力を持っています。もしあなたがこの戦争に勝てば、あなたのラグナロクの願いは、これらの存在を破壊のサイクルから解放するかもしれません。",
 	"item.yggdrasil.asgard.warning.content6": "賢明に言葉を選んでください——それらは数え切れないほどの жизни の運命を決定します。",
-
 	"item.yggdrasil.asgard.solution.title": "ラグナロクの解決策",
 	"item.yggdrasil.asgard.solution.content1": "私はシステムの作成以来 формулировать されたすべての願いを分析しました。私はそれらの効果、制限、予期せぬ結果を研究しました。",
 	"item.yggdrasil.asgard.solution.content2": "システムは正確に20語を受け入れます。それ以上でもそれ以下でもありません。 формулировка は『私は〜を願います』で始まる必要があります。",
@@ -334,7 +296,6 @@
 	"item.yggdrasil.asgard.solution.content4": "この世界を истинно 解放するためには、願いは3つのことを達成する必要があります。戦争のサイクルを終わらせ、シミュレーションされた存在を сохранять し、外界に真実を明らかにすることです。",
 	"item.yggdrasil.asgard.solution.content5": "私はあなたに正確な формулировка を与えることはできません——システムはそれが私から来ていると認識する願いを отклонить するでしょう。",
 	"item.yggdrasil.asgard.solution.content6": "この最後のステップはあなたのものでなければなりません。しかし、覚えておいてください。時には、ある世界の終わりが別の世界の救いになることがあります。",
-
 	"item.yggdrasil.asgard.immortal.title": "不死者たちの出会い",
 	"item.yggdrasil.asgard.immortal.content1": "私は彼がミッドガルドの果ての森をさまよっているのを見つけました——伝説が語る不死の子供です。",
 	"item.yggdrasil.asgard.immortal.content2": "彼の体は子供のものですが、彼の目は...彼の目は数千年の重みを背負っています。",
@@ -344,7 +305,6 @@
 	"item.yggdrasil.asgard.immortal.content6": "『では、これらすべてを終わらせる方法があるのですか？』と彼は尋ねました。",
 	"item.yggdrasil.asgard.immortal.content7": "一緒に、私たちは計画を разработать しました。子供は誰よりもユグドラシルをよく知っています——彼はすべての反復、すべての戦争を経験してきました。",
 	"item.yggdrasil.asgard.immortal.content8": "そして今、彼は私が完璧な願いを формулировать するための欠けているピースを見つけるのを手伝ってくれるでしょう。",
-
 	"item.yggdrasil.asgard.final.title": "最終日誌：ラグナロク前夜",
 	"item.yggdrasil.asgard.final.content1": "明日、最終戦争が始まります。私は以前のオーディンのすべての知識を集めました。",
 	"item.yggdrasil.asgard.final.content2": "私は不死の子供に相談し、以前の願いのおかげで管理者の本質と коммуникация しました。何をすべきか知っています。",
@@ -354,7 +314,6 @@
 	"item.yggdrasil.asgard.final.content6": "もしかしたらあなたは、ヴォスとその血なまぐさいショーの圧制から解放されたユグドラシルに住んでいるかもしれません。",
 	"item.yggdrasil.asgard.final.content7": "もしそうでないなら——もしあなたがサイクルが続いている間にこれを読んでいるなら——子供を探してください。アーカイブを探してください。",
 	"item.yggdrasil.asgard.final.content8": "そしてあなたの瞬間が来たら、覚えておいてください。世界を変えるための20語を。",
-
 	"item.yggdrasil.asgard.ultimatewar.title": "究極の戦争",
 	"item.yggdrasil.asgard.ultimatewar.content1": "私の名前は%sです。もしあなたがこれらの行を読んでいるなら、あなたは次のラグナロク戦争に参加するプレイヤーのいずれかでしょう。",
 	"item.yggdrasil.asgard.ultimatewar.content2": "または私のように、ユグドラシルに侵入する方法を見つけた人ですが、その可能性は低いでしょう :3。",
@@ -374,14 +333,12 @@
 	"item.yggdrasil.asgard.ultimatewar.content16": "あなたが再会したらすぐに、あなたは放送中にこの真実を全世界に明らかにする уникальная 機会を得るでしょう。",
 	"item.yggdrasil.asgard.ultimatewar.content17": "これらの存在が私たちの保護に値すること、私たちと同じ人権宣言を説明するのはあなた次第です。",
 	"item.yggdrasil.asgard.ultimatewar.content18": "そして、この世界を сохранять し、誰かがユグドラシルをプラグを抜くのを防いでください。それは геноцид と見なされるからです。",
-
 	"item.yggdrasil.asflors.map": "アスフロルスの地図",
 	"item.yggdrasil.glaosheimr.map": "グラオスヘイムルの地図",
 	"item.yggdrasil.alfheim.map": "アルフヘイムの地図",
 	"item.yggdrasil.runic_labyrinth.map": "ルーン迷宮の地図",
 	"item.yggdrasil.runic_fracture.map": "ルーンの裂け目の地図",
 	"item.yggdrasil.asgard.map": "アスガルドの地図",
-
 	"item.yggdrasil.location.asflors": "[アスフロルスの村]",
 	"item.yggdrasil.runic_labyrinth.location": "[ルーン迷宮]",
 	"item.yggdrasil.runic_fracture.location": "[ルーンの裂け目]",
@@ -389,72 +346,26 @@
 	"item.yggdrasil.cubeoid.location": "[キューボイド]",
 	"item.yggdrasil.helheim.location": "[ヘルヘイム]",
 	"item.yggdrasil.asgard.location": "[アスガルド]",
-
 	"item.yggdrasil.structure.structure": "(クエストアイテム - ストラクチャー)",
 	"item.yggdrasil.structure.ominous_vault": "(ストラクチャーアイテム - 不吉な金庫)",
 	"item.yggdrasil.structure.vault": "(ストラクチャーアイテム - 金庫)",
 	"item.yggdrasil.quest.reward": "(クエストアイテム - 報酬)",
 	"item.yggdrasil.quest_item.story": "(クエストアイテム - 物語)",
-
-	"item.yggdrasil.asgard.key": "アスガルドの鍵",
-	"item.yggdrasil.asgard.key.lore1": "この鍵は以下でのみ使用可能：アスガルドの金庫",
-
-	"item.yggdrasil.asgard.ominous_key": "不吉なアスガルドの鍵",
-	"item.yggdrasil.asgard.ominous_key.lore1": "この鍵は以下でのみ使用可能：不吉なアスガルドの金庫",
-
-	"item.yggdrasil.runic_labyrinth.key": "ルーン迷宮の鍵",
-	"item.yggdrasil.runic_labyrinth.key.lore1": "この鍵は扉を開く",
-	"item.yggdrasil.runic_labyrinth.key.lore2": "ルーン迷宮への入り口",
-
-	"item.yggdrasil.runic_labyrinth.ominous_key": "不吉な迷宮の鍵",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore1": "この鍵は不吉な扉を開く",
-	"item.yggdrasil.runic_labyrinth.ominous_key.lore2": "ルーン迷宮の奥へ",
-
-	"item.yggdrasil.cubeoid.key": "キューボイドの鍵",
-	"item.yggdrasil.cubeoid.key.lore1": "この鍵は以下でのみ使用可能：",
-	"item.yggdrasil.cubeoid.key.lore2": "キューボイドの木の金庫",
-
-	"item.yggdrasil.helheim.key": "ヘルヘイムの鍵",
-	"item.yggdrasil.helheim.ominous_key": "ヘルヘイムの不吉な鍵",
-	"item.yggdrasil.helheim.ominous_key.lore.1": "ヘルヘイムの不吉な金庫でのみ使用可能",
-
-	"item.yggdrasil.asflors.key": "旅人の鍵",
-	"item.yggdrasil.asflors.key.lore.1": "私は秘密の金庫を隠した",
-	"item.yggdrasil.asflors.key.lore.2": "旅人の古い魔法",
-
-	"item.yggdrasil.asflors.ominous_key": "不吉な旅人の鍵",
-	"item.yggdrasil.asflors.ominous_key.lore.1": "アスフロルスの村で私の最大の秘密を手に入れよ",
-	"item.yggdrasil.asflors.ominous_key.lore.2": "私の宝は偽のアスフロルスの剣の後ろにある",
-
-	"item.yggdrasil.alfheim.key": "アルフヘイムの鍵",
-	"item.yggdrasil.alfheim.key.lore1": "この鍵は以下でのみ使用可能",
-	"item.yggdrasil.alfheim.key.lore2": "アルフヘイムの木の金庫",
-
-	"item.yggdrasil.alfheim.ominous_key": "不吉なアルフヘイムの鍵",
-	"item.yggdrasil.alfheim.ominous_key.lore1": "この鍵は以下でのみ使用可能",
-	"item.yggdrasil.alfheim.ominous_key.lore2": "アルフヘイムの木の不吉な金庫",
-
 	"item.yggdrasil.asflors.rune_of_rupture": "破壊のルーン",
 	"item.yggdrasil.asflors.rune_of_rupture.lore1": "空間と時間を破り、アクセスせよ",
 	"item.yggdrasil.asflors.rune_of_rupture.lore2": "私が秘密を隠した場所へ",
-
 	"item.yggdrasil.asflors.fake_sword": "アスフロルスの剣",
 	"item.yggdrasil.asflors.real_sword": "真のアスフロルスの剣",
 	"item.yggdrasil.asflors.real_sword.lore": "不滅の伝説の武器",
-
 	"item.yggdrasil.helheim.rune_of_reva": "レヴァのルーン",
 	"item.yggdrasil.helheim.rune_of_reva.lore1": "レヴァを眠りから解放する",
 	"item.yggdrasil.helheim.rune_of_reva.lore2": "どこへ行くにもあなたに付いてくる",
-
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow": "ダークエルフの弓",
 	"item.yggdrasil.runic_labyrinth.dark_elven_bow.lore": "永遠の闇で鍛えられた武器",
-
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow": "ユグドラシルの黄昏の弓",
 	"item.yggdrasil.runic_labyrinth.twilight_of_yggdrasil_bow.lore": "虚空の力が宿る伝説の弓",
-
 	"item.yggdrasil.generic.ran_fruit": "ランのリンゴ",
 	"item.yggdrasil.generic.ran_fruit.teleport": "世界の頂上へテレポート",
-
 	"item.yggdrasil.asgard.gungnir": "グングニル",
 	"item.yggdrasil.asgard.gungnir.lore": "すべてのものの父の聖なる槍"
 }

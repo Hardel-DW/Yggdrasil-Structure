@@ -4,4 +4,4 @@ execute at @n[type=minecraft:interaction,limit=1] align xyz positioned ~ ~1 ~ ru
 kill @e[type=minecraft:interaction,distance=..5]
 kill @e[type=minecraft:item_display,distance=..5]
 item replace entity @s weapon.mainhand with minecraft:air
-advancement revoke @s only yggdrasil:runic_fracture/door
+advancement revoke @s only yggdrasil:runic_fracture_door
