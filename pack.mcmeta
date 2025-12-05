@@ -1,9 +1,7 @@
 {
     "pack": {
-        "pack_format": 88,
-        "supported_formats": [80, 88],
-        "min_format": 80,
-        "max_format": 88,
+        "min_format": 94,
+        "max_format": 94,
         "description": {
             "text": "Add majestic, gigantic dungeons - By Voxel Team"
         }

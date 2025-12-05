@@ -11,7 +11,7 @@
 					"functions": [
 						{
 							"function": "minecraft:enchant_randomly",
-							"options": "#yggdrasil:structure/alfheim_tree/trial_spawner",
+							"options": "#yggdrasil:structure/alfheim_tree/ominous_trial_spawner",
 							"only_compatible": true
 						}
 					]
