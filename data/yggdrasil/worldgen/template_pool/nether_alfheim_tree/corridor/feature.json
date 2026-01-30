@@ -1,0 +1,77 @@
+{
+	"fallback": "yggdrasil:nether_alfheim_tree/corridor/terminator",
+	"elements": [
+		{
+			"weight": 8,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/crossroads"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/straight"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/rounded"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/double_up_bottom"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/lunar"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/endless"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/bridge/adapter"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:nether_alfheim_tree/corridor/jump"
+			}
+		}
+	]
+}
