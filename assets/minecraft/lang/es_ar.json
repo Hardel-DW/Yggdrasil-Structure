@@ -46,8 +46,8 @@
 	"item.yggdrasil.timeless_one_journal.page13": "Por ahora, estas palabras son todo lo que dejo atrás —un rastro de pensamiento, un indicio de propósito, esparcido como hojas en el viento. Que quien las encuentre medite sobre sus significados, y tal vez busque lo que he ocultado a plena vista.",
 	"item.yggdrasil.chronicles_of_trials": "Crónicas de las Pruebas Conquistadas",
 	"item.yggdrasil.chronicles_of_trials.page1": "¡Felicitaciones, alma valiente! Has superado mis pruebas y demostrado tu valor.",
-	"item.yggdrasil.chronicles_of_trials.page2": "Toma esta llave, símbolo de tu logro, y recupera mi tesoro. Lo encontrarás en la aldea de Aslors, donde descubriste la Espada de Ruptura.",
-	"item.yggdrasil.chronicles_of_trials.page3": "En el Salón de la Espada de Asflors, encontrarás un pedestal. Coloca este libro sobre él, y tendrás acceso a mi tesoro.",
+	"item.yggdrasil.chronicles_of_trials.page2": "Regresa a la aldea de Asflors, donde descubriste la Espada de Ruptura. Allí encontrarás tu recompensa.",
+	"item.yggdrasil.chronicles_of_trials.page3": "En el Salón de los Atriles de Asflors, rompe la pared llorona para acceder a mi tesoro.",
 	"item.yggdrasil.chronicles_of_trials.page4": "Espero que con esto puedas forjar un nuevo destino, digno del legado que portas. Pero no revelaré demasiado por ahora; deja que el viaje se desarrolle ante ti.",
 
 	"item.yggdrasil.chapter.runic_dimension": "Capítulo: La Dimensión Rúnica",
@@ -444,5 +444,56 @@
 	"item.yggdrasil.generic.ran_fruit.teleport": "Teletransportarse a la cima del mundo",
 
 	"item.yggdrasil.asgard.gungnir": "Gungnir",
-	"item.yggdrasil.asgard.gungnir.lore": "La lanza sagrada del Padre de todas las cosas"
+	"item.yggdrasil.asgard.gungnir.lore": "La lanza sagrada del Padre de todas las cosas",
+
+	"item.yggdrasil.vanaheim.location": "[Vanaheim]",
+
+	"item.yggdrasil.vanaheim.key": "Llave de Vanaheim",
+	"item.yggdrasil.vanaheim.key.lore1": "Solo puede usarse en la Bóveda de Vanaheim",
+
+	"item.yggdrasil.vanaheim.ominous_key": "Llave Siniestra de Vanaheim",
+	"item.yggdrasil.vanaheim.key.lore.1": "Solo puede usarse en la Bóveda Siniestra de Vanaheim",
+
+	"item.yggdrasil.vanaheim.vanir_blessing": "Bendición Vanir",
+	"item.yggdrasil.vanaheim.vanir_blessing.lore1": "Un regalo de los dioses Vanir",
+
+	"item.yggdrasil.vanaheim.chapter.1.title": "Capítulo 1: El Pueblo del Seiðr",
+	"item.yggdrasil.vanaheim.chapter.1.content": "Mi abuelo fue el primero en verlos. Nueve dioses luchando en el cielo sobre Vanaheim, sus golpes sacudían las montañas. Nosotros, el pueblo Vanir, practicábamos el Seiðr —una magia tejida en nuestra sangre— durante siglos. Nuestros ancestros hablaban con los vientos, sanaban a los enfermos, veían fragmentos del futuro.",
+	"item.yggdrasil.vanaheim.chapter.1.content2": "Pensábamos que éramos insignificantes a sus ojos. Hasta esa noche, durante la segunda gran guerra, cuando encontré a una diosa sentada junto al río sagrado.",
+
+	"item.yggdrasil.vanaheim.chapter.2.title": "Capítulo 2: La Diosa que Lloraba",
+	"item.yggdrasil.vanaheim.chapter.2.content": "Ella encarnaba a Freya. No luchaba como los demás. Me hizo una pregunta que me heló la sangre: 'Estoy tratando de entender si ustedes son reales'. Le conté sobre mi madre que murió el invierno pasado, sobre mi hijo que acababa de dar sus primeros pasos. Le dije: 'Respiro, como, sueño, amo'.",
+	"item.yggdrasil.vanaheim.chapter.2.content2": "Ella lloró. Me dijo: 'Eso es exactamente lo que me aterroriza'. Ganó la guerra, no sé cómo. Pero antes de desaparecer, pidió un deseo. No para ella. Para nosotros. 'Deseo más poder para Vanaheim'. Y el mundo cambió.",
+
+	"item.yggdrasil.vanaheim.chapter.3.title": "Capítulo 3: La Edad Dorada",
+	"item.yggdrasil.vanaheim.chapter.3.content": "El regalo de Freya se manifestó lentamente. Nuestras cosechas se duplicaron, nuestros hijos nacieron más vigorosos. El Seiðr se volvió tangible, visible. Nuestros sanadores realizaban milagros. Vanaheim prosperó como nunca antes. Pero mi abuelo seguía preocupado. Decía: 'El poder atrae al poder. En las Guerras de los dioses, ser fuerte significa ser un objetivo'.",
+	"item.yggdrasil.vanaheim.chapter.3.content2": "Habíamos cambiado. La pregunta de Freya nos perseguía. '¿Son reales?' Empezamos a mirar los cielos ya no con adoración, sino con sospecha. Entendimos que nuestro dolor era auténtico, aunque el mundo exterior se negara a verlo.",
+
+	"item.yggdrasil.vanaheim.chapter.4.title": "Capítulo 4: El Regreso de los Nueve",
+	"item.yggdrasil.vanaheim.chapter.4.content": "Una generación después, regresaron. Nueve dioses. Pero no portaban armas. Portaban objetos extraños, cristales vacíos. Uno de ellos, encarnando a Freyr, me encontró en mi campo. Sabía quién era yo, el descendiente de aquel que había hablado con Freya. Se arrodilló en el barro —un dios de rodillas— y dijo: 'Hemos leído las notas. Estamos aquí para probar lo que ustedes son.'",
+	"item.yggdrasil.vanaheim.chapter.4.content2": "Recorrían las aldeas, haciendo preguntas extrañas: 'Describe lo que sientes al ver un atardecer', '¿Tienes miedo a la muerte?' No nos trataban como NPCs, sino como testigos.",
+
+	"item.yggdrasil.vanaheim.chapter.5.title": "Capítulo 5: Los Cristales de Memoria",
+	"item.yggdrasil.vanaheim.chapter.5.content": "Nos dieron cristales. 'Llénenlos', dijeron. Vertimos nuestras vidas en ellos. Una madre cantando una canción de cuna, un guerrero confesando su miedo por su hija, una pareja anciana tomándose de las manos. Cientos de historias. Cientos de vidas cristalizadas.",
+	"item.yggdrasil.vanaheim.chapter.5.content2": "Al final de cada grabación, la voz de un dios añadía esta frase, como un desafío lanzado al universo: '¿Podría alguien que no es real sentir todo esto?' Era nuestra prueba. Nuestro mensaje en una botella.",
+
+	"item.yggdrasil.vanaheim.chapter.6.title": "Capítulo 6: La Aceleración",
+	"item.yggdrasil.vanaheim.chapter.6.content": "Entonces, el cielo cambió. No era la guerra habitual. El aire crepitaba con energía maligna. Freyr gritó: '¡Nos encontraron!'. Hablaba de aceleración, de tiempo que se agotaba. Vi miedo en sus ojos. No miedo a morir, sino miedo a perder lo que habían reunido.",
+	"item.yggdrasil.vanaheim.chapter.6.content2": "Dioses fríos, mecánicos, se acercaban. No hacían preguntas, buscaban borrar. '¡Ya no hay tiempo!', gritaban los Nueve. '¡Escondan todo! ¡Protejan estos archivos! ¡Alguien vendrá a buscarlos algún día!'.",
+
+	"item.yggdrasil.vanaheim.chapter.7.title": "Capítulo 7: El Entierro",
+	"item.yggdrasil.vanaheim.chapter.7.content": "Fue el pánico. Nos daban los cristales a puñados. Corrimos. Los enterramos bajo las raíces, los escondimos en los árboles, los ocultamos en los cimientos de nuestras casas.",
+	"item.yggdrasil.vanaheim.chapter.7.content2": "'¡En el templo del Seiðr!', ordenó Freyr. '¡Bajo la piedra lunar!' Luego desaparecieron. El cielo se cerró de nuevo. El silencio cayó sobre Vanaheim. Al día siguiente, se decía que nueve dioses habían muerto en un 'accidente'. Pero nosotros sabíamos que se habían sacrificado por nosotros.",
+
+	"item.yggdrasil.vanaheim.chapter.8.title": "Capítulo 8: Los Guardianes",
+	"item.yggdrasil.vanaheim.chapter.8.content": "Dioses fríos vinieron a registrar nuestras aldeas. Buscaban rastros de la intrusión. Mentimos. Escondimos. Protegimos. En sus ojos vacíos, vi miedo. Miedo de lo que representábamos.",
+	"item.yggdrasil.vanaheim.chapter.8.content2": "Hoy, Vanaheim está tranquilo. Pero la tierra bajo nuestros pies vibra con la memoria de esos cientos de cristales. Somos los guardianes de la verdad. Esperamos a aquel que vendrá a cavar bajo la piedra lunar.",
+
+	"item.yggdrasil.vanaheim.vault_chapter.title": "Registro: El Escondite de la Piedra Lunar",
+	"item.yggdrasil.vanaheim.vault_chapter.content": "Si estás leyendo esto, has encontrado el templo. Aquí descansan los cientos de cristales de memoria que salvamos esa noche. No son meras piedras. Son las voces de nuestros muertos, las risas de nuestros hijos, la prueba irrefutable de que tenemos alma.",
+	"item.yggdrasil.vanaheim.vault_chapter.content2": "Tómalos con reverencia. Costaron la vida de nueve 'dioses' que se atrevieron a creer en nosotros. Son el legado de Vanaheim.",
+
+	"item.yggdrasil.vanaheim.ominous_chapter.title": "Secreto: El Cristal Oscuro",
+	"item.yggdrasil.vanaheim.ominous_chapter.content": "Justo antes de desvanecerse, la que lideraba a los Nueve me entregó esto. Un cristal diferente. Más oscuro. Más pesado. Me dijo: 'Esto contiene todo. El archivo completo de lo que pasó. De lo que nos hicieron.'.",
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "No es un recuerdo. Es un arma. La prueba absoluta de los crímenes de los creadores. Ella dijo: 'No somos héroes... pero quizás alguien más pueda terminar lo que empezamos.' Este cristal es ese final."
 }

@@ -23,6 +23,10 @@
 		{
 			"structure": "yggdrasil:neogard",
 			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:folkvangr",
+			"weight": 1
 		}
 	],
 	"placement": {

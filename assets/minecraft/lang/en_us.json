@@ -46,8 +46,8 @@
 	"item.yggdrasil.timeless_one_journal.page13": "For now, these words are all I leave behind—a trace of thought, a hint of purpose, scattered like leaves in the wind. Let whoever finds them ponder their meanings, and perhaps seek what I have hidden in plain sight.",
 	"item.yggdrasil.chronicles_of_trials": "Chronicles of the Trials Conquered",
 	"item.yggdrasil.chronicles_of_trials.page1": "Congratulations, brave soul! You have successfully passed my trials and proven your worth.",
-	"item.yggdrasil.chronicles_of_trials.page2": "Take this key, a symbol of your achievement, and recover my treasure. You will find it in the village of Aslors, where you discovered the Sword of Rupture.",
-	"item.yggdrasil.chronicles_of_trials.page3": "In the Hall of the Sword of Asflors, you will find a pedestal. Place this book upon it, and you will gain access to my treasure.",
+	"item.yggdrasil.chronicles_of_trials.page2": "Return to the village of Asflors, where you discovered the Sword of Rupture. There you will find your reward.",
+	"item.yggdrasil.chronicles_of_trials.page3": "In the Hall of the Lectterns of Asflors, break the weeping wall to access my treasure.",
 	"item.yggdrasil.chronicles_of_trials.page4": "I hope that with it, you will be able to forge a new destiny, one worthy of the legacy you carry. But I won't reveal too much just yet; let the journey unfold before you.",
 
 	"item.yggdrasil.chapter.runic_dimension": "Chapter: The Runic Dimension",
@@ -457,5 +457,56 @@
 	"item.yggdrasil.generic.ran_fruit.teleport": "Teleport to the top of the world",
 
 	"item.yggdrasil.asgard.gungnir": "Gungnir",
-	"item.yggdrasil.asgard.gungnir.lore": "The sacred lance of the Father of All Things"
+	"item.yggdrasil.asgard.gungnir.lore": "The sacred lance of the Father of All Things",
+
+	"item.yggdrasil.vanaheim.location": "[Vanaheim]",
+
+	"item.yggdrasil.vanaheim.key": "Vanaheim Key",
+	"item.yggdrasil.vanaheim.key.lore1": "Can only be used on Vault in Vanaheim",
+
+	"item.yggdrasil.vanaheim.ominous_key": "Ominous Vanaheim Key",
+	"item.yggdrasil.vanaheim.key.lore.1": "Can only be used on Ominous Vault in Vanaheim",
+
+	"item.yggdrasil.vanaheim.vanir_blessing": "Vanir Blessing",
+	"item.yggdrasil.vanaheim.vanir_blessing.lore1": "A gift from the Vanir gods",
+
+	"item.yggdrasil.vanaheim.chapter.1.title": "Chapter 1: The People of Seiðr",
+	"item.yggdrasil.vanaheim.chapter.1.content": "My grandfather was the first to see them. Nine gods fighting in the sky above Vanaheim, their blows shaking the mountains. We, the Vanir people, practiced Seiðr—a magic woven into our blood—for centuries. Our ancestors spoke to the winds, healed the sick, saw fragments of the future.",
+	"item.yggdrasil.vanaheim.chapter.1.content2": "We thought we were insignificant in their eyes. Until that night, during the second great war, when I found a goddess sitting by the sacred river.",
+
+	"item.yggdrasil.vanaheim.chapter.2.title": "Chapter 2: The Goddess Who Wept",
+	"item.yggdrasil.vanaheim.chapter.2.content": "She embodied Freya. She didn't fight like the others. She asked me a question that froze my blood: 'I'm trying to understand if you are real'. I told her about my mother who died last winter, about my son who had just taken his first steps. I said: 'I breathe, I eat, I dream, I love'.",
+	"item.yggdrasil.vanaheim.chapter.2.content2": "She wept. She told me: 'That's exactly what terrifies me'. She won the war, I don't know how. But before disappearing, she made a wish. Not for herself. For us. 'I wish for more power for Vanaheim'. And the world changed.",
+
+	"item.yggdrasil.vanaheim.chapter.3.title": "Chapter 3: The Golden Age",
+	"item.yggdrasil.vanaheim.chapter.3.content": "Freya's gift manifested slowly. Our harvests doubled, our children were born more vigorous. Seiðr became tangible, visible. Our healers performed miracles. Vanaheim prospered like never before. But my grandfather remained worried. He said: 'Power attracts power. In the Wars of the gods, being strong means being a target'.",
+	"item.yggdrasil.vanaheim.chapter.3.content2": "We had changed. Freya's question haunted us. 'Are you real?' We began to look at the skies no longer with adoration, but with suspicion. We understood that our pain was authentic, even if the outside world refused to see it.",
+
+	"item.yggdrasil.vanaheim.chapter.4.title": "Chapter 4: The Return of the Nine",
+	"item.yggdrasil.vanaheim.chapter.4.content": "A generation later, they returned. Nine gods. But they carried no weapons. They carried strange objects, empty crystals. One of them, embodying Freyr, found me in my field. He knew who I was, the descendant of the one who had spoken to Freya. He knelt in the mud—a god on his knees—and said: 'We have read the notes. We are here to prove what you are.'",
+	"item.yggdrasil.vanaheim.chapter.4.content2": "They traveled through villages, asking strange questions: 'Describe what you feel watching a sunset', 'Are you afraid of death?' They didn't treat us like NPCs, but like witnesses.",
+
+	"item.yggdrasil.vanaheim.chapter.5.title": "Chapter 5: The Memory Crystals",
+	"item.yggdrasil.vanaheim.chapter.5.content": "They gave us crystals. 'Fill them', they said. We poured our lives into them. A mother singing a lullaby, a warrior confessing his fear for his daughter, an elderly couple holding hands. Hundreds of stories. Hundreds of crystallized lives.",
+	"item.yggdrasil.vanaheim.chapter.5.content2": "At the end of each recording, a god's voice added this phrase, like a challenge thrown at the universe: 'Could someone who isn't real feel all of this?' It was our proof. Our message in a bottle.",
+
+	"item.yggdrasil.vanaheim.chapter.6.title": "Chapter 6: The Acceleration",
+	"item.yggdrasil.vanaheim.chapter.6.content": "Then, the sky changed. It wasn't the usual war. The air crackled with evil energy. Freyr screamed: 'They found us!'. He spoke of acceleration, of time running out. I saw fear in their eyes. Not fear of dying, but fear of losing what they had gathered.",
+	"item.yggdrasil.vanaheim.chapter.6.content2": "Cold, mechanical gods approached. They didn't ask questions, they sought to erase. 'There's no more time!', the Nine cried. 'Hide everything! Protect these archives! Someone will come for them one day!'.",
+
+	"item.yggdrasil.vanaheim.chapter.7.title": "Chapter 7: The Burial",
+	"item.yggdrasil.vanaheim.chapter.7.content": "It was panic. They gave us crystals by the handful. We ran. We buried them under roots, hid them in trees, concealed them in the foundations of our houses.",
+	"item.yggdrasil.vanaheim.chapter.7.content2": "'In the Seiðr temple!', Freyr ordered. 'Under the moon stone!' Then they vanished. The sky closed again. Silence fell over Vanaheim. The next day, it was said that nine gods had died in an 'accident'. But we knew they had sacrificed themselves for us.",
+
+	"item.yggdrasil.vanaheim.chapter.8.title": "Chapter 8: The Guardians",
+	"item.yggdrasil.vanaheim.chapter.8.content": "Cold gods came to search our villages. They looked for traces of the intrusion. We lied. We hid. We protected. In their empty eyes, I saw fear. Fear of what we represented.",
+	"item.yggdrasil.vanaheim.chapter.8.content2": "Today, Vanaheim is calm. But the earth beneath our feet vibrates with the memory of those hundreds of crystals. We are the guardians of truth. We await the one who will come to dig beneath the moon stone.",
+
+	"item.yggdrasil.vanaheim.vault_chapter.title": "Record: The Moon Stone Cache",
+	"item.yggdrasil.vanaheim.vault_chapter.content": "If you are reading this, you have found the temple. Here rest the hundreds of memory crystals we saved that night. They are not mere stones. They are the voices of our dead, the laughter of our children, irrefutable proof that we have a soul.",
+	"item.yggdrasil.vanaheim.vault_chapter.content2": "Take them with reverence. They cost the lives of nine 'gods' who dared to believe in us. They are the legacy of Vanaheim.",
+
+	"item.yggdrasil.vanaheim.ominous_chapter.title": "Secret: The Dark Crystal",
+	"item.yggdrasil.vanaheim.ominous_chapter.content": "Just before vanishing, the one who led the Nine handed me this. A different crystal. Darker. Heavier. She told me: 'This contains everything. The complete archive of what happened. Of what they did to us.'.",
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "It's not a memory. It's a weapon. Absolute proof of the creators' crimes. She said: 'We are not heroes... but perhaps someone else can finish what we started.' This crystal is that ending."
 }

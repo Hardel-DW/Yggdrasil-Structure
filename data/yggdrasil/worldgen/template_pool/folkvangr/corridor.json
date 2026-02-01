@@ -7,7 +7,7 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "minecraft:empty",
-				"location": "yggdrasil:zenflors/villager"
+				"location": "yggdrasil:folkvangr/corridor"
 			}
 		}
 	]

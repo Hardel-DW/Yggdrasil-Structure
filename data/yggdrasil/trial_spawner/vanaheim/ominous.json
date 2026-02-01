@@ -1,0 +1,269 @@
+{
+	"loot_tables_to_eject": [
+		{
+			"data": "yggdrasil:vanaheim/spawner/key",
+			"weight": 3
+		},
+		{
+			"data": "yggdrasil:vanaheim/spawner/ominous",
+			"weight": 7
+		}
+	],
+	"total_mobs": 8,
+	"total_mobs_added_per_player": 12,
+	"simultaneous_mobs": 4,
+	"simultaneous_mobs_added_per_player": 2,
+	"spawn_potentials": [
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/breeze",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:breeze"
+				}
+			},
+			"weight": 5
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/skeleton",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:skeleton"
+				},
+				"equipment": {
+					"loot_table": "yggdrasil:generic/equipment/ominous/range",
+					"slot_drop_chances": 0.0
+				}
+			},
+			"weight": 10
+		},
+		{
+			"data": {
+				"entity": {
+					"attributes": [
+						{
+							"id": "minecraft:attack_damage",
+							"base": 5
+						}
+					],
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/spider",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:speed",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:spider"
+				}
+			},
+			"weight": 2
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/witch",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 2,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:witch"
+				}
+			},
+			"weight": 5
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/evoker",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 2,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:evoker"
+				}
+			},
+			"weight": 2
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/slime",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:slime",
+					"Size": 3
+				}
+			},
+			"weight": 6
+		},
+		{
+			"data": {
+				"entity": {
+					"attributes": [
+						{
+							"id": "minecraft:attack_damage",
+							"base": 7
+						},
+						{
+							"id": "minecraft:fall_damage_multiplier",
+							"base": 50
+						},
+						{
+							"id": "minecraft:knockback_resistance",
+							"base": 10
+						}
+					],
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/husk",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:husk"
+				},
+				"equipment": {
+					"loot_table": "yggdrasil:generic/equipment/ominous/melee",
+					"slot_drop_chances": 0.0
+				}
+			},
+			"weight": 5
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/bogged",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:bogged"
+				},
+				"equipment": {
+					"loot_table": "yggdrasil:generic/equipment/ominous/range",
+					"slot_drop_chances": 0.0
+				}
+			},
+			"weight": 5
+		},
+		{
+			"data": {
+				"entity": {
+					"DeathLootTable": "yggdrasil:generic/mob/ominous/drowned",
+					"active_effects": [
+						{
+							"id": "minecraft:absorption",
+							"duration": -1,
+							"amplifier": 1,
+							"show_particles": false
+						},
+						{
+							"id": "minecraft:resistance",
+							"duration": -1,
+							"amplifier": 0,
+							"show_particles": false
+						}
+					],
+					"id": "minecraft:drowned"
+				},
+				"equipment": {
+					"loot_table": "yggdrasil:generic/equipment/ominous/melee_trident",
+					"slot_drop_chances": 0.0
+				}
+			},
+			"weight": 5
+		}
+	],
+	"ticks_between_spawn": 80
+}
