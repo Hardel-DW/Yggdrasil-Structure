@@ -158,21 +158,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:vanaheim/key/normal",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.2
-						}
-					]
-				}
-			]
 		}
 	],
 	"random_sequence": "yggdrasil:vanaheim/library"

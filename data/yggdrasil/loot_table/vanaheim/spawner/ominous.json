@@ -140,21 +140,6 @@
 					"weight": 2
 				}
 			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:vanaheim/key/ominous",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.15
-						}
-					]
-				}
-			]
 		}
 	],
 	"random_sequence": "yggdrasil:vanaheim/spawner"

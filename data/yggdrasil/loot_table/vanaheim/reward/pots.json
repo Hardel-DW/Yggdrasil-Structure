@@ -5,22 +5,6 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"value": "yggdrasil:vanaheim/key/normal",
-					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.15
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
 					"type": "minecraft:item",
 					"name": "minecraft:bone_meal",
 					"weight": 5,
