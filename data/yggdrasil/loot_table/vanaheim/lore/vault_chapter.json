@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.vault_chapter.title",
+								"fallback": "Record: The Moon Stone Cache"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.vault_chapter"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.vault_chapter.content",
+									"fallback": "If you are reading this, you have found the temple. Here rest the hundreds of memory crystals we saved that night. They are not mere stones. They are the voices of our dead, the laughter of our children, irrefutable proof that we have a soul."
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.vault_chapter.content2",
+									"fallback": "Take them with reverence. They cost the lives of nine 'gods' who dared to believe in us. They are the legacy of Vanaheim."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

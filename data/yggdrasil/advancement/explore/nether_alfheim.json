@@ -1,0 +1,34 @@
+{
+	"parent": "yggdrasil:explore/cuboid",
+	"display": {
+		"icon": {
+			"id": "minecraft:crimson_fungus"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.nether_alfheim.title",
+			"fallback": "Explore Nether Alfheim"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.nether_alfheim.description",
+			"fallback": "Find the corrupted tree in the Nether"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:nether_alfheim_tree"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		["in_structure"]
+	]
+}

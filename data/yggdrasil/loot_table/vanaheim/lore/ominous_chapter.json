@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.ominous_chapter.title",
+								"fallback": "Secret: The Dark Crystal"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.ominous_chapter"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.ominous_chapter.content",
+									"fallback": "Just before vanishing, the one who led the Nine handed me this. A different crystal. Darker. Heavier. She told me: 'This contains everything. The complete archive of what happened. Of what they did to us.'."
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.ominous_chapter.content2",
+									"fallback": "It's not a memory. It's a weapon. Absolute proof of the creators' crimes. She said: 'We are not heroes... but perhaps someone else can finish what we started.' This crystal is that ending."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

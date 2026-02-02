@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.chapter.5.title",
+								"fallback": "Chapter 5: The Memory Crystals"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.chapter.5"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.5.content",
+									"fallback": "They gave us crystals. 'Fill them', they said. We poured our lives into them. A mother singing a lullaby, a warrior confessing his fear for his daughter, an elderly couple holding hands. Hundreds of stories. Hundreds of crystallized lives."
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.5.content2",
+									"fallback": "At the end of each recording, a god's voice added this phrase, like a challenge thrown at the universe: 'Could someone who isn't real feel all of this?' It was our proof. Our message in a bottle."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

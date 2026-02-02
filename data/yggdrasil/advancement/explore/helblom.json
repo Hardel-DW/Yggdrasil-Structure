@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.helblom.title",
+			"fallback": "Explore Helblom"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.helblom.description",
+			"fallback": "Find the stele that leads to Helheim"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:helblom"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.folkvangr.title",
+			"fallback": "Explore Folkvangr"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.folkvangr.description",
+			"fallback": "Find the stele that leads to Vanaheim"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:folkvangr"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

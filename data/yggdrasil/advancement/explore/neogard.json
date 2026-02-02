@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.neogard.title",
+			"fallback": "Explore Neogard"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.neogard.description",
+			"fallback": "Find the stele that leads to Asgard"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:neogard"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

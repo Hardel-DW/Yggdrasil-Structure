@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/key/normal",
+					"weight": 4,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.3
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/key/ominous",
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/all_chapters"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/reward/shared/common"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/reward/shared/nature",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/reward/shared/potion_ingredients",
+					"weight": 2
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/chest"
+}

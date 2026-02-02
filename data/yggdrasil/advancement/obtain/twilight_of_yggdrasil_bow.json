@@ -1,0 +1,40 @@
+{
+	"parent": "yggdrasil:explore/runic_labyrinth",
+	"display": {
+		"icon": {
+			"id": "minecraft:bow"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title",
+			"fallback": "Twilight of Yggdrasil"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description",
+			"fallback": "Obtain the legendary bow of the void"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"yggdrasil": {
+									"id": "yggdrasil.runic_labyrinth.treasure.twilight_of_yggdrasil_bow"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["has_item"]
+	]
+}

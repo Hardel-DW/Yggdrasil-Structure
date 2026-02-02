@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_6"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_7"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/chapter_8"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

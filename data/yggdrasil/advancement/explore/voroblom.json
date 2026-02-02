@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:cartography_table"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.voroblom.title",
+			"fallback": "Explore Voroblom"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.voroblom.description",
+			"fallback": "Find the stele that leads to Glaosheimr"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:voroblom"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

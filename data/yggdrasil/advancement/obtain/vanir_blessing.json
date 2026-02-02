@@ -1,0 +1,40 @@
+{
+	"parent": "yggdrasil:explore/vanaheim",
+	"display": {
+		"icon": {
+			"id": "minecraft:enchanted_book"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.obtain.vanir_blessing.title",
+			"fallback": "Vanir Blessing"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.obtain.vanir_blessing.description",
+			"fallback": "Receive a gift from the Vanir gods"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"yggdrasil": {
+									"id": "yggdrasil.vanaheim.vanir_blessing"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["has_item"]
+	]
+}

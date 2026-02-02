@@ -1,0 +1,34 @@
+{
+	"parent": "yggdrasil:explore/cuboid",
+	"display": {
+		"icon": {
+			"id": "minecraft:deepslate_bricks"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.dokkalfar_ruins.title",
+			"fallback": "Explore Dokkalfar Ruins"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.dokkalfar_ruins.description",
+			"fallback": "Discover the ancient ruins of the Dark Elves"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:dokkalfar_ruins"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		["in_structure"]
+	]
+}

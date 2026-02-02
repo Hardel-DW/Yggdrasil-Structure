@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/asflors",
+	"display": {
+		"icon": {
+			"id": "minecraft:white_carpet"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.runic_island.title",
+			"fallback": "Explore Runic Island"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.runic_island.description",
+			"fallback": "Find the floating island of the Dark Elves"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:proto_fracture"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

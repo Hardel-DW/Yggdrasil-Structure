@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.chapter.6.title",
+								"fallback": "Chapter 6: The Acceleration"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.chapter.6"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.6.content",
+									"fallback": "Then, the sky changed. It wasn't the usual war. The air crackled with evil energy. Freyr screamed: 'They found us!'. He spoke of acceleration, of time running out. I saw fear in their eyes. Not fear of dying, but fear of losing what they had gathered."
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.6.content2",
+									"fallback": "Cold, mechanical gods approached. They didn't ask questions, they sought to erase. 'There's no more time!', the Nine cried. 'Hide everything! Protect these archives! Someone will come for them one day!'."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.chapter.7.title",
+								"fallback": "Chapter 7: The Burial"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.chapter.7"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.7.content",
+									"fallback": "It was panic. They gave us crystals by the handful. We ran. We buried them under roots, hid them in trees, concealed them in the foundations of our houses."
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.7.content2",
+									"fallback": "'In the Seiðr temple!', Freyr ordered. 'Under the moon stone!' Then they vanished. The sky closed again. Silence fell over Vanaheim. The next day, it was said that nine gods had died in an 'accident'. But we knew they had sacrificed themselves for us."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

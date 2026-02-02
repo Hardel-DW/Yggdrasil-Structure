@@ -15,6 +15,10 @@
 		{
 			"structure": "yggdrasil:runic_fracture",
 			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:vanaheim",
+			"weight": 1
 		}
 	],
 	"placement": {

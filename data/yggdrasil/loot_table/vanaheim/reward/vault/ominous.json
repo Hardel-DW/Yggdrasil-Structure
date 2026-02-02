@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/enchanted_book/ominous_vault"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/lore/ominous_chapter"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/treasure/vanir_blessing",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/trim",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/reward/shared/nature",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/enchanted_item_25",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:vanaheim/reward/shared/rare",
+					"weight": 3
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.25
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/chest"
+}
