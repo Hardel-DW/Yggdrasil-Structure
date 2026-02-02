@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/lifblom",
+	"display": {
+		"icon": {
+			"id": "minecraft:amethyst_block"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.alfheim.title",
+			"fallback": "Explore Alfheim"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.alfheim.description",
+			"fallback": "Discover the sacred tree of the Light Elves"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:alfheim_tree"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

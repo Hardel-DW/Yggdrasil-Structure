@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/neogard",
+	"display": {
+		"icon": {
+			"id": "minecraft:gold_block"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.asgard.title",
+			"fallback": "Explore Asgard"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.asgard.description",
+			"fallback": "Discover the realm of the gods"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:asgard"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

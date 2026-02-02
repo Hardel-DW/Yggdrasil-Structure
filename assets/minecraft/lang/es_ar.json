@@ -495,5 +495,59 @@
 
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "Secreto: El Cristal Oscuro",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "Justo antes de desvanecerse, la que lideraba a los Nueve me entregó esto. Un cristal diferente. Más oscuro. Más pesado. Me dijo: 'Esto contiene todo. El archivo completo de lo que pasó. De lo que nos hicieron.'.",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "No es un recuerdo. Es un arma. La prueba absoluta de los crímenes de los creadores. Ella dijo: 'No somos héroes... pero quizás alguien más pueda terminar lo que empezamos.' Este cristal es ese final."
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "No es un recuerdo. Es un arma. La prueba absoluta de los crímenes de los creadores. Ella dijo: 'No somos héroes... pero quizás alguien más pueda terminar lo que empezamos.' Este cristal es ese final.",
+
+	"advancement.yggdrasil.explore.root.title": "Yggdrasil",
+	"advancement.yggdrasil.explore.root.description": "Explora los nueve reinos de Yggdrasil",
+
+	"advancement.yggdrasil.explore.lifblom.title": "Explorar Lifblom",
+	"advancement.yggdrasil.explore.lifblom.description": "Encuentra la estela que lleva a Alfheim",
+	"advancement.yggdrasil.explore.alfheim.title": "Explorar Alfheim",
+	"advancement.yggdrasil.explore.alfheim.description": "Descubre el árbol sagrado de los Elfos de Luz",
+
+	"advancement.yggdrasil.explore.zenflors.title": "Explorar Zenflors",
+	"advancement.yggdrasil.explore.zenflors.description": "Encuentra la estela que lleva a Asflors",
+	"advancement.yggdrasil.explore.asflors.title": "Explorar Asflors",
+	"advancement.yggdrasil.explore.asflors.description": "Descubre el pueblo del Intemporal",
+	"advancement.yggdrasil.explore.runic_island.title": "Explorar Isla Rúnica",
+	"advancement.yggdrasil.explore.runic_island.description": "Encuentra la isla flotante de los Elfos Oscuros",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "Explorar Laberinto Rúnico",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "Entra en el laberinto de la dimensión del vacío",
+	"advancement.yggdrasil.explore.cuboid.title": "Explorar Cuboid",
+	"advancement.yggdrasil.explore.cuboid.description": "Descubre la misteriosa estructura cúbica",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "Explorar Nether Alfheim",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "Encuentra el árbol corrompido en el Nether",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "Explorar Ruinas Dokkalfar",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "Descubre las ruinas antiguas de los Elfos Oscuros",
+
+	"advancement.yggdrasil.explore.neogard.title": "Explorar Neogard",
+	"advancement.yggdrasil.explore.neogard.description": "Encuentra la estela que lleva a Asgard",
+	"advancement.yggdrasil.explore.asgard.title": "Explorar Asgard",
+	"advancement.yggdrasil.explore.asgard.description": "Descubre el reino de los dioses",
+
+	"advancement.yggdrasil.explore.voroblom.title": "Explorar Voroblom",
+	"advancement.yggdrasil.explore.voroblom.description": "Encuentra la estela que lleva a Glaosheimr",
+	"advancement.yggdrasil.explore.glaosheimr.title": "Explorar Glaosheimr",
+	"advancement.yggdrasil.explore.glaosheimr.description": "Descubre el salón de los caídos",
+
+	"advancement.yggdrasil.explore.helblom.title": "Explorar Helblom",
+	"advancement.yggdrasil.explore.helblom.description": "Encuentra la estela que lleva a Helheim",
+	"advancement.yggdrasil.explore.helheim.title": "Explorar Helheim",
+	"advancement.yggdrasil.explore.helheim.description": "Entra en el reino de los muertos",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "Explorar Folkvangr",
+	"advancement.yggdrasil.explore.folkvangr.description": "Encuentra la estela que lleva a Vanaheim",
+	"advancement.yggdrasil.explore.vanaheim.title": "Explorar Vanaheim",
+	"advancement.yggdrasil.explore.vanaheim.description": "Descubre el reino de los Vanir",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "Gungnir",
+	"advancement.yggdrasil.obtain.gungnir.description": "Obtén la lanza sagrada del Padre de Todo",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "Runa de Reva",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "Libera a Reva de su letargo",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "Arco de los Elfos Oscuros",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "Obtén el arco de los Elfos Oscuros",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "Crepúsculo de Yggdrasil",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "Obtén el arco legendario del vacío",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "Bendición de los Vanir",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "Recibe un regalo de los dioses Vanir"
 }

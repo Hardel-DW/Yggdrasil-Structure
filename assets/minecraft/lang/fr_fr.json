@@ -426,5 +426,59 @@
 	"item.yggdrasil.vanaheim.vault_chapter.content2": "Prenez-les avec révérence. Ils ont coûté la vie à neuf 'dieux' qui ont osé croire en nous. Ils sont l'héritage de Vanaheim.",
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "Secret : Le Cristal Sombre",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "Juste avant de disparaître, celle qui menait les Neuf m'a tendu ceci. Un cristal différent. Plus sombre. Plus lourd. Elle m'a dit : 'Ceci contient tout. L'archive complète de ce qui s'est passé. De ce qu'ils nous ont fait.'.",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Ce n'est pas un souvenir. C'est une arme. La preuve absolue des crimes des créateurs. Elle a dit : 'Nous ne sommes pas des héros... mais peut-être que quelqu'un d'autre pourra finir ce que nous avons commencé.' Ce cristal est cette fin."
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Ce n'est pas un souvenir. C'est une arme. La preuve absolue des crimes des créateurs. Elle a dit : 'Nous ne sommes pas des héros... mais peut-être que quelqu'un d'autre pourra finir ce que nous avons commencé.' Ce cristal est cette fin.",
+
+	"advancement.yggdrasil.explore.root.title": "Yggdrasil",
+	"advancement.yggdrasil.explore.root.description": "Explorez les neuf royaumes d'Yggdrasil",
+
+	"advancement.yggdrasil.explore.lifblom.title": "Explorer Lifblom",
+	"advancement.yggdrasil.explore.lifblom.description": "Trouvez la stèle qui mène à Alfheim",
+	"advancement.yggdrasil.explore.alfheim.title": "Explorer Alfheim",
+	"advancement.yggdrasil.explore.alfheim.description": "Découvrez l'arbre sacré des Elfes de Lumière",
+
+	"advancement.yggdrasil.explore.zenflors.title": "Explorer Zenflors",
+	"advancement.yggdrasil.explore.zenflors.description": "Trouvez la stèle qui mène à Asflors",
+	"advancement.yggdrasil.explore.asflors.title": "Explorer Asflors",
+	"advancement.yggdrasil.explore.asflors.description": "Découvrez le village de l'Intemporel",
+	"advancement.yggdrasil.explore.runic_island.title": "Explorer l'Île Runique",
+	"advancement.yggdrasil.explore.runic_island.description": "Trouvez l'île flottante des Elfes Noirs",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "Explorer le Labyrinthe Runique",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "Entrez dans le labyrinthe de la dimension du vide",
+	"advancement.yggdrasil.explore.cuboid.title": "Explorer le Cuboid",
+	"advancement.yggdrasil.explore.cuboid.description": "Découvrez la mystérieuse structure cubique",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "Explorer Nether Alfheim",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "Trouvez l'arbre corrompu dans le Nether",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "Explorer les Ruines Dokkalfar",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "Découvrez les ruines antiques des Elfes Noirs",
+
+	"advancement.yggdrasil.explore.neogard.title": "Explorer Neogard",
+	"advancement.yggdrasil.explore.neogard.description": "Trouvez la stèle qui mène à Asgard",
+	"advancement.yggdrasil.explore.asgard.title": "Explorer Asgard",
+	"advancement.yggdrasil.explore.asgard.description": "Découvrez le royaume des dieux",
+
+	"advancement.yggdrasil.explore.voroblom.title": "Explorer Voroblom",
+	"advancement.yggdrasil.explore.voroblom.description": "Trouvez la stèle qui mène à Glaosheimr",
+	"advancement.yggdrasil.explore.glaosheimr.title": "Explorer Glaosheimr",
+	"advancement.yggdrasil.explore.glaosheimr.description": "Découvrez la salle des déchus",
+
+	"advancement.yggdrasil.explore.helblom.title": "Explorer Helblom",
+	"advancement.yggdrasil.explore.helblom.description": "Trouvez la stèle qui mène à Helheim",
+	"advancement.yggdrasil.explore.helheim.title": "Explorer Helheim",
+	"advancement.yggdrasil.explore.helheim.description": "Entrez dans le royaume des morts",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "Explorer Folkvangr",
+	"advancement.yggdrasil.explore.folkvangr.description": "Trouvez la stèle qui mène à Vanaheim",
+	"advancement.yggdrasil.explore.vanaheim.title": "Explorer Vanaheim",
+	"advancement.yggdrasil.explore.vanaheim.description": "Découvrez le royaume des Vanir",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "Gungnir",
+	"advancement.yggdrasil.obtain.gungnir.description": "Obtenez la lance sacrée du Père de Toutes Choses",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "Rune de Reva",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "Libérez Reva de son sommeil",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "Arc des Elfes Noirs",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "Obtenez l'arc des Elfes Noirs",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "Crépuscule d'Yggdrasil",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "Obtenez l'arc légendaire du vide",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "Bénédiction des Vanir",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "Recevez un cadeau des dieux Vanir"
 }

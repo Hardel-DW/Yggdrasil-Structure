@@ -508,5 +508,59 @@
 
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "Geheimnis: Der Dunkle Kristall",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "Kurz bevor sie verschwand, übergab mir die Anführerin der Neun dies. Ein anderer Kristall. Dunkler. Schwerer. Sie sagte mir: 'Dies enthält alles. Das vollständige Archiv dessen, was geschah. Was sie uns angetan haben.'.",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Es ist keine Erinnerung. Es ist eine Waffe. Der absolute Beweis für die Verbrechen der Schöpfer. Sie sagte: 'Wir sind keine Helden... aber vielleicht kann jemand anderes beenden, was wir begonnen haben.' Dieser Kristall ist dieses Ende."
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Es ist keine Erinnerung. Es ist eine Waffe. Der absolute Beweis für die Verbrechen der Schöpfer. Sie sagte: 'Wir sind keine Helden... aber vielleicht kann jemand anderes beenden, was wir begonnen haben.' Dieser Kristall ist dieses Ende.",
+
+	"advancement.yggdrasil.explore.root.title": "Yggdrasil",
+	"advancement.yggdrasil.explore.root.description": "Erkunde die neun Reiche von Yggdrasil",
+
+	"advancement.yggdrasil.explore.lifblom.title": "Lifblom erkunden",
+	"advancement.yggdrasil.explore.lifblom.description": "Finde die Stele, die nach Alfheim führt",
+	"advancement.yggdrasil.explore.alfheim.title": "Alfheim erkunden",
+	"advancement.yggdrasil.explore.alfheim.description": "Entdecke den heiligen Baum der Lichtelfen",
+
+	"advancement.yggdrasil.explore.zenflors.title": "Zenflors erkunden",
+	"advancement.yggdrasil.explore.zenflors.description": "Finde die Stele, die nach Asflors führt",
+	"advancement.yggdrasil.explore.asflors.title": "Asflors erkunden",
+	"advancement.yggdrasil.explore.asflors.description": "Entdecke das Dorf des Zeitlosen",
+	"advancement.yggdrasil.explore.runic_island.title": "Runeninsel erkunden",
+	"advancement.yggdrasil.explore.runic_island.description": "Finde die schwebende Insel der Dunkelelfen",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "Runenlabyrinth erkunden",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "Betrete das Labyrinth der Leere-Dimension",
+	"advancement.yggdrasil.explore.cuboid.title": "Cuboid erkunden",
+	"advancement.yggdrasil.explore.cuboid.description": "Entdecke die mysteriöse kubische Struktur",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "Nether Alfheim erkunden",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "Finde den verdorbenen Baum im Nether",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "Dokkalfar-Ruinen erkunden",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "Entdecke die antiken Ruinen der Dunkelelfen",
+
+	"advancement.yggdrasil.explore.neogard.title": "Neogard erkunden",
+	"advancement.yggdrasil.explore.neogard.description": "Finde die Stele, die nach Asgard führt",
+	"advancement.yggdrasil.explore.asgard.title": "Asgard erkunden",
+	"advancement.yggdrasil.explore.asgard.description": "Entdecke das Reich der Götter",
+
+	"advancement.yggdrasil.explore.voroblom.title": "Voroblom erkunden",
+	"advancement.yggdrasil.explore.voroblom.description": "Finde die Stele, die nach Glaosheimr führt",
+	"advancement.yggdrasil.explore.glaosheimr.title": "Glaosheimr erkunden",
+	"advancement.yggdrasil.explore.glaosheimr.description": "Entdecke die Halle der Gefallenen",
+
+	"advancement.yggdrasil.explore.helblom.title": "Helblom erkunden",
+	"advancement.yggdrasil.explore.helblom.description": "Finde die Stele, die nach Helheim führt",
+	"advancement.yggdrasil.explore.helheim.title": "Helheim erkunden",
+	"advancement.yggdrasil.explore.helheim.description": "Betrete das Reich der Toten",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "Folkvangr erkunden",
+	"advancement.yggdrasil.explore.folkvangr.description": "Finde die Stele, die nach Vanaheim führt",
+	"advancement.yggdrasil.explore.vanaheim.title": "Vanaheim erkunden",
+	"advancement.yggdrasil.explore.vanaheim.description": "Entdecke das Reich der Vanir",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "Gungnir",
+	"advancement.yggdrasil.obtain.gungnir.description": "Erhalte die heilige Lanze des Allvaters",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "Rune von Reva",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "Befreie Reva aus ihrem Schlummer",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "Dunkelelfen-Bogen",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "Erhalte den Bogen der Dunkelelfen",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "Dämmerung von Yggdrasil",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "Erhalte den legendären Bogen der Leere",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "Segen der Vanir",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "Erhalte ein Geschenk der Vanir-Götter"
 }

@@ -507,5 +507,59 @@
 
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "秘密：黑暗水晶",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "就在消失之前，领导九神的那位把这个交给了我。一个不同的水晶。更暗。更重。她告诉我：'这里面包含一切。发生了什么的完整档案。他们对我们做了什么。'。",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "这不是记忆。这是武器。创造者罪行的绝对证据。她说：'我们不是英雄...但也许其他人能完成我们开始的事情。'这个水晶就是那个结局。"
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "这不是记忆。这是武器。创造者罪行的绝对证据。她说：'我们不是英雄...但也许其他人能完成我们开始的事情。'这个水晶就是那个结局。",
+
+	"advancement.yggdrasil.explore.root.title": "世界树",
+	"advancement.yggdrasil.explore.root.description": "探索世界树的九大国度",
+
+	"advancement.yggdrasil.explore.lifblom.title": "探索生命之花",
+	"advancement.yggdrasil.explore.lifblom.description": "找到通往亚尔夫海姆的石碑",
+	"advancement.yggdrasil.explore.alfheim.title": "探索亚尔夫海姆",
+	"advancement.yggdrasil.explore.alfheim.description": "发现光精灵的圣树",
+
+	"advancement.yggdrasil.explore.zenflors.title": "探索禅之花",
+	"advancement.yggdrasil.explore.zenflors.description": "找到通往阿斯弗洛斯的石碑",
+	"advancement.yggdrasil.explore.asflors.title": "探索阿斯弗洛斯",
+	"advancement.yggdrasil.explore.asflors.description": "发现永恒者的村庄",
+	"advancement.yggdrasil.explore.runic_island.title": "探索符文岛",
+	"advancement.yggdrasil.explore.runic_island.description": "找到暗精灵的浮空岛",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "探索符文迷宫",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "进入虚空维度的迷宫",
+	"advancement.yggdrasil.explore.cuboid.title": "探索立方体",
+	"advancement.yggdrasil.explore.cuboid.description": "发现神秘的立方体建筑",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "探索下界亚尔夫海姆",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "在下界找到被腐化的树",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "探索暗精灵遗迹",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "发现暗精灵的古代遗迹",
+
+	"advancement.yggdrasil.explore.neogard.title": "探索新世界",
+	"advancement.yggdrasil.explore.neogard.description": "找到通往阿斯加德的石碑",
+	"advancement.yggdrasil.explore.asgard.title": "探索阿斯加德",
+	"advancement.yggdrasil.explore.asgard.description": "发现众神的国度",
+
+	"advancement.yggdrasil.explore.voroblom.title": "探索沃罗之花",
+	"advancement.yggdrasil.explore.voroblom.description": "找到通往格拉奥谢姆的石碑",
+	"advancement.yggdrasil.explore.glaosheimr.title": "探索格拉奥谢姆",
+	"advancement.yggdrasil.explore.glaosheimr.description": "发现陨落者的殿堂",
+
+	"advancement.yggdrasil.explore.helblom.title": "探索地狱之花",
+	"advancement.yggdrasil.explore.helblom.description": "找到通往海尔海姆的石碑",
+	"advancement.yggdrasil.explore.helheim.title": "探索海尔海姆",
+	"advancement.yggdrasil.explore.helheim.description": "进入亡者的国度",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "探索战士平原",
+	"advancement.yggdrasil.explore.folkvangr.description": "找到通往华纳海姆的石碑",
+	"advancement.yggdrasil.explore.vanaheim.title": "探索华纳海姆",
+	"advancement.yggdrasil.explore.vanaheim.description": "发现华纳神族的国度",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "冈格尼尔",
+	"advancement.yggdrasil.obtain.gungnir.description": "获得众神之父的圣枪",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "蕾娃符文",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "将蕾娃从沉睡中解放",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "暗精灵之弓",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "获得暗精灵的弓",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "世界树的黄昏",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "获得虚空的传奇之弓",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "华纳神族的祝福",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "获得华纳神族的礼物"
 }

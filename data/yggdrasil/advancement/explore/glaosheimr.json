@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/voroblom",
+	"display": {
+		"icon": {
+			"id": "minecraft:cherry_planks"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.glaosheimr.title",
+			"fallback": "Explore Glaosheimr"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.glaosheimr.description",
+			"fallback": "Discover the hall of the fallen"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:glaosheimr"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

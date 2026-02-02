@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/helblom",
+	"display": {
+		"icon": {
+			"id": "minecraft:mangrove_planks"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.helheim.title",
+			"fallback": "Explore Helheim"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.helheim.description",
+			"fallback": "Enter the realm of the dead"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:helheim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

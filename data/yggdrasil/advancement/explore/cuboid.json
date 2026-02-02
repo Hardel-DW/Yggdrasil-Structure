@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/runic_labyrinth",
+	"display": {
+		"icon": {
+			"id": "minecraft:white_concrete"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.cuboid.title",
+			"fallback": "Explore Cuboid"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.cuboid.description",
+			"fallback": "Discover the mysterious cubic structure"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:cubeoid"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

@@ -507,5 +507,59 @@
 
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "Тайна: Тёмный Кристалл",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "Перед самым исчезновением та, кто вела Девятерых, вручила мне это. Другой кристалл. Темнее. Тяжелее. Она сказала: 'Здесь всё. Полный архив того, что произошло. Того, что они сделали с нами.'.",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Это не воспоминание. Это оружие. Абсолютное доказательство преступлений создателей. Она сказала: 'Мы не герои... но, возможно, кто-то другой сможет закончить то, что мы начали.' Этот кристалл — то самое завершение."
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Это не воспоминание. Это оружие. Абсолютное доказательство преступлений создателей. Она сказала: 'Мы не герои... но, возможно, кто-то другой сможет закончить то, что мы начали.' Этот кристалл — то самое завершение.",
+
+	"advancement.yggdrasil.explore.root.title": "Иггдрасиль",
+	"advancement.yggdrasil.explore.root.description": "Исследуй девять миров Иггдрасиля",
+
+	"advancement.yggdrasil.explore.lifblom.title": "Исследовать Лифблом",
+	"advancement.yggdrasil.explore.lifblom.description": "Найди стелу, ведущую в Альфхейм",
+	"advancement.yggdrasil.explore.alfheim.title": "Исследовать Альфхейм",
+	"advancement.yggdrasil.explore.alfheim.description": "Открой священное древо Светлых эльфов",
+
+	"advancement.yggdrasil.explore.zenflors.title": "Исследовать Зенфлорс",
+	"advancement.yggdrasil.explore.zenflors.description": "Найди стелу, ведущую в Асфлорс",
+	"advancement.yggdrasil.explore.asflors.title": "Исследовать Асфлорс",
+	"advancement.yggdrasil.explore.asflors.description": "Открой деревню Вечного",
+	"advancement.yggdrasil.explore.runic_island.title": "Исследовать Рунический остров",
+	"advancement.yggdrasil.explore.runic_island.description": "Найди парящий остров Тёмных эльфов",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "Исследовать Рунический лабиринт",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "Войди в лабиринт измерения пустоты",
+	"advancement.yggdrasil.explore.cuboid.title": "Исследовать Кубоид",
+	"advancement.yggdrasil.explore.cuboid.description": "Открой загадочную кубическую структуру",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "Исследовать Незер Альфхейм",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "Найди испорченное древо в Незере",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "Исследовать руины Доккальфар",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "Открой древние руины Тёмных эльфов",
+
+	"advancement.yggdrasil.explore.neogard.title": "Исследовать Неогард",
+	"advancement.yggdrasil.explore.neogard.description": "Найди стелу, ведущую в Асгард",
+	"advancement.yggdrasil.explore.asgard.title": "Исследовать Асгард",
+	"advancement.yggdrasil.explore.asgard.description": "Открой царство богов",
+
+	"advancement.yggdrasil.explore.voroblom.title": "Исследовать Вороблом",
+	"advancement.yggdrasil.explore.voroblom.description": "Найди стелу, ведущую в Глаосхеймр",
+	"advancement.yggdrasil.explore.glaosheimr.title": "Исследовать Глаосхеймр",
+	"advancement.yggdrasil.explore.glaosheimr.description": "Открой зал павших",
+
+	"advancement.yggdrasil.explore.helblom.title": "Исследовать Хельблом",
+	"advancement.yggdrasil.explore.helblom.description": "Найди стелу, ведущую в Хельхейм",
+	"advancement.yggdrasil.explore.helheim.title": "Исследовать Хельхейм",
+	"advancement.yggdrasil.explore.helheim.description": "Войди в царство мёртвых",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "Исследовать Фольквангр",
+	"advancement.yggdrasil.explore.folkvangr.description": "Найди стелу, ведущую в Ванахейм",
+	"advancement.yggdrasil.explore.vanaheim.title": "Исследовать Ванахейм",
+	"advancement.yggdrasil.explore.vanaheim.description": "Открой царство Ванов",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "Гунгнир",
+	"advancement.yggdrasil.obtain.gungnir.description": "Получи священное копьё Всеотца",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "Руна Ревы",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "Освободи Реву от её сна",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "Лук Тёмных эльфов",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "Получи лук Тёмных эльфов",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "Сумерки Иггдрасиля",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "Получи легендарный лук пустоты",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "Благословение Ванов",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "Получи дар от богов Ванов"
 }

@@ -507,5 +507,59 @@
 
 	"item.yggdrasil.vanaheim.ominous_chapter.title": "秘密：暗黒のクリスタル",
 	"item.yggdrasil.vanaheim.ominous_chapter.content": "消える直前、九柱を率いた者がこれを私に渡した。異なるクリスタル。より暗い。より重い。彼女は言った：『これにはすべてが入っている。何が起こったかの完全なアーカイブ。彼らが我々に何をしたか。』。",
-	"item.yggdrasil.vanaheim.ominous_chapter.content2": "これは記憶ではない。武器だ。創造者たちの犯罪の絶対的な証拠。彼女は言った：『我々は英雄ではない...しかし誰か他の者が我々が始めたことを終わらせられるかもしれない。』このクリスタルがその終わりだ。"
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "これは記憶ではない。武器だ。創造者たちの犯罪の絶対的な証拠。彼女は言った：『我々は英雄ではない...しかし誰か他の者が我々が始めたことを終わらせられるかもしれない。』このクリスタルがその終わりだ。",
+
+	"advancement.yggdrasil.explore.root.title": "ユグドラシル",
+	"advancement.yggdrasil.explore.root.description": "ユグドラシルの九つの世界を探索せよ",
+
+	"advancement.yggdrasil.explore.lifblom.title": "リフブロムを探索",
+	"advancement.yggdrasil.explore.lifblom.description": "アルフヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.alfheim.title": "アルフヘイムを探索",
+	"advancement.yggdrasil.explore.alfheim.description": "光のエルフの聖なる樹を発見せよ",
+
+	"advancement.yggdrasil.explore.zenflors.title": "ゼンフロースを探索",
+	"advancement.yggdrasil.explore.zenflors.description": "アスフロースへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.asflors.title": "アスフロースを探索",
+	"advancement.yggdrasil.explore.asflors.description": "永遠なる者の村を発見せよ",
+	"advancement.yggdrasil.explore.runic_island.title": "ルーン島を探索",
+	"advancement.yggdrasil.explore.runic_island.description": "闇のエルフの浮遊島を見つけよ",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "ルーン迷宮を探索",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "虚空次元の迷宮に入れ",
+	"advancement.yggdrasil.explore.cuboid.title": "キューボイドを探索",
+	"advancement.yggdrasil.explore.cuboid.description": "謎の立方体構造物を発見せよ",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "ネザー・アルフヘイムを探索",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "ネザーの腐敗した樹を見つけよ",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "ドッカールファルの遺跡を探索",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "闇のエルフの古代遺跡を発見せよ",
+
+	"advancement.yggdrasil.explore.neogard.title": "ネオガルドを探索",
+	"advancement.yggdrasil.explore.neogard.description": "アスガルドへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.asgard.title": "アスガルドを探索",
+	"advancement.yggdrasil.explore.asgard.description": "神々の領域を発見せよ",
+
+	"advancement.yggdrasil.explore.voroblom.title": "ヴォロブロムを探索",
+	"advancement.yggdrasil.explore.voroblom.description": "グラオシェイムルへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.glaosheimr.title": "グラオシェイムルを探索",
+	"advancement.yggdrasil.explore.glaosheimr.description": "堕ちた者の広間を発見せよ",
+
+	"advancement.yggdrasil.explore.helblom.title": "ヘルブロムを探索",
+	"advancement.yggdrasil.explore.helblom.description": "ヘルヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.helheim.title": "ヘルヘイムを探索",
+	"advancement.yggdrasil.explore.helheim.description": "死者の領域に入れ",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "フォルクヴァングルを探索",
+	"advancement.yggdrasil.explore.folkvangr.description": "ヴァナヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.vanaheim.title": "ヴァナヘイムを探索",
+	"advancement.yggdrasil.explore.vanaheim.description": "ヴァン神族の領域を発見せよ",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "グングニル",
+	"advancement.yggdrasil.obtain.gungnir.description": "全父の聖なる槍を手に入れよ",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "レヴァのルーン",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "レヴァを眠りから解放せよ",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "闇のエルフの弓",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "闇のエルフの弓を手に入れよ",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "ユグドラシルの黄昏",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "虚空の伝説の弓を手に入れよ",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "ヴァン神族の祝福",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "ヴァン神族からの贈り物を受け取れ"
 }

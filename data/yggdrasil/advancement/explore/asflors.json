@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/zenflors",
+	"display": {
+		"icon": {
+			"id": "minecraft:stone_bricks"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.asflors.title",
+			"fallback": "Explore Asflors"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.asflors.description",
+			"fallback": "Discover the village of the Timeless One"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:asflors"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"parent": "yggdrasil:explore/asgard",
+	"display": {
+		"icon": {
+			"id": "minecraft:trident"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.obtain.gungnir.title",
+			"fallback": "Gungnir"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.obtain.gungnir.description",
+			"fallback": "Obtain the sacred lance of the Father of All Things"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"yggdrasil": {
+									"id": "yggdrasil.asgard.treasure.gungnir"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["has_item"]
+	]
+}

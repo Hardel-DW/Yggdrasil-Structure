@@ -20,23 +20,22 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:consumable": {
-									"consume_seconds": 999999999,
-									"has_consume_particles": false,
-									"animation": "none"
-								},
-								"minecraft:food": {
-									"nutrition": 0,
-									"saturation": 0,
-									"can_always_eat": true
-								},
 								"minecraft:rarity": "epic",
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:custom_data": {
 									"yggdrasil": {
 										"id": "yggdrasil.helheim.treasure.rune_of_reva"
 									}
-								}
+								},
+								"minecraft:attribute_modifiers": [
+									{
+										"type": "minecraft:burning_time",
+										"id": "yggdrasil.helheim.treasure.rune_of_reva.armor",
+										"amount": -100,
+										"operation": "add_multiplied_base",
+										"slot": "offhand"
+									}
+								]
 							}
 						},
 						{

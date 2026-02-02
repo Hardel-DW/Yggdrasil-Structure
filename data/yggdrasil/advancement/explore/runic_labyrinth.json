@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/runic_island",
+	"display": {
+		"icon": {
+			"id": "minecraft:black_concrete"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.runic_labyrinth.title",
+			"fallback": "Explore Runic Labyrinth"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.runic_labyrinth.description",
+			"fallback": "Enter the labyrinth of the void dimension"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:runic_labyrinth"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}
