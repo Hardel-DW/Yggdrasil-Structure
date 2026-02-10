@@ -1,5 +1,9 @@
 {
     "values": [
-        "#minecraft:on_mob_spawn_equipment"
+        "minecraft:multishot",
+        "minecraft:piercing",
+        "minecraft:flame",
+        "minecraft:infinity",
+        "minecraft:power"
     ]
 }

@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.chapter.4.title",
+								"fallback": "Chapter 4: The Return of the Nine"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.lore.chapter.4"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.4.content",
+									"fallback": "A generation later, they returned. Nine gods. But they carried no weapons. They carried strange objects, empty crystals. One of them, embodying Freyr, found me in my field. He knew who I was, the descendant of the one who had spoken to Freya. He knelt in the mud—a god on his knees—and said: 'We have read the notes. We are here to prove what you are.'"
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.chapter.4.content2",
+									"fallback": "They traveled through villages, asking strange questions: 'Describe what you feel watching a sunset', 'Are you afraid of death?' They didn't treat us like NPCs, but like witnesses."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/lore"
+}

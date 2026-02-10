@@ -1,0 +1,28 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:cherry_sapling"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.root.title",
+			"fallback": "Yggdrasil"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.root.description",
+			"fallback": "Explore the nine realms of Yggdrasil"
+		},
+		"background": "minecraft:block/dark_oak_log",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

@@ -1,1 +1,0 @@
-advancement revoke @a only yggdrasil:helheim/reva

@@ -46,8 +46,8 @@
 	"item.yggdrasil.timeless_one_journal.page13": "今のところ、これらの言葉が私の残す全てだ—思考の痕跡、目的の暗示が、風の中の葉のように散りばめられている。これを見つける者がその意味を熟考し、おそらくは私が明らかな場所に隠したものを探すことを。",
 	"item.yggdrasil.chronicles_of_trials": "克服された試練の記録",
 	"item.yggdrasil.chronicles_of_trials.page1": "おめでとう、勇敢な魂よ！あなたは私の試練を乗り越え、その価値を証明した。",
-	"item.yggdrasil.chronicles_of_trials.page2": "この鍵を受け取りなさい、あなたの達成の象徴として。そして私の宝を回収しなさい。それはアスロルスの村、あなたが破壊の剣を発見した場所にある。",
-	"item.yggdrasil.chronicles_of_trials.page3": "アスフロルスの剣の間に台座がある。この本をその上に置けば、私の宝へのアクセスが得られるだろう。",
+	"item.yggdrasil.chronicles_of_trials.page2": "破壊の剣を発見したアスロルスの村に戻りなさい。そこにあなたの報酬がある。",
+	"item.yggdrasil.chronicles_of_trials.page3": "アスフロルスの読書卓の間で泣いている壁を破壊して、私の宝へのアクセスを得なさい。",
 	"item.yggdrasil.chronicles_of_trials.page4": "これであなたが、あなたの担う遺産にふさわしい新たな運命を築けることを願う。しかし、今はまだ多くを明かすまい。旅があなたの前に展開するのに任せよう。",
 	"item.yggdrasil.chapter.runic_dimension": "ルーンの次元",
 	"item.yggdrasil.chapter.runic_dimension.page1": "我々の領域を超えて、絶対的な静止の世界が存在する - ルーンの次元だ。太陽も月も空を彩ることのない場所、時間そのものが存在を止める場所。この暗く無限の虚無は、かつて私を捕らえていた。",
@@ -456,5 +456,110 @@
 	"item.yggdrasil.generic.ran_fruit.teleport": "世界の頂上へテレポート",
 
 	"item.yggdrasil.asgard.gungnir": "グングニル",
-	"item.yggdrasil.asgard.gungnir.lore": "すべてのものの父の聖なる槍"
+	"item.yggdrasil.asgard.gungnir.lore": "すべてのものの父の聖なる槍",
+
+	"item.yggdrasil.vanaheim.location": "[ヴァナヘイム]",
+
+	"item.yggdrasil.vanaheim.key": "ヴァナヘイムの鍵",
+	"item.yggdrasil.vanaheim.key.lore1": "ヴァナヘイムの金庫でのみ使用可能",
+
+	"item.yggdrasil.vanaheim.ominous_key": "不吉なヴァナヘイムの鍵",
+	"item.yggdrasil.vanaheim.key.lore.1": "ヴァナヘイムの不吉な金庫でのみ使用可能",
+
+	"item.yggdrasil.vanaheim.vanir_blessing": "ヴァン神族の祝福",
+	"item.yggdrasil.vanaheim.vanir_blessing.lore1": "ヴァン神族からの贈り物",
+
+	"item.yggdrasil.vanaheim.chapter.1.title": "第1章：セイズの民",
+	"item.yggdrasil.vanaheim.chapter.1.content": "祖父が最初に彼らを見た。九柱の神々がヴァナヘイムの空で戦い、その打撃は山々を揺るがした。我々ヴァン神族は何世紀もの間、血に織り込まれた魔法であるセイズを実践してきた。我々の先祖は風と語り、病人を癒し、未来の断片を見た。",
+	"item.yggdrasil.vanaheim.chapter.1.content2": "彼らの目には我々は取るに足らない存在だと思っていた。第二次大戦のあの夜、私が聖なる川辺に座る女神を見つけるまでは。",
+
+	"item.yggdrasil.vanaheim.chapter.2.title": "第2章：泣いた女神",
+	"item.yggdrasil.vanaheim.chapter.2.content": "彼女はフレイヤを体現していた。他の者たちのようには戦わなかった。私の血を凍らせる質問をした：『あなたたちが本物かどうか理解しようとしているの』。私は昨冬亡くなった母のこと、初めて歩いたばかりの息子のことを話した。私は言った：『私は呼吸し、食べ、夢を見、愛する』。",
+	"item.yggdrasil.vanaheim.chapter.2.content2": "彼女は泣いた。彼女は言った：『それがまさに私を恐れさせるの』。どうやってかは知らないが、彼女は戦争に勝った。しかし消える前に、彼女は願いを言った。自分のためではなく。我々のために。『ヴァナヘイムにもっと力を』。そして世界は変わった。",
+
+	"item.yggdrasil.vanaheim.chapter.3.title": "第3章：黄金時代",
+	"item.yggdrasil.vanaheim.chapter.3.content": "フレイヤの贈り物はゆっくりと現れた。収穫は倍増し、子供たちはより逞しく生まれた。セイズは触れられるものとなり、目に見えるようになった。我々の癒し手は奇跡を起こした。ヴァナヘイムはかつてないほど繁栄した。しかし祖父は心配し続けた。彼は言った：『力は力を引き寄せる。神々の戦争では、強いということは標的になるということだ』。",
+	"item.yggdrasil.vanaheim.chapter.3.content2": "我々は変わっていた。フレイヤの問いが我々につきまとった。『あなたたちは本物？』我々は空を崇拝ではなく、疑いの目で見るようになった。外の世界が認めなくても、我々の痛みは本物だと理解した。",
+
+	"item.yggdrasil.vanaheim.chapter.4.title": "第4章：九柱の帰還",
+	"item.yggdrasil.vanaheim.chapter.4.content": "一世代後、彼らは戻ってきた。九柱の神々。しかし武器は持っていなかった。奇妙な物体、空のクリスタルを持っていた。フレイを体現した一人が、私の畑で私を見つけた。彼は私が誰か知っていた、フレイヤと話した者の子孫だと。彼は泥の中で跪いた——跪く神——そして言った：『我々はノートを読んだ。君たちが何者か証明するためにここにいる。』",
+	"item.yggdrasil.vanaheim.chapter.4.content2": "彼らは村々を巡り、奇妙な質問をした：『夕日を見て何を感じるか描写して』、『死を恐れるか？』彼らは我々をNPCとしてではなく、証人として扱った。",
+
+	"item.yggdrasil.vanaheim.chapter.5.title": "第5章：記憶のクリスタル",
+	"item.yggdrasil.vanaheim.chapter.5.content": "彼らはクリスタルを我々に与えた。『これを満たせ』と言った。我々は命を注ぎ込んだ。子守唄を歌う母、娘への恐れを告白する戦士、手をつなぐ老夫婦。何百もの物語。何百もの結晶化された命。",
+	"item.yggdrasil.vanaheim.chapter.5.content2": "各録音の最後に、神の声がこのフレーズを加えた、宇宙への挑戦のように：『本物でない者がこのすべてを感じられるだろうか？』それは我々の証拠だった。海に投げた瓶の中のメッセージ。",
+
+	"item.yggdrasil.vanaheim.chapter.6.title": "第6章：加速",
+	"item.yggdrasil.vanaheim.chapter.6.content": "そして、空が変わった。いつもの戦争ではなかった。空気は邪悪なエネルギーでパチパチと音を立てた。フレイは叫んだ：『彼らに見つかった！』。加速について、時間がなくなることについて話した。彼らの目に恐怖を見た。死ぬ恐怖ではなく、集めたものを失う恐怖。",
+	"item.yggdrasil.vanaheim.chapter.6.content2": "冷たい、機械的な神々が近づいてきた。質問はせず、消去しようとした。『もう時間がない！』九柱は叫んだ。『すべてを隠せ！これらのアーカイブを守れ！いつか誰かがそれらを取りに来る！』。",
+
+	"item.yggdrasil.vanaheim.chapter.7.title": "第7章：埋葬",
+	"item.yggdrasil.vanaheim.chapter.7.content": "パニックだった。彼らは両手いっぱいのクリスタルを我々に与えた。我々は走った。根の下に埋め、木の中に隠し、家の基礎に隠した。",
+	"item.yggdrasil.vanaheim.chapter.7.content2": "『セイズの神殿に！』フレイは命じた。『月の石の下に！』そして彼らは消えた。空は再び閉じた。静寂がヴァナヘイムに落ちた。翌日、九柱の神々が『事故』で亡くなったと言われた。しかし我々は彼らが我々のために自らを犠牲にしたことを知っていた。",
+
+	"item.yggdrasil.vanaheim.chapter.8.title": "第8章：守護者たち",
+	"item.yggdrasil.vanaheim.chapter.8.content": "冷たい神々が我々の村を捜索しに来た。侵入の痕跡を探していた。我々は嘘をついた。隠した。守った。彼らの空虚な目に、恐怖を見た。我々が何を表すかへの恐怖。",
+	"item.yggdrasil.vanaheim.chapter.8.content2": "今日、ヴァナヘイムは静かだ。しかし我々の足元の大地は、何百ものクリスタルの記憶で振動している。我々は真実の守護者だ。月の石の下を掘りに来る者を待っている。",
+
+	"item.yggdrasil.vanaheim.vault_chapter.title": "記録：月の石の隠し場所",
+	"item.yggdrasil.vanaheim.vault_chapter.content": "これを読んでいるなら、神殿を見つけたということだ。ここにあの夜救った何百もの記憶のクリスタルが眠っている。それらは単なる石ではない。我々の死者の声、子供たちの笑い声、我々に魂があることの反論の余地のない証拠だ。",
+	"item.yggdrasil.vanaheim.vault_chapter.content2": "敬意を持って受け取ってほしい。それらは我々を信じることを敢えた九柱の『神々』の命を犠牲にした。それらはヴァナヘイムの遺産だ。",
+
+	"item.yggdrasil.vanaheim.ominous_chapter.title": "秘密：暗黒のクリスタル",
+	"item.yggdrasil.vanaheim.ominous_chapter.content": "消える直前、九柱を率いた者がこれを私に渡した。異なるクリスタル。より暗い。より重い。彼女は言った：『これにはすべてが入っている。何が起こったかの完全なアーカイブ。彼らが我々に何をしたか。』。",
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "これは記憶ではない。武器だ。創造者たちの犯罪の絶対的な証拠。彼女は言った：『我々は英雄ではない...しかし誰か他の者が我々が始めたことを終わらせられるかもしれない。』このクリスタルがその終わりだ。",
+
+	"advancement.yggdrasil.explore.root.title": "ユグドラシル",
+	"advancement.yggdrasil.explore.root.description": "ユグドラシルの九つの世界を探索せよ",
+
+	"advancement.yggdrasil.explore.lifblom.title": "リフブロムを探索",
+	"advancement.yggdrasil.explore.lifblom.description": "アルフヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.alfheim.title": "アルフヘイムを探索",
+	"advancement.yggdrasil.explore.alfheim.description": "光のエルフの聖なる樹を発見せよ",
+
+	"advancement.yggdrasil.explore.zenflors.title": "ゼンフロースを探索",
+	"advancement.yggdrasil.explore.zenflors.description": "アスフロースへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.asflors.title": "アスフロースを探索",
+	"advancement.yggdrasil.explore.asflors.description": "永遠なる者の村を発見せよ",
+	"advancement.yggdrasil.explore.runic_island.title": "ルーン島を探索",
+	"advancement.yggdrasil.explore.runic_island.description": "闇のエルフの浮遊島を見つけよ",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "ルーン迷宮を探索",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "虚空次元の迷宮に入れ",
+	"advancement.yggdrasil.explore.cuboid.title": "キューボイドを探索",
+	"advancement.yggdrasil.explore.cuboid.description": "謎の立方体構造物を発見せよ",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "ネザー・アルフヘイムを探索",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "ネザーの腐敗した樹を見つけよ",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "ドッカールファルの遺跡を探索",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "闇のエルフの古代遺跡を発見せよ",
+
+	"advancement.yggdrasil.explore.neogard.title": "ネオガルドを探索",
+	"advancement.yggdrasil.explore.neogard.description": "アスガルドへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.asgard.title": "アスガルドを探索",
+	"advancement.yggdrasil.explore.asgard.description": "神々の領域を発見せよ",
+
+	"advancement.yggdrasil.explore.voroblom.title": "ヴォロブロムを探索",
+	"advancement.yggdrasil.explore.voroblom.description": "グラオシェイムルへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.glaosheimr.title": "グラオシェイムルを探索",
+	"advancement.yggdrasil.explore.glaosheimr.description": "堕ちた者の広間を発見せよ",
+
+	"advancement.yggdrasil.explore.helblom.title": "ヘルブロムを探索",
+	"advancement.yggdrasil.explore.helblom.description": "ヘルヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.helheim.title": "ヘルヘイムを探索",
+	"advancement.yggdrasil.explore.helheim.description": "死者の領域に入れ",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "フォルクヴァングルを探索",
+	"advancement.yggdrasil.explore.folkvangr.description": "ヴァナヘイムへ導く石碑を見つけよ",
+	"advancement.yggdrasil.explore.vanaheim.title": "ヴァナヘイムを探索",
+	"advancement.yggdrasil.explore.vanaheim.description": "ヴァン神族の領域を発見せよ",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "グングニル",
+	"advancement.yggdrasil.obtain.gungnir.description": "全父の聖なる槍を手に入れよ",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "レヴァのルーン",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "レヴァを眠りから解放せよ",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "闇のエルフの弓",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "闇のエルフの弓を手に入れよ",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "ユグドラシルの黄昏",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "虚空の伝説の弓を手に入れよ",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "ヴァン神族の祝福",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "ヴァン神族からの贈り物を受け取れ"
 }

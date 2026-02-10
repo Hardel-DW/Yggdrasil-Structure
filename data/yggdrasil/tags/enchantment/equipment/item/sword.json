@@ -1,5 +1,9 @@
 {
     "values": [
-        "#minecraft:on_mob_spawn_equipment"
+        "minecraft:sharpness",
+        "minecraft:smite",
+        "minecraft:bane_of_arthropods",
+        "minecraft:sweeping_edge",
+        "minecraft:fire_aspect"
     ]
 }

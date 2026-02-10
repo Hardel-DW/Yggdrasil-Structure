@@ -11,15 +11,6 @@
 			}
 		},
 		{
-			"weight": 4,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/feature/spawner/magma_cube"
-			}
-		},
-		{
 			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -71,6 +62,15 @@
 				"projection": "rigid",
 				"processors": "minecraft:empty",
 				"location": "yggdrasil:alfheim_tree/feature/spawner/evoker"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:alfheim_tree/feature/spawner/wither_skeleton"
 			}
 		},
 		{

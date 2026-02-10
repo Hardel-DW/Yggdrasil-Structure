@@ -11,6 +11,15 @@
 			}
 		},
 		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "minecraft:empty",
+				"location": "yggdrasil:generic/feature/spawner/magma_cube"
+			}
+		},
+		{
 			"weight": 2,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -89,15 +98,6 @@
 				"projection": "rigid",
 				"processors": "minecraft:empty",
 				"location": "yggdrasil:generic/feature/spawner/stray"
-			}
-		},
-		{
-			"weight": 1,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "yggdrasil:generic/feature/spawner/warden"
 			}
 		},
 		{

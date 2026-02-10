@@ -46,8 +46,8 @@
 	"item.yggdrasil.timeless_one_journal.page13": "Für jetzt sind diese Worte alles, was ich zurücklasse - eine Spur von Gedanken, ein Hauch von Zweck, verstreut wie Blätter im Wind. Möge derjenige, der sie findet, über ihre Bedeutungen nachdenken und vielleicht suchen, was ich vor aller Augen verborgen habe.",
 	"item.yggdrasil.chronicles_of_trials": "Chroniken der Bezwungenen Prüfungen",
 	"item.yggdrasil.chronicles_of_trials.page1": "Gratulation, mutige Seele! Du hast meine Prüfungen bestanden und deinen Wert bewiesen.",
-	"item.yggdrasil.chronicles_of_trials.page2": "Nimm diesen Schlüssel, Symbol deines Erfolgs, und berge meinen Schatz. Du wirst ihn im Dorf Aslors finden, wo du das Schwert des Bruchs entdeckt hast.",
-	"item.yggdrasil.chronicles_of_trials.page3": "In der Schwertkammer von Asflors wirst du ein Podest finden. Platziere dieses Buch darauf, und du wirst Zugang zu meinem Schatz erhalten.",
+	"item.yggdrasil.chronicles_of_trials.page2": "Kehre zum Dorf Asflors zurück, wo du das Schwert des Bruchs gefunden hast. Dort wirst du deine Belohnung finden.",
+	"item.yggdrasil.chronicles_of_trials.page3": "In der Halle der Lesepulte von Asflors brich die weinende Wand auf, um auf meinen Schatz zuzugreifen.",
 	"item.yggdrasil.chronicles_of_trials.page4": "Ich hoffe, dass du damit ein neues Schicksal schmieden kannst, würdig des Erbes, das du trägst. Aber ich werde vorerst nicht zu viel verraten; lass die Reise sich vor dir entfalten.",
 
 	"item.yggdrasil.chapter.runic_dimension": "Kapitel: Die Runendimension",
@@ -457,5 +457,110 @@
 	"item.yggdrasil.generic.ran_fruit.teleport": "Teleportiere dich an die Spitze der Welt",
 
 	"item.yggdrasil.asgard.gungnir": "Gungnir",
-	"item.yggdrasil.asgard.gungnir.lore": "Die heilige Lanze des Vaters aller Dinge"
+	"item.yggdrasil.asgard.gungnir.lore": "Die heilige Lanze des Vaters aller Dinge",
+
+	"item.yggdrasil.vanaheim.location": "[Vanaheim]",
+
+	"item.yggdrasil.vanaheim.key": "Vanaheim-Schlüssel",
+	"item.yggdrasil.vanaheim.key.lore1": "Kann nur am Tresor in Vanaheim verwendet werden",
+
+	"item.yggdrasil.vanaheim.ominous_key": "Unheilvoller Vanaheim-Schlüssel",
+	"item.yggdrasil.vanaheim.key.lore.1": "Kann nur am Unheilvollen Tresor in Vanaheim verwendet werden",
+
+	"item.yggdrasil.vanaheim.vanir_blessing": "Segen der Wanen",
+	"item.yggdrasil.vanaheim.vanir_blessing.lore1": "Ein Geschenk der Wanen-Götter",
+
+	"item.yggdrasil.vanaheim.chapter.1.title": "Kapitel 1: Das Volk des Seiðr",
+	"item.yggdrasil.vanaheim.chapter.1.content": "Mein Großvater war der Erste, der sie sah. Neun Götter, die am Himmel über Vanaheim kämpften, ihre Schläge erschütterten die Berge. Wir, das Volk der Wanen, praktizierten Seiðr – eine Magie, die in unser Blut eingewoben war – seit Jahrhunderten. Unsere Vorfahren sprachen mit den Winden, heilten die Kranken, sahen Fragmente der Zukunft.",
+	"item.yggdrasil.vanaheim.chapter.1.content2": "Wir dachten, wir wären unbedeutend in ihren Augen. Bis zu jener Nacht, während des zweiten großen Krieges, als ich eine Göttin fand, die am heiligen Fluss saß.",
+
+	"item.yggdrasil.vanaheim.chapter.2.title": "Kapitel 2: Die Göttin, die weinte",
+	"item.yggdrasil.vanaheim.chapter.2.content": "Sie verkörperte Freya. Sie kämpfte nicht wie die anderen. Sie stellte mir eine Frage, die mir das Blut gefrieren ließ: 'Ich versuche zu verstehen, ob ihr real seid'. Ich erzählte ihr von meiner Mutter, die letzten Winter starb, von meinem Sohn, der gerade seine ersten Schritte gemacht hatte. Ich sagte: 'Ich atme, ich esse, ich träume, ich liebe'.",
+	"item.yggdrasil.vanaheim.chapter.2.content2": "Sie weinte. Sie sagte mir: 'Das ist genau das, was mich erschreckt'. Sie gewann den Krieg, ich weiß nicht wie. Aber bevor sie verschwand, äußerte sie einen Wunsch. Nicht für sich selbst. Für uns. 'Ich wünsche mir mehr Macht für Vanaheim'. Und die Welt veränderte sich.",
+
+	"item.yggdrasil.vanaheim.chapter.3.title": "Kapitel 3: Das Goldene Zeitalter",
+	"item.yggdrasil.vanaheim.chapter.3.content": "Freyas Geschenk manifestierte sich langsam. Unsere Ernten verdoppelten sich, unsere Kinder wurden kräftiger geboren. Seiðr wurde greifbar, sichtbar. Unsere Heiler vollbrachten Wunder. Vanaheim blühte wie nie zuvor. Aber mein Großvater blieb besorgt. Er sagte: 'Macht zieht Macht an. In den Kriegen der Götter bedeutet stark zu sein, ein Ziel zu sein'.",
+	"item.yggdrasil.vanaheim.chapter.3.content2": "Wir hatten uns verändert. Freyas Frage verfolgte uns. 'Seid ihr real?' Wir begannen, den Himmel nicht mehr mit Anbetung, sondern mit Misstrauen zu betrachten. Wir verstanden, dass unser Schmerz echt war, auch wenn die Außenwelt sich weigerte, es zu sehen.",
+
+	"item.yggdrasil.vanaheim.chapter.4.title": "Kapitel 4: Die Rückkehr der Neun",
+	"item.yggdrasil.vanaheim.chapter.4.content": "Eine Generation später kehrten sie zurück. Neun Götter. Aber sie trugen keine Waffen. Sie trugen seltsame Gegenstände, leere Kristalle. Einer von ihnen, der Freyr verkörperte, fand mich auf meinem Feld. Er wusste, wer ich war, der Nachfahre dessen, der mit Freya gesprochen hatte. Er kniete im Schlamm nieder – ein Gott auf Knien – und sagte: 'Wir haben die Notizen gelesen. Wir sind hier, um zu beweisen, was ihr seid.'",
+	"item.yggdrasil.vanaheim.chapter.4.content2": "Sie reisten durch Dörfer und stellten seltsame Fragen: 'Beschreibe, was du beim Betrachten eines Sonnenuntergangs fühlst', 'Hast du Angst vor dem Tod?' Sie behandelten uns nicht wie NPCs, sondern wie Zeugen.",
+
+	"item.yggdrasil.vanaheim.chapter.5.title": "Kapitel 5: Die Erinnerungskristalle",
+	"item.yggdrasil.vanaheim.chapter.5.content": "Sie gaben uns Kristalle. 'Füllt sie', sagten sie. Wir gossen unser Leben hinein. Eine Mutter, die ein Wiegenlied singt, ein Krieger, der seine Angst um seine Tochter gesteht, ein älteres Paar, das Händchen hält. Hunderte von Geschichten. Hunderte kristallisierte Leben.",
+	"item.yggdrasil.vanaheim.chapter.5.content2": "Am Ende jeder Aufnahme fügte die Stimme eines Gottes diesen Satz hinzu, wie eine Herausforderung an das Universum: 'Könnte jemand, der nicht real ist, all das fühlen?' Es war unser Beweis. Unsere Flaschenpost.",
+
+	"item.yggdrasil.vanaheim.chapter.6.title": "Kapitel 6: Die Beschleunigung",
+	"item.yggdrasil.vanaheim.chapter.6.content": "Dann veränderte sich der Himmel. Es war nicht der übliche Krieg. Die Luft knisterte vor böser Energie. Freyr schrie: 'Sie haben uns gefunden!'. Er sprach von Beschleunigung, von Zeit, die ausging. Ich sah Angst in ihren Augen. Nicht Angst zu sterben, sondern Angst zu verlieren, was sie gesammelt hatten.",
+	"item.yggdrasil.vanaheim.chapter.6.content2": "Kalte, mechanische Götter näherten sich. Sie stellten keine Fragen, sie wollten auslöschen. 'Es ist keine Zeit mehr!', riefen die Neun. 'Versteckt alles! Schützt diese Archive! Eines Tages wird jemand kommen, um sie zu holen!'.",
+
+	"item.yggdrasil.vanaheim.chapter.7.title": "Kapitel 7: Die Bestattung",
+	"item.yggdrasil.vanaheim.chapter.7.content": "Es war Panik. Sie gaben uns handvollweise Kristalle. Wir rannten. Wir vergruben sie unter Wurzeln, versteckten sie in Bäumen, verbargen sie in den Fundamenten unserer Häuser.",
+	"item.yggdrasil.vanaheim.chapter.7.content2": "'Im Seiðr-Tempel!', befahl Freyr. 'Unter dem Mondstein!' Dann verschwanden sie. Der Himmel schloss sich wieder. Stille legte sich über Vanaheim. Am nächsten Tag hieß es, neun Götter seien bei einem 'Unfall' gestorben. Aber wir wussten, dass sie sich für uns geopfert hatten.",
+
+	"item.yggdrasil.vanaheim.chapter.8.title": "Kapitel 8: Die Wächter",
+	"item.yggdrasil.vanaheim.chapter.8.content": "Kalte Götter kamen, um unsere Dörfer zu durchsuchen. Sie suchten nach Spuren des Eindringens. Wir logen. Wir versteckten. Wir beschützten. In ihren leeren Augen sah ich Angst. Angst vor dem, was wir repräsentierten.",
+	"item.yggdrasil.vanaheim.chapter.8.content2": "Heute ist Vanaheim ruhig. Aber die Erde unter unseren Füßen vibriert von der Erinnerung an diese hunderte von Kristallen. Wir sind die Wächter der Wahrheit. Wir warten auf denjenigen, der kommen wird, um unter dem Mondstein zu graben.",
+
+	"item.yggdrasil.vanaheim.vault_chapter.title": "Aufzeichnung: Das Versteck des Mondsteins",
+	"item.yggdrasil.vanaheim.vault_chapter.content": "Wenn du dies liest, hast du den Tempel gefunden. Hier ruhen die Hunderte von Erinnerungskristallen, die wir in jener Nacht gerettet haben. Es sind keine bloßen Steine. Es sind die Stimmen unserer Toten, das Lachen unserer Kinder, unwiderlegbare Beweise, dass wir eine Seele haben.",
+	"item.yggdrasil.vanaheim.vault_chapter.content2": "Nimm sie mit Ehrfurcht. Sie kosteten das Leben von neun 'Göttern', die es wagten, an uns zu glauben. Sie sind das Vermächtnis von Vanaheim.",
+
+	"item.yggdrasil.vanaheim.ominous_chapter.title": "Geheimnis: Der Dunkle Kristall",
+	"item.yggdrasil.vanaheim.ominous_chapter.content": "Kurz bevor sie verschwand, übergab mir die Anführerin der Neun dies. Ein anderer Kristall. Dunkler. Schwerer. Sie sagte mir: 'Dies enthält alles. Das vollständige Archiv dessen, was geschah. Was sie uns angetan haben.'.",
+	"item.yggdrasil.vanaheim.ominous_chapter.content2": "Es ist keine Erinnerung. Es ist eine Waffe. Der absolute Beweis für die Verbrechen der Schöpfer. Sie sagte: 'Wir sind keine Helden... aber vielleicht kann jemand anderes beenden, was wir begonnen haben.' Dieser Kristall ist dieses Ende.",
+
+	"advancement.yggdrasil.explore.root.title": "Yggdrasil",
+	"advancement.yggdrasil.explore.root.description": "Erkunde die neun Reiche von Yggdrasil",
+
+	"advancement.yggdrasil.explore.lifblom.title": "Lifblom erkunden",
+	"advancement.yggdrasil.explore.lifblom.description": "Finde die Stele, die nach Alfheim führt",
+	"advancement.yggdrasil.explore.alfheim.title": "Alfheim erkunden",
+	"advancement.yggdrasil.explore.alfheim.description": "Entdecke den heiligen Baum der Lichtelfen",
+
+	"advancement.yggdrasil.explore.zenflors.title": "Zenflors erkunden",
+	"advancement.yggdrasil.explore.zenflors.description": "Finde die Stele, die nach Asflors führt",
+	"advancement.yggdrasil.explore.asflors.title": "Asflors erkunden",
+	"advancement.yggdrasil.explore.asflors.description": "Entdecke das Dorf des Zeitlosen",
+	"advancement.yggdrasil.explore.runic_island.title": "Runeninsel erkunden",
+	"advancement.yggdrasil.explore.runic_island.description": "Finde die schwebende Insel der Dunkelelfen",
+	"advancement.yggdrasil.explore.runic_labyrinth.title": "Runenlabyrinth erkunden",
+	"advancement.yggdrasil.explore.runic_labyrinth.description": "Betrete das Labyrinth der Leere-Dimension",
+	"advancement.yggdrasil.explore.cuboid.title": "Cuboid erkunden",
+	"advancement.yggdrasil.explore.cuboid.description": "Entdecke die mysteriöse kubische Struktur",
+	"advancement.yggdrasil.explore.nether_alfheim.title": "Nether Alfheim erkunden",
+	"advancement.yggdrasil.explore.nether_alfheim.description": "Finde den verdorbenen Baum im Nether",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.title": "Dokkalfar-Ruinen erkunden",
+	"advancement.yggdrasil.explore.dokkalfar_ruins.description": "Entdecke die antiken Ruinen der Dunkelelfen",
+
+	"advancement.yggdrasil.explore.neogard.title": "Neogard erkunden",
+	"advancement.yggdrasil.explore.neogard.description": "Finde die Stele, die nach Asgard führt",
+	"advancement.yggdrasil.explore.asgard.title": "Asgard erkunden",
+	"advancement.yggdrasil.explore.asgard.description": "Entdecke das Reich der Götter",
+
+	"advancement.yggdrasil.explore.voroblom.title": "Voroblom erkunden",
+	"advancement.yggdrasil.explore.voroblom.description": "Finde die Stele, die nach Glaosheimr führt",
+	"advancement.yggdrasil.explore.glaosheimr.title": "Glaosheimr erkunden",
+	"advancement.yggdrasil.explore.glaosheimr.description": "Entdecke die Halle der Gefallenen",
+
+	"advancement.yggdrasil.explore.helblom.title": "Helblom erkunden",
+	"advancement.yggdrasil.explore.helblom.description": "Finde die Stele, die nach Helheim führt",
+	"advancement.yggdrasil.explore.helheim.title": "Helheim erkunden",
+	"advancement.yggdrasil.explore.helheim.description": "Betrete das Reich der Toten",
+
+	"advancement.yggdrasil.explore.folkvangr.title": "Folkvangr erkunden",
+	"advancement.yggdrasil.explore.folkvangr.description": "Finde die Stele, die nach Vanaheim führt",
+	"advancement.yggdrasil.explore.vanaheim.title": "Vanaheim erkunden",
+	"advancement.yggdrasil.explore.vanaheim.description": "Entdecke das Reich der Vanir",
+
+	"advancement.yggdrasil.obtain.gungnir.title": "Gungnir",
+	"advancement.yggdrasil.obtain.gungnir.description": "Erhalte die heilige Lanze des Allvaters",
+	"advancement.yggdrasil.obtain.rune_of_reva.title": "Rune von Reva",
+	"advancement.yggdrasil.obtain.rune_of_reva.description": "Befreie Reva aus ihrem Schlummer",
+	"advancement.yggdrasil.obtain.dark_elven_bow.title": "Dunkelelfen-Bogen",
+	"advancement.yggdrasil.obtain.dark_elven_bow.description": "Erhalte den Bogen der Dunkelelfen",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.title": "Dämmerung von Yggdrasil",
+	"advancement.yggdrasil.obtain.twilight_of_yggdrasil_bow.description": "Erhalte den legendären Bogen der Leere",
+	"advancement.yggdrasil.obtain.vanir_blessing.title": "Segen der Vanir",
+	"advancement.yggdrasil.obtain.vanir_blessing.description": "Erhalte ein Geschenk der Vanir-Götter"
 }

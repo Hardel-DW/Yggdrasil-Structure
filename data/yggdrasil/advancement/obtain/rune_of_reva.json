@@ -1,0 +1,40 @@
+{
+	"parent": "yggdrasil:explore/helheim",
+	"display": {
+		"icon": {
+			"id": "minecraft:amethyst_shard"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.obtain.rune_of_reva.title",
+			"fallback": "Rune of Reva"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.obtain.rune_of_reva.description",
+			"fallback": "Free Reva from her slumber"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"yggdrasil": {
+									"id": "yggdrasil.helheim.treasure.rune_of_reva"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		["has_item"]
+	]
+}

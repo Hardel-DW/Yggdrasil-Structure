@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:structure/vanaheim/ominous_vault",
+							"only_compatible": true
+						},
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.vanaheim.vanir_blessing",
+								"fallback": "Vanir Blessing",
+								"color": "#4a7c3f",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "epic",
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.vanaheim.vanir_blessing"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "item.yggdrasil.vanaheim.vanir_blessing.lore1",
+									"fallback": "A gift from the Vanir gods",
+									"color": "#a0a0a0",
+									"italic": false
+								},
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.structure.ominous_vault",
+									"fallback": "(Structure Item - Ominous Vault)",
+									"color": "#707070",
+									"italic": false
+								},
+								{
+									"translate": "item.yggdrasil.vanaheim.location",
+									"fallback": "[Vanaheim]",
+									"color": "#4a7c3f",
+									"italic": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:vanaheim/treasure"
+}

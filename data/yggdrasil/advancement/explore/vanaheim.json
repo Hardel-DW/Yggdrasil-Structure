@@ -1,0 +1,36 @@
+{
+	"parent": "yggdrasil:explore/folkvangr",
+	"display": {
+		"icon": {
+			"id": "minecraft:oak_sapling"
+		},
+		"title": {
+			"translate": "advancement.yggdrasil.explore.vanaheim.title",
+			"fallback": "Explore Vanaheim"
+		},
+		"description": {
+			"translate": "advancement.yggdrasil.explore.vanaheim.description",
+			"fallback": "Discover the realm of the Vanir"
+		},
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"in_structure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "yggdrasil:vanaheim"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"in_structure"
+		]
+	]
+}
