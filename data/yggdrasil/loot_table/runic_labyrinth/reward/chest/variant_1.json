@@ -216,7 +216,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_chain",
+					"name": "minecraft:chain",
 					"weight": 8,
 					"functions": [
 						{

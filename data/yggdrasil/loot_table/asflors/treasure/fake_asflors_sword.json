@@ -31,10 +31,8 @@
 										"id": "yggdrasil.asflors.treasure.fake_sword"
 									}
 								},
-								"minecraft:tooltip_display": {
-									"hidden_components": [
-										"minecraft:unbreakable"
-									]
+								"minecraft:unbreakable": {
+									"show_in_tooltip": true
 								}
 							}
 						}

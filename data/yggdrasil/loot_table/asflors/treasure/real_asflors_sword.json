@@ -26,10 +26,8 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:tooltip_display": {
-									"hidden_components": [
-										"minecraft:unbreakable"
-									]
+								"minecraft:unbreakable": {
+									"show_in_tooltip": true
 								},
 								"minecraft:custom_data": {
 									"yggdrasil": {
