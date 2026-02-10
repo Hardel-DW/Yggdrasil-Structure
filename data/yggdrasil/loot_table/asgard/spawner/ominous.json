@@ -1,0 +1,69 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/key/ominous",
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.25
+						}
+					]
+				}
+			],
+			"rolls": 2.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/reward/barrel",
+					"weight": 2
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/reward/chest"
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/normal/equipement"
+				}
+			],
+			"rolls": 1.0
+		},
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/enchanted_book/ominous_trial_spawner",
+					"weight": 2,
+					"conditions": [
+						{
+							"condition": "random_chance",
+							"chance": 0.35
+						}
+					]
+				}
+			],
+			"rolls": 2.0
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/reward"
+}

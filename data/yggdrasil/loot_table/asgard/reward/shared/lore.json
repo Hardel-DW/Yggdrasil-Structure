@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_6"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asflors/lore/chapter_7"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/chest"
+}

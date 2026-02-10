@@ -19,6 +19,10 @@
 		{
 			"structure": "yggdrasil:proto_fracture",
 			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:neogard",
+			"weight": 1
 		}
 	],
 	"placement": {

@@ -21,7 +21,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
-								"minecraft:map_color": 16777215
+								"minecraft:map_color": 16777215,
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.treasure.asflors_map"
+									}
+								}
 							}
 						},
 						{

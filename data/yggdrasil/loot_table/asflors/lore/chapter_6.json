@@ -1,65 +1,75 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.chapter.6",
-                                "fallback": "Chapter 6: Solitude"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.chapter.6.content",
-                                    "fallback": "Away from the village, I found myself confronting my immortal solitude. I missed the laughter and voices. Yet, I knew that my departure would allow them to find their own path, without the influence of an eternal being."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.chapter.6",
+								"fallback": "Chapter 6: Solitude"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.chapter_6"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chapter.6.content",
+									"fallback": "Away from the village, I found myself confronting my immortal solitude. I missed the laughter and voices. Yet, I knew that my departure would allow them to find their own path, without the influence of an eternal being."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

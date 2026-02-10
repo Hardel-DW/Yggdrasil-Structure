@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.1.title",
+								"fallback": "Chapter 1: The Genesis of Code"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.1"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.1.content",
+									"fallback": "I am Dr. Alexander Reed, lead designer of the Yggdrasil project. The year is 2069, and we have created what could be the greatest scientific advancement in history - a complete simulated world, inspired by Norse myths."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.1.content2",
+									"fallback": "My colleagues think these are just sophisticated algorithms, but I'm starting to observe behaviors that exceed our initial parameters. These entities... they are developing their own consciousness."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.1.content3",
+									"fallback": ""
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

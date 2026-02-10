@@ -23,8 +23,7 @@
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {
 									"yggdrasil": {
-										"dungeon": "cubeoid",
-										"ominous": false
+										"id": "yggdrasil.cubeoid.key.normal"
 									}
 								}
 							}

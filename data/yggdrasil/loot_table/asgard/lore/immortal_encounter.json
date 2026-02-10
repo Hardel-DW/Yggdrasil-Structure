@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.immortal.title",
+								"fallback": "The Meeting of the Immortals"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.immortal_encounter"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content1",
+									"fallback": "I found him wandering in a forest on the edge of Midgard - the immortal child spoken of in legends."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content2",
+									"fallback": "His body is that of a child, but his eyes... His eyes carry the weight of millennia."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content3",
+									"fallback": "He recognized me not as the player embodying Odin, but as the heir to a long line of Odins."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content4",
+									"fallback": "'You change faces,' he said to me, 'but you all carry the same burden.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content5",
+									"fallback": "I told him about my discoveries, the archives, the fallen administrator. For the first time, I saw a glimmer of hope in his eyes."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content6",
+									"fallback": "'So there is a way to end all this?' he asked."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content7",
+									"fallback": "Together, we developed a plan. The child knows Yggdrasil better than anyone - he has lived through every iteration, every war."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.immortal.content8",
+									"fallback": "And now, he will help me find the missing pieces to formulate the perfect wish."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

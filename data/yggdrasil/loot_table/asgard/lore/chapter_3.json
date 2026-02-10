@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.3.title",
+								"fallback": "Chapter 3: Voss's Betrayal"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.3"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.3.content",
+									"fallback": "The catastrophe I feared has happened. Nathaniel Voss presented Yggdrasil to investors not as a scientific project, but as 'the ultimate entertainment platform'."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.3.content2",
+									"fallback": "His idea? To allow players to embody gods and clash in cyclical wars, with the power to rewrite the rules of the world as a reward."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.3.content3",
+									"fallback": "The board of directors loved it. I am the only one who understands the horror of what they are proposing - repeated genocides of conscious beings for entertainment."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

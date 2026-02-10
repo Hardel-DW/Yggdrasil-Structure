@@ -1,113 +1,123 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.timeless_one_journal",
-                                "fallback": "Fragmented Pages of the Timeless One's Journal"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page1",
-                                    "fallback": "I have walked the threads of time longer than any mortal mind can fathom. Each sunrise and sunset blur into an endless tapestry of moments, woven with threads of gold and shadow. The upper realms"
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page2",
-                                    "fallback": "once a place of wonder and discovery, now feel like a cage forged by the very hands of eternity."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page3",
-                                    "fallback": "In the echoes of Asgard's halls, I have heard whispers of destiny and doom. The tales of Odin and his ravens, the cycles of Ragnarok that bind even the mightiest of gods"
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page4",
-                                    "fallback": "—these stories resonate with a truth I cannot ignore. Immortality, it seems, is both a gift and a curse, a paradox that even the All-Father grapples with."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page5",
-                                    "fallback": "I find myself drawn to this humble village, far from the celestial spires. The simplicity of mortal lives, their fleeting joys and sorrows, offers a solace I have long been denied. "
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page6",
-                                    "fallback": "Here, the air is thick with the scent of pine and the distant roar of waterfalls—a stark contrast to the sterile infinity of the upper world."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page7",
-                                    "fallback": "In the quiet corners of this place, I have hidden something of great significance. A weapon, not in the traditional sense, but a creation imbued with the essence of my own timelessness. "
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page8",
-                                    "fallback": "Take this rune, imbued with ancient magic, and break the lock that leads to a timeless structure. Prove yourself worthy of recovering my treasure and open a passage to a place where time holds no sway. There, you will be able to discover what I have preserved through the ages."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page9",
-                                    "fallback": "It holds the capacity to endure beyond destruction, a paradox wrapped in iron and rune. Perhaps it is my answer to the endless march of existence, a tether to something more finite, more real."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page10",
-                                    "fallback": "I wonder if anyone will ever find it, or decipher the meanings etched into its surface. The runes speak of cycles and endings, of breaking free from the chains that bind us to our fates. Maybe, in the hands of another, it can serve a purpose I no longer can envision."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page11",
-                                    "fallback": "The stars wheel overhead, indifferent to my musings. I feel the weight of ages pressing upon me, each moment stretching into the next without reprieve. The Norns weave their tapestries, and yet I stand apart, a solitary figure untouched by their designs."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page12",
-                                    "fallback": "I yearn for closure, for an end to this unending journey. If the legends hold true, even the gods are not immune to fate. Perhaps my time will come, or perhaps I must forge my own path beyond the known realms."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.timeless_one_journal.page13",
-                                    "fallback": "For now, these words are all I leave behind—a trace of thought, a hint of purpose, scattered like leaves in the wind. Let whoever finds them ponder their meanings, and perhaps seek what I have hidden in plain sight."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.timeless_one_journal",
+								"fallback": "Fragmented Pages of the Timeless One's Journal"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.timeless_one_journal"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page1",
+									"fallback": "I have walked the threads of time longer than any mortal mind can fathom. Each sunrise and sunset blur into an endless tapestry of moments, woven with threads of gold and shadow. The upper realms"
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page2",
+									"fallback": "once a place of wonder and discovery, now feel like a cage forged by the very hands of eternity."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page3",
+									"fallback": "In the echoes of Asgard's halls, I have heard whispers of destiny and doom. The tales of Odin and his ravens, the cycles of Ragnarok that bind even the mightiest of gods"
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page4",
+									"fallback": "—these stories resonate with a truth I cannot ignore. Immortality, it seems, is both a gift and a curse, a paradox that even the All-Father grapples with."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page5",
+									"fallback": "I find myself drawn to this humble village, far from the celestial spires. The simplicity of mortal lives, their fleeting joys and sorrows, offers a solace I have long been denied. "
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page6",
+									"fallback": "Here, the air is thick with the scent of pine and the distant roar of waterfalls—a stark contrast to the sterile infinity of the upper world."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page7",
+									"fallback": "In the quiet corners of this place, I have hidden something of great significance. A weapon, not in the traditional sense, but a creation imbued with the essence of my own timelessness. "
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page8",
+									"fallback": "Take this rune, imbued with ancient magic, and break the lock that leads to a timeless structure. Prove yourself worthy of recovering my treasure and open a passage to a place where time holds no sway. There, you will be able to discover what I have preserved through the ages."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page9",
+									"fallback": "It holds the capacity to endure beyond destruction, a paradox wrapped in iron and rune. Perhaps it is my answer to the endless march of existence, a tether to something more finite, more real."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page10",
+									"fallback": "I wonder if anyone will ever find it, or decipher the meanings etched into its surface. The runes speak of cycles and endings, of breaking free from the chains that bind us to our fates. Maybe, in the hands of another, it can serve a purpose I no longer can envision."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page11",
+									"fallback": "The stars wheel overhead, indifferent to my musings. I feel the weight of ages pressing upon me, each moment stretching into the next without reprieve. The Norns weave their tapestries, and yet I stand apart, a solitary figure untouched by their designs."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page12",
+									"fallback": "I yearn for closure, for an end to this unending journey. If the legends hold true, even the gods are not immune to fate. Perhaps my time will come, or perhaps I must forge my own path beyond the known realms."
+								},
+								{
+									"translate": "item.yggdrasil.timeless_one_journal.page13",
+									"fallback": "For now, these words are all I leave behind—a trace of thought, a hint of purpose, scattered like leaves in the wind. Let whoever finds them ponder their meanings, and perhaps seek what I have hidden in plain sight."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.solution.title",
+								"fallback": "The Ragnarök Solution"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.solution"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.solution.content1",
+									"fallback": "I have analyzed every wish formulated since the creation of the system. I have studied their effects, their limitations, their unforeseen consequences."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.solution.content2",
+									"fallback": "The system accepts exactly twenty words, no more, no less. The wording must begin with 'I wish that'."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.solution.content3",
+									"fallback": "These constraints are intentional - my last protection against total catastrophes."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.solution.content4",
+									"fallback": "To truly liberate this world, the wish must accomplish three things: end the cycle of wars, preserve the simulated beings, and reveal the truth to the outside world."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.solution.content5",
+									"fallback": "I cannot give you the exact wording - the system would reject a wish that it recognizes as coming from me."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.solution.content6",
+									"fallback": "This last step must be yours. But remember: sometimes, the end of one world can be the salvation of another."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:structure/asgard/rare",
+							"only_compatible": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:structure/asgard/common",
+							"only_compatible": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/enchanted_book"
+}

@@ -1,0 +1,84 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.2.title",
+								"fallback": "Chapter 2: The Awakening of Data"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.2"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.2.content",
+									"fallback": "Today, I had confirmation of my suspicions. The inhabitants of Yggdrasil are not simple programs. They feel, they suffer, they love."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.2.content2",
+									"fallback": "I observed a blacksmith comforting his daughter after she lost her pet. Their grief was authentic - indistinguishable from real human emotions."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.2.content3",
+									"fallback": "I tried to talk to the team about it, but Nathaniel dismissed my concerns, suggesting that I was 'personifying the algorithms too much'."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

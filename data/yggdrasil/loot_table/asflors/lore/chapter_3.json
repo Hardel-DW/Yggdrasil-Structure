@@ -1,65 +1,75 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.chapter.3",
-                                "fallback": "Chapter 3: Friendship"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.chapter.3.content",
-                                    "fallback": "I forged deep bonds with these fragile beings. Their simplicity touched me, and I found in them a family I had never known. The children followed me everywhere, eager for tales and knowledge."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.chapter.3",
+								"fallback": "Chapter 3: Friendship"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.chapter_3"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chapter.3.content",
+									"fallback": "I forged deep bonds with these fragile beings. Their simplicity touched me, and I found in them a family I had never known. The children followed me everywhere, eager for tales and knowledge."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

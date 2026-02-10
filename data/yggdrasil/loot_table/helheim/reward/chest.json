@@ -37,6 +37,21 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
+					"value": "yggdrasil:helheim/reward/shared/lore",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
 					"value": "yggdrasil:helheim/reward/shared/deepslate",
 					"weight": 4
 				},

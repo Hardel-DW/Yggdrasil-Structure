@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:tag",
+					"name": "yggdrasil:weak_equipement",
+					"expand": true,
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": 10,
+							"options": "#minecraft:non_treasure"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:generic/reward"
+}

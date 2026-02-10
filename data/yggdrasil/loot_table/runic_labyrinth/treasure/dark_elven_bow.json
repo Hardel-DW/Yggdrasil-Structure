@@ -28,6 +28,11 @@
 							"components": {
 								"minecraft:unbreakable": {
 									"show_in_tooltip": true
+								},
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_labyrinth.treasure.dark_elven_bow"
+									}
 								}
 							}
 						},
@@ -47,32 +52,32 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:movement_speed",
+									"attribute": "minecraft:generic.movement_speed",
 									"id": "yggdrasil.dark_elven_bow.movement_speed",
 									"amount": 0.65,
 									"operation": "add_multiplied_base",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:step_height",
+									"attribute": "minecraft:generic.step_height",
 									"id": "yggdrasil.dark_elven_bow.step_height",
 									"amount": 2,
 									"operation": "add_value",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:safe_fall_distance",
+									"attribute": "minecraft:generic.safe_fall_distance",
 									"id": "yggdrasil.dark_elven_bow.safe_fall_distance",
 									"amount": 5,
 									"operation": "add_value",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:gravity",
+									"attribute": "minecraft:generic.gravity",
 									"id": "yggdrasil.dark_elven_bow.gravity",
 									"amount": 0.5,
 									"operation": "add_multiplied_total",
-									"slot": "hand"
+									"slot": "mainhand"
 								}
 							]
 						}

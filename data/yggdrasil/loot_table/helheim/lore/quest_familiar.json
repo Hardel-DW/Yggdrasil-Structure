@@ -18,6 +18,16 @@
 							}
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.lore.quest_familiar"
+									}
+								}
+							}
+						},
+						{
 							"function": "minecraft:set_written_book_pages",
 							"pages": [
 								{

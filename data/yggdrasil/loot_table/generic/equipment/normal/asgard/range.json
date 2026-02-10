@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/equipment/normal/item/bow"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/equipment/normal/asgard/helmet"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/equipment/normal/item/chestplate"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/equipment/normal/item/leggings"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/equipment/normal/item/boots"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

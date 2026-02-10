@@ -1,0 +1,194 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:wayfinder"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:copper",
+									"pattern": "minecraft:bolt"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/helmet",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:diamond",
+									"pattern": "minecraft:dune"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_helmet",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:netherite",
+									"pattern": "minecraft:shaper"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/helmet",
+							"only_compatible": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:redstone",
+									"pattern": "minecraft:silence"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_helmet",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 20,
+								"max": 45
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:quartz",
+									"pattern": "minecraft:flow"
+								}
+							}
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/item/helmet",
+							"only_compatible": true
+						}
+					]
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_attributes",
+					"modifiers": [
+						{
+							"attribute": "minecraft:generic.scale",
+							"id": "yggdrasil:spawners/scale",
+							"amount": 1.1,
+							"operation": "add_multiplied_base",
+							"slot": "head"
+						},
+						{
+							"attribute": "minecraft:generic.max_health",
+							"id": "yggdrasil:spawners/max_health",
+							"amount": 2,
+							"operation": "add_multiplied_base",
+							"slot": "head"
+						},
+						{
+							"attribute": "minecraft:generic.attack_damage",
+							"id": "yggdrasil:spawners/attack_damage",
+							"amount": 4,
+							"operation": "add_value",
+							"slot": "head"
+						},
+						{
+							"attribute": "minecraft:generic.attack_damage",
+							"id": "yggdrasil:spawners/attack_speed",
+							"amount": 1.2,
+							"operation": "add_multiplied_base",
+							"slot": "head"
+						},
+						{
+							"attribute": "minecraft:generic.armor",
+							"id": "yggdrasil:spawners/armor",
+							"amount": 10,
+							"operation": "add_value",
+							"slot": "head"
+						},
+						{
+							"attribute": "minecraft:generic.armor_toughness",
+							"id": "yggdrasil:spawners/armor_toughness",
+							"amount": 4,
+							"operation": "add_value",
+							"slot": "head"
+						}
+					],
+					"replace": false
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:equipment"
+}

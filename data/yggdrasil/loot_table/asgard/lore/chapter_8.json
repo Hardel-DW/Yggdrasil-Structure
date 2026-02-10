@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.8.title",
+								"fallback": "Chapter 8: The Nine Realms"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.8"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.8.content",
+									"fallback": "Years pass, and I see Yggdrasil evolve despite the cyclical wars."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.8.content2",
+									"fallback": "The nine realms - Asgard, Vanaheim, Alfheim, Midgard, Jotunheim, Nidavellir, Svartalfheim, Muspelheim, and Helheim - have each developed their own cultures, their own histories."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.8.content3",
+									"fallback": "Even if players only see them as backdrops for their battles, these civilizations are real."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.8.content4",
+									"fallback": "I have mapped their developments, hoping that one day, someone will use this information to end this cycle of violence."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

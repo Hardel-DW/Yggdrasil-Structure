@@ -1,65 +1,75 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.chapter.4",
-                                "fallback": "Chapter 4: The Secret"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.chapter.4.content",
-                                    "fallback": "Despite my affection for them, I kept my identity hidden. Yet, I chose to share with the wisest among them the mystery of the hidden weapon. I entrusted him with this responsibility, knowing he would guard it with devotion."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.chapter.4",
+								"fallback": "Chapter 4: The Secret"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.chapter_4"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chapter.4.content",
+									"fallback": "Despite my affection for them, I kept my identity hidden. Yet, I chose to share with the wisest among them the mystery of the hidden weapon. I entrusted him with this responsibility, knowing he would guard it with devotion."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

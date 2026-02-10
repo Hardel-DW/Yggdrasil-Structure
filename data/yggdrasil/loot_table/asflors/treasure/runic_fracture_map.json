@@ -13,7 +13,7 @@
 							"entity": "this",
 							"target": "item_name",
 							"name": {
-								"translate": "item.yggdrasil.asflors.runic_fracture_map",
+								"translate": "item.yggdrasil.runic_labyrinth.map",
 								"fallback": "Runic Fracture Map"
 							}
 						},
@@ -21,7 +21,12 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
-								"minecraft:map_color": 16777215
+								"minecraft:map_color": 16777215,
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.treasure.runic_fracture_map"
+									}
+								}
 							}
 						},
 						{
@@ -37,7 +42,7 @@
 									"text": ""
 								},
 								{
-									"translate": "item.yggdrasil.asflors.runic_fracture_map.structure",
+									"translate": "item.yggdrasil.structure.structure",
 									"fallback": "(Quest Item - Structure)",
 									"color": "#707070",
 									"bold": false,

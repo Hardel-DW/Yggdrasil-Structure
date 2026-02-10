@@ -1,0 +1,54 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "item.yggdrasil.asgard.midas_book",
+								"fallback": "Midas Book",
+								"color": "#FFD700",
+								"italic": false,
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "item.yggdrasil.asgard.midas_book.lore",
+									"fallback": "Transform blocks into gold",
+									"color": "#AAAAAA",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#yggdrasil:equipment/midas_book"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:max_damage": 1000,
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.treasure.midas_book"
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/treasure"
+}

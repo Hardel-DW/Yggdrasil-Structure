@@ -1,0 +1,108 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.terminal.wars.title",
+								"fallback": "Terminal Archives: War Chronology"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.terminal_wars"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.1",
+									"fallback": "War I - Year X0: Winner: Marcus (Odin). Wish: 'I wish that wars cause no damage to Asgard.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.2",
+									"fallback": "War II - Year X722: Winner: Elena (Freya). Wish: 'I wish for more power for Vanaheim in the next war.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.3",
+									"fallback": "War III - Year X948: Unauthorized War. Launched clandestinely. No official winner. No wish recorded."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.4",
+									"fallback": "War IV - Year X1415: ERROR"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.5",
+									"fallback": "War V - Year X2147: Winner: Sophia (Skadi). Wish: 'I wish that previous wishes are cancelled.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.6",
+									"fallback": "War VII - Year X3567: Winner: Diana (Idun). Wish: 'I wish that safe zones outside of the war are created for the inhabitants.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.7",
+									"fallback": "War VIII - Year X4290: Winner: Lamar (Tyr). Wish: 'I wish to be able to communicate with the creator of this world.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.8",
+									"fallback": "War IX - Year X5021: Winner: Victor (Loki). Wish: 'I wish that death in the game is real death.'"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wars.9",
+									"fallback": "War X - Year X5040: Launched immediately after the previous one. Winner: Anonymous (Non-conflict Player). Wish: 'I wish to be reincarnated to help this world.'"
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

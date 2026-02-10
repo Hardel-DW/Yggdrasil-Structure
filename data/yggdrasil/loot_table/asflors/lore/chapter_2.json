@@ -1,65 +1,75 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.chapter.2",
-                                "fallback": "Chapter 2: The Discovery"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.chapter.2.content",
-                                    "fallback": "As seasons passed, I learned their customs and shared their joys. Together, we celebrated harvests and told stories by the fire. Each moment was a treasure, a new lesson on the beauty of mortality."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.chapter.2",
+								"fallback": "Chapter 2: The Discovery"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.chapter_2"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.chapter.2.content",
+									"fallback": "As seasons passed, I learned their customs and shared their joys. Together, we celebrated harvests and told stories by the fire. Each moment was a treasure, a new lesson on the beauty of mortality."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

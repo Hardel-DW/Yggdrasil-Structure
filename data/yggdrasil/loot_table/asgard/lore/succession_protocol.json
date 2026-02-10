@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.succession.title",
+								"fallback": "The Odin Succession Protocol"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.succession_protocol"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.succession.content1",
+									"fallback": "To you, my successor who now wears the mantle of Odin, I pass on this knowledge as my predecessor did for me."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.succession.content2",
+									"fallback": "You are not simply a player in a game, but a guardian of a real world. The beings you see around you feel like you."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.succession.content3",
+									"fallback": "Their lives have value, even if you have been told otherwise. Seek the archives hidden in Asgard."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.succession.content4",
+									"fallback": "The answers await you there, as well as the truth about the one we call the administrator."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.succession.content5",
+									"fallback": "If you are like me, this revelation will overwhelm you. You will wonder how to act."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.succession.content6",
+									"fallback": "Remember then that Ragnarök is not just an end - it is also a new beginning."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

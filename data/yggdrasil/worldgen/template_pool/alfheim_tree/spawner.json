@@ -74,15 +74,6 @@
 			}
 		},
 		{
-			"weight": 4,
-			"element": {
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "minecraft:empty",
-				"location": "yggdrasil:alfheim_tree/feature/spawner/wither_skeleton"
-			}
-		},
-		{
 			"weight": 6,
 			"element": {
 				"element_type": "minecraft:single_pool_element",

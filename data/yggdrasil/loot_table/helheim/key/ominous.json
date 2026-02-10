@@ -13,14 +13,19 @@
 							"function": "minecraft:set_name",
 							"target": "item_name",
 							"name": {
-								"translate": "item.yggdrasil.asflors.ominous_key",
-								"fallback": "Ominous Helheim key"
+								"translate": "item.yggdrasil.helheim.ominous_key",
+								"fallback": "Ominous Helheim Key"
 							}
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:rarity": "epic"
+								"minecraft:rarity": "epic",
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.key.ominous_key"
+									}
+								}
 							}
 						},
 						{

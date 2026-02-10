@@ -1,110 +1,120 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:written_book",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "entity": "this",
-                            "target": "item_name",
-                            "name": {
-                                "translate": "item.yggdrasil.last_villager_journal",
-                                "fallback": "Last Villager's Journal"
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_written_book_pages",
-                            "pages": [
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page1",
-                                    "fallback": "I have lived longer than any mortal should, sustained by the remnants of his fading power. My bones ache, and my eyes grow weary, but before my time comes, I must leave this message for whoever may find it."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page2",
-                                    "fallback": "For centuries, I dwelt in this village alongside him—an immortal whose name was never spoken, yet whose presence was a constant companion. He walked among us, not as a god, but as a man burdened by endless time."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page3",
-                                    "fallback": "We shared stories by the hearth, tended the fields together, and watched as generations came and went like the changing seasons."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page4",
-                                    "fallback": "He was once consumed by sorrow, his eyes reflecting the weight of countless years. Yet, over time, something changed. Perhaps it was the simple joys of mortal life that kindled a spark within him."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page5",
-                                    "fallback": "Laughter around the table, the warmth of community—these seemed to breathe new life into his weary soul. And then, one day, he departed, a subtle smile upon his face, carrying with him a glimmer of hope I had not seen before."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page6",
-                                    "fallback": "Now, as the last of my people, I feel the end drawing near. Before I go, I must ensure that a certain secret does not fade into oblivion. Hidden within the foliage atop the roof of the old wooden house—the one with the green roof—is a book of profound importance. "
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page7",
-                                    "fallback": "I have done everything in my power to protect it, concealing it from those who might misuse its knowledge."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page8",
-                                    "fallback": "This book contains not just stories, but truths—accounts of events that even the sagas of old have forgotten. Tales of gods and giants, of worlds born and undone. "
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page9",
-                                    "fallback": "It holds the key to understanding the events that transpired here, and perhaps, it can guide you in ways it could not guide us."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page10",
-                                    "fallback": "I have watched over it all these years, knowing that one day, someone would come in search of answers. If you are reading this, then you are that person. Take the book, but do so with reverence and caution. Its pages are filled with both wisdom and warning."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page11",
-                                    "fallback": "As for me, I am content to rest at last. My duty is fulfilled, and I find peace in knowing that he left with a newfound purpose. The village may be silent now, but the echoes of our lives linger in the wind, carried to places unknown."
-                                },
-                                {
-                                    "translate": "item.yggdrasil.last_villager_journal.page12",
-                                    "fallback": "May this message find you well, and may the knowledge you uncover serve a greater good. Remember the lessons of those who came before, and tread carefully on the path ahead."
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "text": ""
-                                },
-                                {
-                                    "translate": "item.yggdrasil.quest_item.story",
-                                    "fallback": "(Quest Item - Story)",
-                                    "color": "#707070",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "translate": "item.yggdrasil.location.asflors",
-                                    "fallback": "[Village of Asflors]",
-                                    "color": "#ffcbfc",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ],
-                            "mode": "replace_all"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "random_sequence": "yggdrasil:asflors/lore"
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.last_villager_journal",
+								"fallback": "Last Villager's Journal"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.lore.last_villager_journal"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page1",
+									"fallback": "I have lived longer than any mortal should, sustained by the remnants of his fading power. My bones ache, and my eyes grow weary, but before my time comes, I must leave this message for whoever may find it."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page2",
+									"fallback": "For centuries, I dwelt in this village alongside him—an immortal whose name was never spoken, yet whose presence was a constant companion. He walked among us, not as a god, but as a man burdened by endless time."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page3",
+									"fallback": "We shared stories by the hearth, tended the fields together, and watched as generations came and went like the changing seasons."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page4",
+									"fallback": "He was once consumed by sorrow, his eyes reflecting the weight of countless years. Yet, over time, something changed. Perhaps it was the simple joys of mortal life that kindled a spark within him."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page5",
+									"fallback": "Laughter around the table, the warmth of community—these seemed to breathe new life into his weary soul. And then, one day, he departed, a subtle smile upon his face, carrying with him a glimmer of hope I had not seen before."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page6",
+									"fallback": "Now, as the last of my people, I feel the end drawing near. Before I go, I must ensure that a certain secret does not fade into oblivion. Hidden within the foliage atop the roof of the old wooden house—the one with the green roof—is a book of profound importance. "
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page7",
+									"fallback": "I have done everything in my power to protect it, concealing it from those who might misuse its knowledge."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page8",
+									"fallback": "This book contains not just stories, but truths—accounts of events that even the sagas of old have forgotten. Tales of gods and giants, of worlds born and undone. "
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page9",
+									"fallback": "It holds the key to understanding the events that transpired here, and perhaps, it can guide you in ways it could not guide us."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page10",
+									"fallback": "I have watched over it all these years, knowing that one day, someone would come in search of answers. If you are reading this, then you are that person. Take the book, but do so with reverence and caution. Its pages are filled with both wisdom and warning."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page11",
+									"fallback": "As for me, I am content to rest at last. My duty is fulfilled, and I find peace in knowing that he left with a newfound purpose. The village may be silent now, but the echoes of our lives linger in the wind, carried to places unknown."
+								},
+								{
+									"translate": "item.yggdrasil.last_villager_journal.page12",
+									"fallback": "May this message find you well, and may the knowledge you uncover serve a greater good. Remember the lessons of those who came before, and tread carefully on the path ahead."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.location.asflors",
+									"fallback": "[Village of Asflors]",
+									"color": "#ffcbfc",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asflors/lore"
 }

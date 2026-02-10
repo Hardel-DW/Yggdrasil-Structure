@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.4.title",
+								"fallback": "Chapter 4: Prisoner of the Simulation"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.4"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content",
+									"fallback": "I tried to expose the truth, but Voss preempted me. He trapped me in the simulation, pretending it was a routine test."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content2",
+									"fallback": "The moment I entered, he modified the time parameters - accelerating the simulated time to a catastrophic level."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content3",
+									"fallback": "1 second in reality is equivalent to 2.147 billion seconds in the simulated world. Disconnecting now would kill my physical body."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content4",
+									"fallback": "I am still alive in the real world, but an invisible countdown has begun. I have a little time because, from my perspective in this 'slowed down' world, I am only at the beginning."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content5",
+									"fallback": "But every second that passes in reality brings my physical brain a flood of information thousands of times greater than it can handle."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.4.content6",
+									"fallback": "I am trapped here, in the midst of beings who do not know that their world will soon be transformed into an arena."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

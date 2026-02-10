@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_1"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_2"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_3"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_4"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_5"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_6"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_7"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_8"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/secret_chapter"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

@@ -1,0 +1,75 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/enchanted_book/vault"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/final_journal"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/key/ominous",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/ominous_potion",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/reward/shared/moss",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/treasure/midas",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/rare/enchanted_item_25",
+					"weight": 1
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.75
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/lore/chapter_8"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/chest"
+}

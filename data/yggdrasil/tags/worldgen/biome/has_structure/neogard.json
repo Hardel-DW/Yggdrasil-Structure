@@ -1,0 +1,20 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:plains",
+		"minecraft:meadow",
+		"minecraft:stony_shore",
+		"#minecraft:is_badlands",
+		"#minecraft:is_mountain",
+		"#minecraft:is_savanna",
+		"minecraft:swamp",
+		"minecraft:snowy_plains",
+		"minecraft:snowy_slopes",
+		"minecraft:snowy_taiga",
+		"minecraft:taiga",
+		"minecraft:windswept_hills",
+		"minecraft:windswept_forest",
+		"minecraft:windswept_gravelly_hills",
+		"minecraft:windswept_savanna"
+	]
+}

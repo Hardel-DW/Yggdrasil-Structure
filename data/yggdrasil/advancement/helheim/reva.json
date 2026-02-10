@@ -8,7 +8,7 @@
 					"predicates": {
 						"minecraft:custom_data": {
 							"yggdrasil": {
-								"quest_id": "yggdrasil.helheim.rune_of_reva"
+								"id": "yggdrasil.helheim.treasure.rune_of_reva"
 							}
 						}
 					}

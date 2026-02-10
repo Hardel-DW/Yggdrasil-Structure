@@ -7,8 +7,7 @@
 					"components": {
 						"minecraft:custom_data": {
 							"yggdrasil": {
-								"quest_item": true,
-								"quest_id": "yggdrasil.generic.ran_fruit"
+								"id": "yggdrasil.runic_labyrinth.treasure.ran_apple"
 							}
 						}
 					}

@@ -28,6 +28,11 @@
 							"components": {
 								"minecraft:unbreakable": {
 									"show_in_tooltip": true
+								},
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.treasure.real_sword"
+									}
 								}
 							}
 						},
@@ -48,38 +53,38 @@
 							"modifiers": [
 								{
 									"id": "minecraft.attack",
-									"attribute": "minecraft:attack_damage",
+									"attribute": "minecraft:generic.attack_damage",
 									"amount": 7,
 									"operation": "add_value",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
 									"id": "minecraft.attack_speed",
-									"attribute": "minecraft:attack_speed",
+									"attribute": "minecraft:generic.attack_speed",
 									"amount": 1.6,
 									"operation": "add_value",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
 									"id": "yggdrasil.asflors.sword.ratio",
-									"attribute": "minecraft:sweeping_damage_ratio",
+									"attribute": "minecraft:player.sweeping_damage_ratio",
 									"amount": 0.75,
 									"operation": "add_multiplied_total",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
 									"id": "yggdrasil.asflors.sword.attack_speed",
-									"attribute": "minecraft:attack_speed",
+									"attribute": "minecraft:generic.attack_speed",
 									"amount": 0.15,
 									"operation": "add_multiplied_base",
-									"slot": "hand"
+									"slot": "mainhand"
 								},
 								{
 									"id": "yggdrasil.asflors.sword.damage",
-									"attribute": "minecraft:attack_damage",
+									"attribute": "minecraft:generic.attack_damage",
 									"amount": 0.25,
 									"operation": "add_multiplied_base",
-									"slot": "hand"
+									"slot": "mainhand"
 								}
 							]
 						}

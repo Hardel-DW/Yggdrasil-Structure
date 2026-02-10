@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.terminal.wishes.title",
+								"fallback": "Terminal Analysis: Wish Patterns"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.terminal_wishes"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wishes.content1",
+									"fallback": "Remarkable observation: Of the ten wishes granted, four sought to reduce suffering in Yggdrasil. Three aimed to increase personal power."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wishes.content2",
+									"fallback": "Two fundamentally altered the system. Hypothesis: Players who spend enough time immersed begin to perceive the true nature of the simulated beings."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wishes.content3",
+									"fallback": "Human empathy seems to transcend even the barriers of virtual reality."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.terminal.wishes.content4",
+									"fallback": "Prediction: If this trend continues, a player will eventually formulate the wish that will end the cycle of wars. The question is not if, but when."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

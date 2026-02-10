@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:asgard/enchanted_book/rare"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:generic/reward/random/magic"
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/chest"
+}

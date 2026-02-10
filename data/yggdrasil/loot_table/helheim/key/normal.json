@@ -21,7 +21,12 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:rarity": "epic"
+								"minecraft:rarity": "epic",
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.helheim.key.normal"
+									}
+								}
 							}
 						},
 						{

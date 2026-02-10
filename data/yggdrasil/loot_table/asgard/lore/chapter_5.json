@@ -1,0 +1,92 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.5.title",
+								"fallback": "Chapter 5: The Terminal and Ragnarök"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.5"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.5.content",
+									"fallback": "With my administrator access still active, I designed a system to limit the damage of what Voss created. I named this interface 'the Terminal'."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.5.content2",
+									"fallback": "It appears after each war, allowing the winner to make a wish - the Ragnarök. By including the twenty-word limitation, I hope to restrict the damage a player could cause."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.5.content3",
+									"fallback": "I have scoured every corner of Yggdrasil, studying its peoples and their cultures to hide clues there."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.5.content4",
+									"fallback": "These messages are designed to only make sense to someone who already knows the outside world - players will understand, but the developers who are monitoring will only see mythological references."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.5.content5",
+									"fallback": "This coded language will allow future 'gods' to gradually discover the truth about this world and, perhaps, find a way to save it."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

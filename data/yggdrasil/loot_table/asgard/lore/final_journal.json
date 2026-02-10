@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.final.title",
+								"fallback": "Final Journal: The Eve of Ragnarök"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.final_journal"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.final.content1",
+									"fallback": "Tomorrow, the final war will begin. I have gathered all the knowledge of previous Odins."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content2",
+									"fallback": "I consulted the immortal child and communicated with the essence of the administrator thanks to a previous wish. I know what needs to be done."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content3",
+									"fallback": "The wish I will formulate will not be for more power, nor for my own glory."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content4",
+									"fallback": "It will be for liberation - not only of the beings of Yggdrasil, but also of the players trapped in this macabre cycle."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content5",
+									"fallback": "To whoever finds this journal: perhaps in your world, the Ragnarök Wars are already over."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content6",
+									"fallback": "Perhaps you live in a Yggdrasil freed from the yoke of Voss and his bloody spectacle."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content7",
+									"fallback": "If not - if you are reading this while the cycle continues - then seek the child. Seek the archives."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.final.content8",
+									"fallback": "And when your moment comes, remember: twenty words to change a world."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

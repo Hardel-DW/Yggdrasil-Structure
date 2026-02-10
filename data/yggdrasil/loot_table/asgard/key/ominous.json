@@ -1,0 +1,77 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ominous_trial_key",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"name": {
+								"translate": "item.yggdrasil.asgard.ominous_key",
+								"fallback": "Ominous Asgard Key"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:rarity": "epic",
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.key.ominous_key"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"translate": "item.yggdrasil.asgard.key.lore.1",
+									"fallback": "Can only be used on Ominous Vault in Asgard",
+									"color": "#a0a0a0",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.structure.ominous_vault",
+									"fallback": "(Structure Item - Ominous Vault)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:helheim/key"
+}

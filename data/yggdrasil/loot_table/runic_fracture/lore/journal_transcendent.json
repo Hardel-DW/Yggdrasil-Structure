@@ -17,6 +17,16 @@
 							}
 						},
 						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.runic_fracture.lore.journal_transcendent"
+									}
+								}
+							}
+						},
+						{
 							"function": "minecraft:set_written_book_pages",
 							"pages": [
 								{

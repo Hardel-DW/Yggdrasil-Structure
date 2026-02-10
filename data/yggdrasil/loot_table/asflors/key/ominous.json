@@ -14,13 +14,18 @@
 							"target": "item_name",
 							"name": {
 								"translate": "item.yggdrasil.asflors.ominous_key",
-								"fallback": "Ominous Traveler key"
+								"fallback": "Ominous Traveler Key"
 							}
 						},
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:rarity": "epic"
+								"minecraft:rarity": "epic",
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asflors.key.ominous_key"
+									}
+								}
 							}
 						},
 						{

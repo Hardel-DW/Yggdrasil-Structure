@@ -23,8 +23,7 @@
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {
 									"yggdrasil": {
-										"dungeon": "runic_labyrinth",
-										"ominous": false
+										"id": "yggdrasil.runic_labyrinth.key.normal"
 									}
 								}
 							}

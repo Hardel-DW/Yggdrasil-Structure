@@ -1,0 +1,88 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "item.yggdrasil.asgard.gungnir",
+								"fallback": "Gungnir",
+								"color": "#FFD700",
+								"italic": false,
+								"bold": true
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "item.yggdrasil.asgard.gungnir.lore",
+									"fallback": "The sacred lance of the Father of All Things",
+									"color": "#AAAAAA",
+									"italic": true
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+								"minecraft:sharpness": 6,
+								"minecraft:loyalty": 5,
+								"minecraft:impaling": 5,
+								"minecraft:riptide": 5,
+								"minecraft:channeling": 1
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:unbreakable": {
+									"show_in_tooltip": true
+								},
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.treasure.gungnir"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 20,
+									"operation": "add_value",
+									"slot": "mainhand",
+									"id": "yggdrasil.gungnir.attack_damage"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": 0.4,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand",
+									"id": "yggdrasil.gungnir.attack_speed"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"amount": 0.2,
+									"operation": "add_multiplied_base",
+									"slot": "mainhand",
+									"id": "yggdrasil.gungnir.movement_speed"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/treasure"
+}

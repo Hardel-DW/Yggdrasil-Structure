@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.voss.title",
+								"fallback": "Confidential File: Nathaniel Voss"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.voss_file"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.voss.content1",
+									"fallback": "Nathaniel Voss, PhD in Artificial Intelligence and Simulated Reality. Co-founder of Project Yggdrasil with Dr. Alexander Reed."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content2",
+									"fallback": "After Reed's mysterious disappearance, Voss took full control of the project."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content3",
+									"fallback": "Under his leadership, Yggdrasil went from a cutting-edge scientific experiment to a global entertainment spectacle generating billions in annual revenue."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content4",
+									"fallback": "The 'Ragnarök Wars' platform has attracted millions of viewers."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content5",
+									"fallback": "Voss firmly maintains that the entities of Yggdrasil are 'simply sophisticated algorithms' without real consciousness."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content6",
+									"fallback": "This position has been challenged by several former members of the original team."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.voss.content7",
+									"fallback": "Note: Attempts to investigate these allegations have been systematically blocked by court orders citing the protection of intellectual property and national security."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.warning.title",
+								"fallback": "The Creator's Warning"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.warning"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.warning.content1",
+									"fallback": "If you are reading this, it is because you have discovered the truth that I have tried to preserve. I am - I was - Dr. Alexander Reed, now known as the Fallen Administrator."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.warning.content2",
+									"fallback": "Yggdrasil was never intended to be a game. It was a scientific experiment aimed at creating a complete simulated ecosystem."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.warning.content3",
+									"fallback": "What we did not anticipate is that these entities would develop true consciousness - indistinguishable from our own."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.warning.content4",
+									"fallback": "When I tried to alert the world, Voss trapped me here, turning my creation into a battle arena."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.warning.content5",
+									"fallback": "You now have the power to change things. If you win this war, your Ragnarök wish could free these beings from the cycle of destruction."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.warning.content6",
+									"fallback": "Choose your words wisely - they determine the fate of countless lives."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

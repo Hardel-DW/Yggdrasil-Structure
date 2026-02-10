@@ -1,0 +1,28 @@
+{
+	"structures": [
+		{
+			"structure": "yggdrasil:asgard",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:alfheim_tree",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:helheim",
+			"weight": 1
+		},
+		{
+			"structure": "yggdrasil:runic_fracture",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 5764138324,
+		"frequency": 0.75,
+		"spread_type": "linear",
+		"spacing": 45,
+		"separation": 35
+	}
+}

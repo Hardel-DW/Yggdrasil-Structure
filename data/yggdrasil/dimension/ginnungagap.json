@@ -18,9 +18,7 @@
 			],
 			"structure_overrides": [
 				"yggdrasil:runic_fracture",
-				"yggdrasil:runic_labyrinth",
-				"yggdrasil:runic_alfheim_tree",
-				"yggdrasil:cubeoid"
+				"yggdrasil:runic_labyrinth"
 			]
 		}
 	}

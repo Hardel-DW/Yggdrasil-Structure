@@ -1,0 +1,104 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.7.title",
+								"fallback": "Chapter 7: The Legacy of the Gods"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.7"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content",
+									"fallback": "The first war has just ended. I watched nine humans cause the death of millions of simulated beings for their entertainment."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content2",
+									"fallback": "The winner, a man named Marcus who embodied Odin, seemed troubled by his experience. His wish reduced the destruction of future wars - perhaps he had perceived the truth?"
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content3",
+									"fallback": "During our brief meeting after his wish, I saw in his eyes the reflection of my own horror. 'It wasn't supposed to be so... real,' he confided in me."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content4",
+									"fallback": "I revealed part of the truth to him, limited by the time I was granted. Marcus swore to pass on what he had learned."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content5",
+									"fallback": "He hid his writings in Asgard, establishing a tradition that each new Odin will perpetuate."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content6",
+									"fallback": "Even more remarkably, he convinced several other players to share their discoveries with their successors."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content7",
+									"fallback": "Thus was born the system of divine legacies - a chain of knowledge passed from one war to another, an act of silent rebellion."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.7.content8",
+									"fallback": "The nine realms continue to evolve between wars, and with them, grows the hope that one day, a god will understand enough to formulate the perfect wish."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

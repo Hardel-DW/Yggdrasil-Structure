@@ -1,0 +1,96 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.chapter.6.title",
+								"fallback": "Chapter 6: The Legacy of the Gods"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.chapter.6"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content",
+									"fallback": "I decided to live fully in this world before the information flow kills my real body. I spent millennia exploring Yggdrasil, getting to know every people, every culture."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content2",
+									"fallback": "After establishing the Terminal system and hiding clues, I made a desperate decision: to use my administrator privileges to convert my essence into pure data."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content3",
+									"fallback": "I became an integral entity of this world, giving up my body to interact with Yggdrasil as an administrator."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content4",
+									"fallback": "But the developers discovered my transformation. They removed almost all of my permissions, reducing me to the role of a mere spectator."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content5",
+									"fallback": "Only one privilege was left to me: to appear briefly after each Ragnarök to speak to the winner."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.chapter.6.content6",
+									"fallback": "This is how I was able to slowly establish a system of transmission between each war - each sharing what they learned through books."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}

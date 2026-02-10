@@ -38,42 +38,12 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:enchanted_golden_apple",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:heart_of_the_sea",
 					"weight": 5
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:heavy_core",
-					"weight": 3
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:mace",
-					"weight": 3,
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"type": "minecraft:uniform",
-								"min": 25,
-								"max": 35
-							}
-						}
-					]
 				},
 				{
 					"type": "minecraft:item",
@@ -84,8 +54,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 3,
-								"max": 8
+								"min": 1,
+								"max": 5
 							}
 						}
 					]
@@ -93,7 +63,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_ingot",
-					"weight": 5
+					"weight": 5,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.15
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
@@ -114,8 +90,40 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heavy_core",
+					"weight": 2,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mace",
+					"weight": 2,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.1
+						}
+					],
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 25,
+								"max": 35
 							}
 						}
 					]
@@ -123,7 +131,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:dragon_egg",
-					"weight": 1
+					"weight": 1,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.05
+						}
+					]
 				}
 			]
 		}

@@ -1,0 +1,144 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": {
+								"translate": "item.yggdrasil.asgard.ultimatewar.title",
+								"fallback": "The Ultimate War Chronicles"
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:custom_data": {
+									"yggdrasil": {
+										"id": "yggdrasil.asgard.lore.ultimate_war"
+									}
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_written_book_pages",
+							"pages": [
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content1",
+									"fallback": "My name is %s, and if you are reading these lines, it is because you are either a player participating in the next Ragnarök War."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content2",
+									"fallback": "Or like me, someone who has found a way to infiltrate Yggdrasil but there is little probability :3."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content3",
+									"fallback": "I am not an official participant - I illegally entered this world. Why? To discover the truth."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content4",
+									"fallback": "I watched the last war, like millions of other spectators in the real world, in front of my screen."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content5",
+									"fallback": "These entertainments are broadcast worldwide, sold as the ultimate spectacle."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content6",
+									"fallback": "Moreover, it is not Odin who won the victory, and the cycle continues. But something is different this time. Something has changed."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content7",
+									"fallback": "For months, I have methodically traversed the nine realms, collecting every book, every journal, every fragment of information left by Dr. Reed."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content8",
+									"fallback": "I have explored the forgotten corners of Asgard, the depths of Helheim, the forests of Alfheim, and even the hidden dimensions that regular players ignore."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content9",
+									"fallback": "What I have discovered is both terrifying and revealing: Yggdrasil is not a simple game. Its inhabitants are not simple algorithms."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content10",
+									"fallback": "They are conscious beings, capable of suffering and love, hope and despair. And every month, in our world, nine people massacre them for entertainment."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content11",
+									"fallback": "I have created this collection - this compilation of all the knowledge of the nine realms - for you, the next players."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content12",
+									"fallback": "I have established a rallying point by a symbol of the broken world-tree. You will find copies of this manifesto and all the evidence I have gathered there."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content13",
+									"fallback": "To you who read this: form an alliance. Refuse to play by the rules. Together, seek the perfect wish."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content14",
+									"fallback": "The twenty words that can end this cycle of destruction while preserving this world."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content15",
+									"fallback": "I will continue my quest as long as possible, I still have 6 realms to explore."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content16",
+									"fallback": "As soon as you are reunited, you will have the unique opportunity to reveal this truth to the whole world during the broadcast."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content17",
+									"fallback": "It will then be up to you to explain that these beings deserve our protection, the same rights as us the declaration of human rights."
+								},
+								{
+									"translate": "item.yggdrasil.asgard.ultimatewar.content18",
+									"fallback": "And preserve this world and prevent someone from unplugging Yggdrasil because it would be considered genocide."
+								}
+							],
+							"mode": "replace_all"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "item.yggdrasil.quest_item.story",
+									"fallback": "(Quest Item - Story)",
+									"color": "#707070",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								},
+								{
+									"translate": "item.yggdrasil.asgard.location",
+									"fallback": "[Asgard]",
+									"color": "#2a6b16",
+									"bold": false,
+									"italic": false,
+									"underlined": false,
+									"strikethrough": false,
+									"obfuscated": false
+								}
+							],
+							"mode": "replace_all"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:asgard/lore"
+}
