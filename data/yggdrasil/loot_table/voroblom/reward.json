@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "yggdrasil:voroblom/treasure/glaosheimr_map",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "yggdrasil:voroblom/chest"
+}
