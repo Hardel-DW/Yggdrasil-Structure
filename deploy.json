@@ -1,0 +1,83 @@
+{
+    "project": {
+        "version": "5.3.3",
+        "name": "Yggdrasil Alternative",
+        "filename": "Yggdrasil-Alternative"
+    },
+    "modrinth": {
+        "enabled": true,
+        "project_id": "nJLo0AtD",
+        "featured": false,
+        "dependencies": [
+            {
+                "id": "BynmO8IO",
+                "relation": "optional"
+            },
+            {
+                "id": "hwNDseBp",
+                "relation": "incompatible"
+            }
+        ]
+    },
+    "curseforge": {
+        "datapack": {
+            "enabled": false,
+            "project_id": null,
+            "dependencies": []
+        },
+        "mod": {
+            "enabled": true,
+            "project_id": 1417361,
+            "java_versions": [
+                "Java 21"
+            ],
+            "environments": [
+                "server"
+            ],
+            "dependencies": [
+                {
+                    "id": 1135663,
+                    "relation": "optional",
+                    "slug": "neoenchant"
+                },
+                {
+                    "id": 1135665,
+                    "relation": "incompatible",
+                    "slug": "yggdrasils"
+                }
+            ]
+        }
+    },
+    "package_as_mod": {
+        "enabled": true,
+        "loaders": [
+            "fabric",
+            "forge",
+            "neoforge",
+            "quilt"
+        ],
+        "id": "mr_yggdrasil_alternative",
+        "authors": [
+            "Hardel",
+            "Voxel Teams"
+        ],
+        "filename": "Yggdrasil-Alternative",
+        "homepage": "https://hardels-organization.gitbook.io/voxel",
+        "sources": "https://github.com/Hardel-DW/Yggdrasil-Alternative",
+        "issues": "https://github.com/Hardel-DW/Yggdrasil-Alternative/issues"
+    },
+    "build": {
+        "exclude": [
+            ".git",
+            ".github",
+            ".changeset",
+            ".vscode",
+            ".cursor",
+            "node_modules",
+            "README.md",
+            ".gitignore",
+            "deploy.yaml",
+            "deploy.json"
+        ]
+    }
+}
