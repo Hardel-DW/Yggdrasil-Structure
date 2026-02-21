@@ -59,4 +59,4 @@ Each structure you discover unlocks an advancement. Track which structures you'v
 
 > **Warning:** Don't update on existing worlds without preparation. The Runic Dimension removal and Reva behavior change may cause migration issues. Ask for help on Discord.
 
-Future updates won't have compatibility issues with Paper/Bukkit and modpacks. Removing Yggdrasil won't cause any problems anymore!
+Future updates won't have compatibility issues with Paper/Bukkit and modpacks. Removing Yggdrasil won't cause any problems anymore! 
