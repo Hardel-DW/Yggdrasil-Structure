@@ -58,10 +58,14 @@ jobs:
           
           frontmatter = yaml.safe_load(match.group(1))
           changelog = match.group(2).strip()
+          game_versions = [str(v) for v in frontmatter.get('game_versions', [])]
+          loaders = frontmatter.get('loaders')
+          if loaders:
+              loaders = [str(v) for v in loaders]
           
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"game_versions={json.dumps(frontmatter.get('game_versions', []))}\n")
-              f.write(f"loaders={json.dumps(frontmatter.get('loaders', None)) if frontmatter.get('loaders') else 'null'}\n")
+              f.write(f"game_versions={json.dumps(game_versions)}\n")
+              f.write(f"loaders={json.dumps(loaders) if loaders else 'null'}\n")
               f.write(f"version_type={frontmatter.get('version_type', 'release')}\n")
               f.write(f"version_bump={frontmatter.get('version_bump', 'patch')}\n")
               f.write(f"changelog<<EOF\n{changelog}\nEOF\n")
