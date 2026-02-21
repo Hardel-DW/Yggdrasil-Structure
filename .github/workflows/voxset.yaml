@@ -304,7 +304,8 @@ jobs:
                   print(f"✗ Minecraft version NOT FOUND: {version}")
           
           if modloader_type:
-              for loader in [l.capitalize() for l in loaders]:
+              loader_map = {'fabric': 'Fabric', 'forge': 'Forge', 'neoforge': 'NeoForge', 'quilt': 'Quilt'}
+              for loader in [loader_map.get(l.lower(), l.capitalize()) for l in loaders]:
                   if modloader_type in by_type and loader in by_type[modloader_type]:
                       ids.append(by_type[modloader_type][loader])
                       print(f"✓ Loader {loader} -> ID {by_type[modloader_type][loader]}")
@@ -330,10 +331,12 @@ jobs:
 
       - name: Upload to Modrinth (Datapack)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.modrinth_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
 
-          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+          printf '%s' "$CHANGELOG" > changelog.txt
 
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
@@ -359,10 +362,12 @@ jobs:
 
       - name: Upload to Modrinth (Mod)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.modrinth_enabled == 'true' && steps.config.outputs.package_as_mod_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
 
-          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+          printf '%s' "$CHANGELOG" > changelog.txt
 
           DATA=$(jq -n \
             --arg pid "${{ steps.config.outputs.modrinth_project_id }}" \
@@ -388,10 +393,12 @@ jobs:
 
       - name: Upload to CurseForge (Datapack)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_datapack_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.project_filename }}-${{ steps.version.outputs.version }}.zip"
 
-          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+          printf '%s' "$CHANGELOG" > changelog.txt
 
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
@@ -412,10 +419,12 @@ jobs:
 
       - name: Upload to CurseForge (Mod)
         if: steps.changeset.outputs.found == 'true' && steps.config.outputs.curseforge_mod_enabled == 'true'
+        env:
+          CHANGELOG: ${{ steps.parse.outputs.changelog }}
         run: |
           FILENAME="${{ steps.config.outputs.package_as_mod_filename }}-${{ steps.version.outputs.version }}.jar"
 
-          echo '${{ steps.parse.outputs.changelog }}' > changelog.txt
+          printf '%s' "$CHANGELOG" > changelog.txt
 
           DATA=$(jq -n \
             --arg name "${{ steps.config.outputs.project_name }} - v${{ steps.version.outputs.version }}" \
