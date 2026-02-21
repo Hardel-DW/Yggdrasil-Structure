@@ -38,11 +38,13 @@
       "dependencies": [
         {
           "id": 1417361,
-          "relation": "incompatible"
+          "relation": "incompatible",
+          "slug": "yggdrasil-alternative"
         },
         {
           "id": 1135663,
-          "relation": "optional"
+          "relation": "optional",
+          "slug": "neoenchant"
         }
       ]
     }

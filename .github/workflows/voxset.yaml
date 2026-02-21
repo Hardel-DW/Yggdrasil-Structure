@@ -157,6 +157,13 @@ jobs:
                   dep_id = dep.get("id")
                   if dep_id is None or str(dep_id).strip() == "":
                       raise ValueError(f"curseforge dependency #{i} is missing id")
+                  try:
+                      dep_id = int(dep_id)
+                  except (TypeError, ValueError):
+                      raise ValueError(
+                          f"curseforge dependency #{i} has invalid id '{dep_id}' "
+                          "(expected integer)"
+                      )
 
                   relation_key = str(dep.get("relation", "requiredDependency")).strip()
                   relation = aliases.get(relation_key.lower(), relation_key)
@@ -167,13 +174,17 @@ jobs:
                       )
 
                   item = {
-                      "projectID": str(dep_id),
+                      "projectID": dep_id,
                       "type": relation,
                   }
 
                   slug = dep.get("slug")
-                  if slug:
-                      item["slug"] = str(slug)
+                  if slug is None or str(slug).strip() == "":
+                      raise ValueError(
+                          f"curseforge dependency #{i} is missing slug "
+                          "(required by CurseForge upload API)"
+                      )
+                  item["slug"] = str(slug).strip()
 
                   out.append(item)
               return out
