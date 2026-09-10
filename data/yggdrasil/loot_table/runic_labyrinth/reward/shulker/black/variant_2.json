@@ -8,23 +8,19 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/normal",
 					"weight": 5,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/ominous",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -39,9 +35,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:redstone",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 16,
@@ -54,9 +50,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:observer",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -69,9 +65,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dispenser",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -84,9 +80,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:repeater",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -99,9 +95,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:comparator",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -114,9 +110,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:piston",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -129,9 +125,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:hopper",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,

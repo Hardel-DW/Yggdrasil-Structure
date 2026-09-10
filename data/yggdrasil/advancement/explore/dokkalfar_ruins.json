@@ -21,14 +21,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "yggdrasil:dokkalfar_ruins"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:location": {
+							"structures": "yggdrasil:dokkalfar_ruins"
+						}
 					}
 				}
 			}
 		}
 	},
 	"requirements": [
-		["in_structure"]
+		[
+			"in_structure"
+		]
 	]
 }

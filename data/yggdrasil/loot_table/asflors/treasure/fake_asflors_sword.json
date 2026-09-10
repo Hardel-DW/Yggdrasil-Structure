@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_sword",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -18,12 +18,12 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:structure/asflors/stand",
 							"only_compatible": false
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {

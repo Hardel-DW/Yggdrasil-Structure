@@ -8,9 +8,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:ominous_trial_key",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"target": "item_name",
 							"name": {
 								"translate": "item.yggdrasil.runic_labyrinth.ominous_key",
@@ -18,7 +18,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {
@@ -29,7 +29,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

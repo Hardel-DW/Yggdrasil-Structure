@@ -9,9 +9,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_helmet",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:amethyst",
@@ -25,16 +25,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_helmet",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 20,
 								"max": 45
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:copper",
@@ -43,7 +44,7 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}
@@ -53,9 +54,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:diamond",
@@ -69,16 +70,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 20,
 								"max": 45
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:netherite",
@@ -87,7 +89,7 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}
@@ -97,9 +99,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_helmet",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:redstone",
@@ -113,16 +115,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_helmet",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 20,
 								"max": 45
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:trim": {
 									"material": "minecraft:quartz",
@@ -131,7 +134,7 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}

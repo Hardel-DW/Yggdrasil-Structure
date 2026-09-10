@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:bow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -19,12 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:structure/runic_labyrinth/dark_elven_bow",
 							"only_compatible": true
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": {
 									"yggdrasil": {
@@ -34,7 +34,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
@@ -46,7 +46,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:movement_speed",

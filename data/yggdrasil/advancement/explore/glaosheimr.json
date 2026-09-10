@@ -21,8 +21,12 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"structures": "yggdrasil:glaosheimr"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:location": {
+							"structures": "yggdrasil:glaosheimr"
+						}
 					}
 				}
 			}

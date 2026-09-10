@@ -17,14 +17,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:stone_hoe",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.8,
@@ -33,7 +33,7 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -47,14 +47,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:stone_axe",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.8,
@@ -63,7 +63,7 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -77,14 +77,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:stone_pickaxe",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.8,
@@ -93,7 +93,7 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -107,14 +107,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:stone_sword",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.8,
@@ -123,7 +123,7 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -137,14 +137,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:stone_shovel",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_damage",
+							"type": "minecraft:set_damage",
 							"damage": {
 								"type": "minecraft:uniform",
 								"min": 0.8,
@@ -153,7 +153,7 @@
 							"add": false
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -167,9 +167,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lead",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						}
@@ -179,9 +179,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_horse_armor",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						}
@@ -191,9 +191,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:saddle",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						}
@@ -203,9 +203,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:candle",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -219,9 +219,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:amethyst_shard",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -235,9 +235,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -251,9 +251,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_berries",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -267,9 +267,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_leggings",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 5,
@@ -283,14 +283,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:regeneration"
 						}
 					]
@@ -299,9 +299,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bone",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -315,9 +315,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:coal",
 					"weight": 7,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 6,

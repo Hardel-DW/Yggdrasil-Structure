@@ -13,7 +13,7 @@
                         "block": "minecraft:water"
                     },
                     "output_state": {
-                        "Name": "minecraft:dirt_path"
+                        "id": "minecraft:dirt_path"
                     }
                 },
                 {
@@ -26,7 +26,7 @@
                         "block": "minecraft:water"
                     },
                     "output_state": {
-                        "Name": "minecraft:air"
+                        "id": "minecraft:air"
                     }
                 },
                 {
@@ -39,8 +39,8 @@
                         "predicate_type": "minecraft:block_match"
                     },
                     "output_state": {
-                        "Name": "minecraft:water",
-                        "Properties": {
+                        "id": "minecraft:water",
+                        "properties": {
                             "level": "0"
                         }
                     }
@@ -55,8 +55,8 @@
                         "block": "minecraft:water"
                     },
                     "output_state": {
-                        "Name": "minecraft:water",
-                        "Properties": {
+                        "id": "minecraft:water",
+                        "properties": {
                             "level": "0"
                         }
                     }
@@ -76,8 +76,8 @@
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:grass_block",
-                        "Properties": {
+                        "id": "minecraft:grass_block",
+                        "properties": {
                             "snowy": "false"
                         }
                     }
@@ -92,7 +92,7 @@
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:air"
+                        "id": "minecraft:air"
                     }
                 },
                 {
@@ -105,7 +105,7 @@
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:air"
+                        "id": "minecraft:air"
                     }
                 },
                 {
@@ -118,7 +118,7 @@
                         "predicate_type": "minecraft:always_true"
                     },
                     "output_state": {
-                        "Name": "minecraft:dirt_path"
+                        "id": "minecraft:dirt_path"
                     }
                 }
             ]

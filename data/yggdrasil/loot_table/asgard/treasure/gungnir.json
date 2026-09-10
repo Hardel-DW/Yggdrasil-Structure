@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:trident",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"name": {
 								"translate": "item.yggdrasil.asgard.gungnir",
 								"fallback": "Gungnir",
@@ -19,7 +19,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"lore": [
 								{
 									"translate": "item.yggdrasil.asgard.gungnir.lore",
@@ -31,7 +31,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_enchantments",
+							"type": "minecraft:set_enchantments",
 							"enchantments": {
 								"minecraft:sharpness": 6,
 								"minecraft:loyalty": 5,
@@ -41,7 +41,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:tooltip_display": {
 									"hidden_components": [
@@ -56,7 +56,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:attack_damage",

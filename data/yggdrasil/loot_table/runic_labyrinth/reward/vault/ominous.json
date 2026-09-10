@@ -49,9 +49,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -64,12 +64,10 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_ingot",
 					"weight": 5,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.15
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.15
+					}
 				},
 				{
 					"type": "minecraft:item",
@@ -85,9 +83,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_scrap",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -100,26 +98,22 @@
 					"type": "minecraft:item",
 					"name": "minecraft:heavy_core",
 					"weight": 2,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.2
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.2
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:mace",
 					"weight": 2,
-					"conditions": [
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					},
+					"modifier": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					],
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 25,
@@ -132,12 +126,10 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dragon_egg",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.05
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.05
+					}
 				}
 			]
 		}

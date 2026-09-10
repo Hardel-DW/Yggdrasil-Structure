@@ -8,9 +8,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lantern",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -23,9 +23,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:soul_lantern",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,

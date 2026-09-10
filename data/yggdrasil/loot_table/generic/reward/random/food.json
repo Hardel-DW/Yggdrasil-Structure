@@ -2,6 +2,7 @@
 	"pools": [
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 2
 			},
@@ -10,9 +11,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:melon_slice",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						}
 					]
@@ -21,10 +22,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 7
 							}
@@ -35,10 +37,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:tropical_fish",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 4,
 								"max": 17
 							}
@@ -48,10 +51,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:apple",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 4,
 								"max": 17
 							}

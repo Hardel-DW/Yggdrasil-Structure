@@ -8,9 +8,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mangrove_log",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -23,9 +23,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mangrove_planks",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -38,9 +38,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mangrove_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -53,9 +53,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mangrove_stairs",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -68,9 +68,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mangrove_slab",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,

@@ -9,9 +9,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -25,9 +25,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bow",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -40,9 +40,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:crossbow",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 5,
@@ -54,9 +54,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_chestplate",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -68,9 +68,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_axe",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -82,10 +82,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_pickaxe",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 10,
 								"max": 20
 							}
@@ -103,13 +104,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_sword",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						},
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,
@@ -121,9 +122,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_helmet",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
 								"type": "minecraft:uniform",
 								"min": 10,

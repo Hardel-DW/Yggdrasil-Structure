@@ -8,23 +8,19 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/normal",
 					"weight": 5,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/ominous",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -39,9 +35,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:enchanted_book",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"options": "#minecraft:non_treasure",
 							"levels": {
 								"type": "minecraft:uniform",
@@ -55,9 +51,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dragon_breath",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -70,9 +66,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 8,
@@ -85,9 +81,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 8,
@@ -100,9 +96,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bookshelf",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -115,9 +111,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:amethyst_block",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,

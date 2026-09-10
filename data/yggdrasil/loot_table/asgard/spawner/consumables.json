@@ -9,9 +9,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -25,9 +25,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:wind_charge",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -41,9 +41,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -57,9 +57,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:golden_apple",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -73,9 +73,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -89,9 +89,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -105,9 +105,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:baked_potato",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -120,14 +120,14 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:regeneration"
 						}
 					]
@@ -135,14 +135,14 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1,
 							"add": false
 						},
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:swiftness"
 						}
 					]
@@ -155,12 +155,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/enchanted_book/trial_spawner",
 					"weight": 2,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			],
 			"rolls": 1
@@ -172,10 +170,10 @@
 					"value": "yggdrasil:generic/reward/normal/weak_equipement"
 				}
 			],
-			"rolls": 1.0
+			"rolls": 1
 		},
 		{
-			"rolls": 1.0,
+			"rolls": 1,
 			"bonus_rolls": 0.0,
 			"entries": [
 				{

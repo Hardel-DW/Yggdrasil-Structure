@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#minecraft:on_random_loot",
 							"only_compatible": true
 						}
@@ -27,9 +27,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_chestplate",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -37,9 +37,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_leggings",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -47,9 +47,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_boots",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -57,9 +57,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -67,9 +67,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "bow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -77,9 +77,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_sword",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 30
 						}
 					]
@@ -91,6 +91,6 @@
 			]
 		}
 	],
-	"functions": [],
+	"modifier": [],
 	"random_sequence": "yggdrasil:runic_labyrinth/reward"
 }

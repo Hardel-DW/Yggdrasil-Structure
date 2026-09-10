@@ -8,23 +8,19 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/normal",
 					"weight": 5,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/ominous",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -35,9 +31,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -50,9 +46,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -65,9 +61,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -80,9 +76,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bone_meal",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -95,9 +91,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:wheat",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -110,9 +106,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -125,9 +121,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_ink_sac",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -140,10 +136,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:torch",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 6,
 								"max": 12
 							}
@@ -154,10 +151,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:amethyst_shard",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 5
 							}
@@ -168,10 +166,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:honeycomb",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 8
 							}

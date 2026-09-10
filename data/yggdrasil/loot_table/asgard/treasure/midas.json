@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"name": {
 								"translate": "item.yggdrasil.asgard.midas_book",
 								"fallback": "Midas Book",
@@ -19,7 +19,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"lore": [
 								{
 									"translate": "item.yggdrasil.asgard.midas_book.lore",
@@ -31,11 +31,11 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/midas_book"
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:max_damage": 1000,
 								"minecraft:custom_data": {

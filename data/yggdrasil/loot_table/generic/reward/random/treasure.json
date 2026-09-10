@@ -2,6 +2,7 @@
 	"pools": [
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},
@@ -10,9 +11,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:quartz",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						}
 					]
@@ -21,10 +22,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 7
 							}
@@ -35,10 +37,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:gold_nugget",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 4,
 								"max": 17
 							}
@@ -48,10 +51,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_nugget",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 4,
 								"max": 17
 							}

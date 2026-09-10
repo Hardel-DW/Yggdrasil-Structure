@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:written_book",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"name": {
 								"translate": "item.yggdrasil.dark_elf_village_chronicles",
@@ -16,7 +16,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": {
 									"yggdrasil": {
@@ -26,7 +26,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_written_book_pages",
+							"type": "minecraft:set_written_book_pages",
 							"pages": [
 								{
 									"translate": "item.yggdrasil.dark_elf_village_chronicles.page1",
@@ -44,7 +44,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

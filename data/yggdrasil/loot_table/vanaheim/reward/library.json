@@ -36,9 +36,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:book",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -51,9 +51,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:paper",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -66,9 +66,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:feather",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -81,9 +81,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:ink_sac",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -96,9 +96,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_ink_sac",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -116,9 +116,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lapis_lazuli",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -131,9 +131,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -146,9 +146,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -165,12 +165,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:vanaheim/key/normal",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.2
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.2
+					}
 				}
 			]
 		}

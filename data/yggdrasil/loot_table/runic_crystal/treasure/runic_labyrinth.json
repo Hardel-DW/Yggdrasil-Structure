@@ -6,10 +6,10 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:map",
-					"functions": [
+					"name": "minecraft:filled_map",
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -18,10 +18,9 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
-								"minecraft:map_color": 16777215,
 								"minecraft:custom_data": {
 									"yggdrasil": {
 										"id": "yggdrasil.runic_labyrinth.treasure.map"
@@ -30,12 +29,12 @@
 							}
 						},
 						{
-							"function": "minecraft:exploration_map",
+							"type": "minecraft:exploration_map",
 							"destination": "yggdrasil:runic_labyrinth",
 							"decoration": "mansion"
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

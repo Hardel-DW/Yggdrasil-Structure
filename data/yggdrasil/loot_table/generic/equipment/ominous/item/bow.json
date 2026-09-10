@@ -14,10 +14,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bow",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 20,
 								"max": 45
 							},
@@ -29,9 +30,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bow",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_enchantments",
+							"type": "minecraft:set_enchantments",
 							"enchantments": {
 								"minecraft:multishot": 7
 							},

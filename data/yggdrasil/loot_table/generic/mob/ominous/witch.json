@@ -7,82 +7,72 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:fire_resistance"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:wind_charged"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:regeneration"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:strength"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:swiftness"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				}
 			]
 		},
@@ -98,6 +88,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

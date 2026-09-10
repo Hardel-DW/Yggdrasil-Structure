@@ -9,7 +9,7 @@
 					"value": "yggdrasil:alfheim_tree/spawner/key"
 				}
 			],
-			"rolls": 1.0
+			"rolls": 1
 		},
 		{
 			"bonus_rolls": 0.0,
@@ -18,15 +18,13 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:alfheim_tree/enchanted_book/random_loot",
 					"weight": 2,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.15
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.15
+					}
 				}
 			],
-			"rolls": 1.0
+			"rolls": 1
 		},
 		{
 			"rolls": 1,
@@ -36,9 +34,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:ender_pearl",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -52,9 +50,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:torch",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -68,10 +66,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
 					"weight": 6,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 4,
 								"max": 8
 							}
@@ -82,9 +81,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:strong_healing"
 						}
 					]
@@ -93,10 +92,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:golden_carrot",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 4
 							}
@@ -107,10 +107,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:spectral_arrow",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 6
 							}

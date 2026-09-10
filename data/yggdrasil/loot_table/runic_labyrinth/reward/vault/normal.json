@@ -30,12 +30,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/lore/dark_elf_discovery_journal",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.2
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.2
+					}
 				}
 			]
 		}

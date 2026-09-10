@@ -14,16 +14,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_leggings",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/leggings",
 							"only_compatible": true
 						}
@@ -38,16 +39,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_leggings",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/leggings",
 							"only_compatible": true
 						}
@@ -62,16 +64,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_leggings",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/leggings",
 							"only_compatible": true
 						}

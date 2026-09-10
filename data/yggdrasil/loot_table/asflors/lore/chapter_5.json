@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:written_book",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -17,7 +17,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:custom_data": {
 									"yggdrasil": {
@@ -27,7 +27,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_written_book_pages",
+							"type": "minecraft:set_written_book_pages",
 							"pages": [
 								{
 									"translate": "item.yggdrasil.chapter.5.content",
@@ -37,7 +37,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

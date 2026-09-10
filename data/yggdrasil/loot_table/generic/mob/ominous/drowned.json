@@ -7,16 +7,15 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:trident",
-					"conditions": [
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.01
+					},
+					"modifier": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.01
-						}
-					],
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 15,
 								"max": 100
 							},
@@ -27,26 +26,23 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:heart_of_the_sea",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.01
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.01
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:nautilus_shell",
-					"conditions": [
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.01
+					},
+					"modifier": [
 						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.01
-						}
-					],
-					"functions": [
-						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -67,6 +63,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

@@ -6,12 +6,12 @@
 			"entries": [
 				{
 					"type": "minecraft:tag",
-					"name": "yggdrasil:weak_equipement",
+					"items": "#yggdrasil:weak_equipement",
 					"expand": true,
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": 10,
 							"options": "#minecraft:non_treasure"
 						}

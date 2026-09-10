@@ -8,23 +8,19 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/normal",
 					"weight": 5,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/ominous",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -39,9 +35,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -54,9 +50,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -69,9 +65,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:gold_ingot",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -84,9 +80,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:firework_rocket",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 8,
@@ -94,7 +90,7 @@
 							}
 						},
 						{
-							"function": "set_fireworks",
+							"type": "minecraft:set_fireworks",
 							"flight_duration": 3
 						}
 					]
@@ -103,9 +99,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:wind_charge",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -118,9 +114,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_scrap",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -138,9 +134,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,

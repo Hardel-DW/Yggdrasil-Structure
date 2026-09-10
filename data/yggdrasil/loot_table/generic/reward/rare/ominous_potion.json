@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:ominous_bottle",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_ominous_bottle_amplifier",
+							"type": "minecraft:set_ominous_bottle_amplifier",
 							"amplifier": {
 								"min": 1,
 								"max": 5,

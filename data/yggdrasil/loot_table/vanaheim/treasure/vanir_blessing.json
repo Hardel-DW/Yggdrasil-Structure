@@ -8,14 +8,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:book",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:structure/vanaheim/ominous_vault",
 							"only_compatible": true
 						},
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"target": "item_name",
 							"name": {
 								"translate": "item.yggdrasil.vanaheim.vanir_blessing",
@@ -25,7 +25,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {
@@ -36,7 +36,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

@@ -9,10 +9,11 @@
                     "value": "yggdrasil:alfheim_tree/spawner/key"
                 }
             ],
-            "rolls": 1.0
+            "rolls": 1
         },
         {
             "rolls": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 5
             },
@@ -20,9 +21,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 1,
@@ -36,9 +37,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:emerald",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 1,
@@ -58,9 +59,9 @@
                     "type": "minecraft:item",
                     "name": "minecraft:tipped_arrow",
                     "weight": 15,
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 6,
@@ -69,7 +70,7 @@
                             "add": false
                         },
                         {
-                            "function": "minecraft:set_potion",
+                            "type": "minecraft:set_potion",
                             "id": "minecraft:harming"
                         }
                     ]
@@ -77,9 +78,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:amethyst_shard",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 3,
@@ -93,9 +94,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:ender_pearl",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 1,
@@ -114,9 +115,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:redstone",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 6,
@@ -130,9 +131,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:fire_charge",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 3,
@@ -146,9 +147,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:wind_charge",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 4,
@@ -162,9 +163,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:quartz",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 6,
@@ -178,9 +179,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:experience_bottle",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 6,
@@ -195,13 +196,13 @@
                     "type": "minecraft:item",
                     "name": "minecraft:firework_rocket",
                     "weight": 8,
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_fireworks",
+                            "type": "minecraft:set_fireworks",
                             "flight_duration": 5
                         },
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 2,
@@ -214,9 +215,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:iron_ingot",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 1,
@@ -230,9 +231,9 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:lapis_lazuli",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "min": 8,
@@ -251,15 +252,13 @@
                     "type": "minecraft:loot_table",
                     "value": "yggdrasil:alfheim_tree/enchanted_book/random_loot",
                     "weight": 2,
-                    "conditions": [
-                        {
-                            "condition": "random_chance",
-                            "chance": 0.25
-                        }
-                    ]
+                    "condition": {
+                        "type": "minecraft:random_chance",
+                        "chance": 0.25
+                    }
                 }
             ],
-            "rolls": 1.0
+            "rolls": 1
         }
     ],
     "random_sequence": "yggdrasil:alfheim_tree/chest"

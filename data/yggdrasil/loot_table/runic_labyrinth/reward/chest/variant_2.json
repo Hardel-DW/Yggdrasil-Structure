@@ -8,12 +8,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:runic_labyrinth/key/normal",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -28,9 +26,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:cooked_beef",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -43,9 +41,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:golden_carrot",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -58,9 +56,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -73,9 +71,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:baked_potato",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -88,9 +86,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:sweet_berries",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -103,9 +101,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:cookie",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -118,9 +116,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:apple",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -133,9 +131,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:cooked_salmon",
 					"weight": 12,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -148,9 +146,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:mushroom_stew",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -163,9 +161,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:honey_bottle",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -178,9 +176,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_berries",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 3,
@@ -193,9 +191,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:pumpkin_pie",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,

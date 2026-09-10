@@ -8,12 +8,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:vanaheim/key/normal",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -47,12 +45,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:vanaheim/reward/shared/rare",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.15
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.15
+					}
 				}
 			]
 		}

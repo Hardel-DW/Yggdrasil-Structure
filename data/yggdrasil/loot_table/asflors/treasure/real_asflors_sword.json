@@ -7,9 +7,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_sword",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"entity": "this",
 							"target": "item_name",
 							"name": {
@@ -19,12 +19,12 @@
 							}
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:structure/asflors/asflors_sword",
 							"only_compatible": true
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:tooltip_display": {
 									"hidden_components": [
@@ -39,7 +39,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{
@@ -51,7 +51,7 @@
 							"mode": "replace_all"
 						},
 						{
-							"function": "minecraft:set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"id": "minecraft.attack",

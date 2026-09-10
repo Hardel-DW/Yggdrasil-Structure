@@ -12,7 +12,7 @@
                         "block": "minecraft:cherry_leaves"
                     },
                     "output_state": {
-                        "Name": "minecraft:flowering_azalea_leaves"
+                        "id": "minecraft:flowering_azalea_leaves"
                     }
                 }
             ]

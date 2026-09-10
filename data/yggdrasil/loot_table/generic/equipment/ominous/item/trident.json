@@ -14,11 +14,12 @@
 					"type": "minecraft:item",
 					"name": "minecraft:trident",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"options": "#yggdrasil:equipment/item/sword",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 20,
 								"max": 75
 							}

@@ -2,6 +2,7 @@
 	"pools": [
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 3,
 				"max": 6
 			},
@@ -10,10 +11,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:black_dye",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 7
 							}
@@ -24,10 +26,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:red_dye",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 7
 							}
@@ -38,9 +41,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:blue_dye",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": 1
 						}
 					]
@@ -48,10 +51,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:green_dye",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 3
 							}
@@ -61,10 +65,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:yellow_dye",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 3
 							}
@@ -74,10 +79,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:white_dye",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 2,
 								"max": 3
 							}

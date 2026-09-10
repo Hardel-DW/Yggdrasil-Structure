@@ -2,14 +2,11 @@
     "temperature": 0.8,
     "downfall": 0.4,
     "has_precipitation": false,
-    "creature_spawn_probability": 0,
     "effects": {
         "water_color": 4159204,
         "grass_color": 420378,
         "foliage_color": 420378
     },
-    "spawners": {},
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

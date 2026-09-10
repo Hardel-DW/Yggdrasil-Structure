@@ -7,10 +7,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 12
 							}
@@ -25,13 +26,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:healing"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -43,13 +44,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:fire_resistance"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -61,13 +62,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:long_poison"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -79,13 +80,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:invisibility"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -97,13 +98,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:weakness"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -115,13 +116,13 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tipped_arrow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:strong_harming"
 						},
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,

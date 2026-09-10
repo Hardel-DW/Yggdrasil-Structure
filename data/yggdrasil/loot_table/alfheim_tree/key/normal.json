@@ -9,9 +9,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:trial_key",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_name",
+							"type": "minecraft:set_name",
 							"target": "item_name",
 							"name": {
 								"translate": "item.yggdrasil.alfheim.key",
@@ -19,7 +19,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_components",
+							"type": "minecraft:set_components",
 							"components": {
 								"minecraft:rarity": "epic",
 								"minecraft:custom_data": {
@@ -30,7 +30,7 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
+							"type": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
 								{

@@ -9,10 +9,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_boots",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -21,10 +25,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_chestplate",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -33,10 +41,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_leggings",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -45,10 +57,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -57,10 +73,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_sword",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -69,10 +89,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_shovel",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -81,10 +105,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_pickaxe",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -93,10 +121,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_axe",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -105,23 +137,30 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_hoe",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
 				},
-
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:chainmail_boots",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -130,10 +169,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:chainmail_chestplate",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -142,10 +185,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:chainmail_leggings",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -154,10 +201,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:chainmail_helmet",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -166,10 +217,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_boots",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -178,10 +233,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_chestplate",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -190,10 +249,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_leggings",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -202,10 +265,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_helmet",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -214,10 +281,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_sword",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -226,10 +297,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_shovel",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -238,10 +313,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_pickaxe",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -250,10 +329,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_axe",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]
@@ -262,10 +345,14 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_hoe",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 12, "max": 22 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 12,
+								"max": 22
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]

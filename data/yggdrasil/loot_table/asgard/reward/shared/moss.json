@@ -8,9 +8,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:moss_block",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -23,9 +23,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:moss_carpet",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -38,9 +38,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_diorite",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -53,9 +53,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dark_oak_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -68,9 +68,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dark_oak_planks",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -83,9 +83,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_berries",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -98,9 +98,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:glow_lichen",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -113,9 +113,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:vine",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -128,9 +128,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lantern",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -143,9 +143,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:cobweb",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -158,9 +158,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:andesite",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -173,9 +173,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:andesite_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -188,9 +188,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:andesite_stairs",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -203,9 +203,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:andesite_wall",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -218,9 +218,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_andesite",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -233,9 +233,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_andesite_stairs",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -248,9 +248,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_andesite_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -263,9 +263,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diorite",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -278,9 +278,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diorite_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -293,9 +293,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diorite_stairs",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -308,9 +308,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diorite_wall",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -323,9 +323,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_diorite_stairs",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -338,9 +338,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:polished_diorite_slab",
 					"weight": 5,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,

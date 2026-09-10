@@ -8,12 +8,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:cubeoid/key/normal",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -53,9 +51,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:ominous_bottle",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_ominous_bottle_amplifier",
+							"type": "minecraft:set_ominous_bottle_amplifier",
 							"amplifier": {
 								"type": "minecraft:uniform",
 								"min": 1,

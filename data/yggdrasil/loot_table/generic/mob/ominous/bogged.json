@@ -7,10 +7,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:red_mushroom_block",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 7
 							}
@@ -20,10 +21,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:brown_mushroom_block",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 7
 							}
@@ -33,10 +35,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:mushroom_stem",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 5
 							}
@@ -46,10 +49,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:wind_charge",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -70,6 +74,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

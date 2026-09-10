@@ -4,11 +4,15 @@
             "trigger": "minecraft:enter_block",
             "conditions": {
                 "player": {
-                    "location": {
-                        "dimension": "minecraft:overworld"
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "dimension": "minecraft:overworld"
+                        }
                     }
                 },
-                "block": "minecraft:end_gateway"
+                "blocks": "minecraft:end_gateway"
             }
         }
     },

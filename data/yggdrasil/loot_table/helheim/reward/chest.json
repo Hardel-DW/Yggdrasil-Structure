@@ -8,12 +8,10 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:helheim/key/normal",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			]
 		},
@@ -23,12 +21,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:helheim/reward/shared/common",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				}
 			]
 		},
@@ -38,12 +34,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:helheim/reward/shared/lore",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				}
 			]
 		},
@@ -66,12 +60,10 @@
 					"weight": 3
 				}
 			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.25
-				}
-			]
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.25
+			}
 		},
 		{
 			"rolls": 1,

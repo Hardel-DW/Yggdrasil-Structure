@@ -7,10 +7,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:blaze_powder",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -20,10 +21,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:slime_ball",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -44,6 +46,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

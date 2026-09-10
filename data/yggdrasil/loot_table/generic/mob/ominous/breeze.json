@@ -7,20 +7,19 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:mace",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.005
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.005
+					}
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:wind_charge",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -41,6 +40,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

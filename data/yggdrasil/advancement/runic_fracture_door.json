@@ -12,20 +12,18 @@
             }
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:interaction",
-              "minecraft:entity_tags": {
-                "all_of": [
-                  "yggdrasil.runic_fracture.interaction.door"
-                ]
-              }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:entity_tags": {
+              "all_of": [
+                "yggdrasil.runic_fracture.interaction.door"
+              ]
             }
           }
-        ]
+        }
       }
     }
   },

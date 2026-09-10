@@ -9,9 +9,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -24,9 +24,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -39,9 +39,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:golden_apple",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -59,9 +59,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bread",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -74,9 +74,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:apple",
 					"weight": 4,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -89,9 +89,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:regeneration"
 						}
 					]
@@ -100,9 +100,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:potion",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_potion",
+							"type": "minecraft:set_potion",
 							"id": "minecraft:swiftness"
 						}
 					]
@@ -111,9 +111,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:emerald",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -130,18 +130,16 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:vanaheim/enchanted_book/trial_spawner",
 					"weight": 2,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.2
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.2
+					}
 				}
 			],
 			"rolls": 1
 		},
 		{
-			"rolls": 1.0,
+			"rolls": 1,
 			"bonus_rolls": 0.0,
 			"entries": [
 				{

@@ -14,16 +14,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:iron_helmet",
 					"weight": 3,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:scale",
@@ -36,7 +37,7 @@
 							"replace": false
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}
@@ -45,9 +46,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:scale",
@@ -66,16 +67,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:diamond_helmet",
 					"weight": 2,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:scale",
@@ -88,7 +90,7 @@
 							"replace": false
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}
@@ -97,9 +99,9 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_helmet",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:scale",
@@ -118,16 +120,17 @@
 					"type": "minecraft:item",
 					"name": "minecraft:netherite_helmet",
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 5,
 								"max": 15
 							}
 						},
 						{
-							"function": "set_attributes",
+							"type": "minecraft:set_attributes",
 							"modifiers": [
 								{
 									"attribute": "minecraft:scale",
@@ -139,16 +142,16 @@
 							]
 						},
 						{
-							"function": "minecraft:enchant_randomly",
+							"type": "minecraft:enchant_randomly",
 							"options": "#yggdrasil:equipment/item/helmet",
 							"only_compatible": true
 						}
 					]
 				}
 			],
-			"functions": [
+			"modifier": [
 				{
-					"function": "minecraft:set_attributes",
+					"type": "minecraft:set_attributes",
 					"modifiers": [
 						{
 							"attribute": "minecraft:max_health",

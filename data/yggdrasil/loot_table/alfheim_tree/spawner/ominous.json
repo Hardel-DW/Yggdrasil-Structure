@@ -7,15 +7,13 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:alfheim_tree/key/ominous",
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.25
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.25
+					}
 				}
 			],
-			"rolls": 2.0
+			"rolls": 2
 		},
 		{
 			"bonus_rolls": 0.0,
@@ -26,7 +24,7 @@
 					"weight": 2
 				}
 			],
-			"rolls": 1.0
+			"rolls": 1
 		},
 		{
 			"bonus_rolls": 0.0,
@@ -36,7 +34,7 @@
 					"value": "yggdrasil:alfheim_tree/chest/reward/common"
 				}
 			],
-			"rolls": 1.0
+			"rolls": 1
 		},
 		{
 			"bonus_rolls": 0.0,
@@ -45,15 +43,13 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:alfheim_tree/enchanted_book/ominous_trial_spawner",
 					"weight": 2,
-					"conditions": [
-						{
-							"condition": "random_chance",
-							"chance": 0.35
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.35
+					}
 				}
 			],
-			"rolls": 2.0
+			"rolls": 2
 		}
 	],
 	"random_sequence": "yggdrasil:alfheim_tree/chest"

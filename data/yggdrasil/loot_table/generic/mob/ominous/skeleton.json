@@ -7,10 +7,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:bone_block",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
+								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 2
 							}
@@ -20,22 +21,21 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:bow",
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
+							"type": "minecraft:enchant_with_levels",
 							"levels": {
+								"type": "minecraft:uniform",
 								"min": 45,
 								"max": 100
 							},
 							"options": "#yggdrasil:equipment/item/bow"
 						}
 					],
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.05
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.05
+					}
 				}
 			]
 		},
@@ -51,6 +51,7 @@
 		},
 		{
 			"rolls": {
+				"type": "minecraft:uniform",
 				"min": 1,
 				"max": 4
 			},

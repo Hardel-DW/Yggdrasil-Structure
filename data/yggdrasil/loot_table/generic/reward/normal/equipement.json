@@ -7,13 +7,17 @@
 			"entries": [
 				{
 					"type": "minecraft:tag",
-					"name": "yggdrasil:equipement",
+					"items": "#yggdrasil:equipement",
 					"expand": true,
 					"weight": 1,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": { "min": 0, "max": 12 },
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"min": 0,
+								"max": 12
+							},
 							"options": "#minecraft:non_treasure"
 						}
 					]

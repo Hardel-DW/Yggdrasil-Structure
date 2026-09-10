@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:block_column",
+  "direction": "up",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:air"
+    ]
+  },
+  "prioritize_tip": false,
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "provider": {
+        "id": "minecraft:black_concrete"
+      }
+    },
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      },
+      "provider": {
+        "id": "minecraft:gray_concrete"
+      }
+    },
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "provider": {
+        "id": "minecraft:light_gray_concrete"
+      }
+    },
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 8
+      },
+      "provider": {
+        "id": "minecraft:white_concrete"
+      }
+    },
+    {
+      "height": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 0,
+            "weight": 10
+          },
+          {
+            "data": 1,
+            "weight": 1
+          }
+        ]
+      },
+      "provider": {
+        "id": "minecraft:lantern",
+        "properties": {
+          "hanging": "false",
+          "waterlogged": "false"
+        }
+      }
+    }
+  ]
+}

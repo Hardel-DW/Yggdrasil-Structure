@@ -8,23 +8,19 @@
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/key/normal",
 					"weight": 4,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.3
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.3
+					}
 				},
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/key/ominous",
 					"weight": 1,
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				}
 			]
 		},
@@ -43,12 +39,10 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "yggdrasil:asgard/reward/shared/common",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.1
-						}
-					]
+					"condition": {
+						"type": "minecraft:random_chance",
+						"chance": 0.1
+					}
 				}
 			]
 		},
@@ -61,12 +55,10 @@
 					"weight": 4
 				}
 			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.25
-				}
-			]
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.25
+			}
 		},
 		{
 			"rolls": 1,

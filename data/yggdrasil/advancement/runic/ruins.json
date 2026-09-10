@@ -4,11 +4,15 @@
             "trigger": "minecraft:enter_block",
             "conditions": {
                 "player": {
-                    "location": {
-                        "dimension": "yggdrasil:runic"
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "dimension": "yggdrasil:runic"
+                        }
                     }
                 },
-                "block": "minecraft:end_gateway"
+                "blocks": "minecraft:end_gateway"
             }
         }
     },

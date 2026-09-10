@@ -18,9 +18,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:honeycomb",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -33,9 +33,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:honey_bottle",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -48,9 +48,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:oak_sapling",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -63,9 +63,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:dark_oak_sapling",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -78,9 +78,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:flowering_azalea",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
@@ -93,9 +93,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:moss_block",
 					"weight": 10,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 2,
@@ -108,9 +108,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:bone_meal",
 					"weight": 15,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 4,
@@ -123,9 +123,9 @@
 					"type": "minecraft:item",
 					"name": "minecraft:lily_pad",
 					"weight": 8,
-					"functions": [
+					"modifier": [
 						{
-							"function": "minecraft:set_count",
+							"type": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
